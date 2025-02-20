@@ -55,14 +55,11 @@ MonoBehaviour:
   - guid: 5c9117aa-fa8f-4375-a86d-6208651811e3
     targetGuid: 0339791a-38a9-4f73-8322-266f12b1684b
     portId: 13
-  - guid: 0339791a-38a9-4f73-8322-266f12b1684b
-    targetGuid: 6b8f3267-2b11-45da-9f29-42fce9a02b53
-    portId: 14
   nodes:
   - guid: ef464892-1084-4956-97ee-a821f5b0ca6c
     characterSpr: {fileID: 21300000, guid: 52193d8b55858dc47874a88821c49770, type: 3}
-    characterName: "\u0411\u043E\u0447\u043A\u0430"
-    dialogueText: "\u042F \u0431\u043E\u0447\u043A\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430\u0430"
+    characterName: ...
+    dialogueText: 
     backgroundSpr: {fileID: 2727068240372747140, guid: d79f8ef814e11424da22344763941bb6, type: 3}
     startNode: 1
     endNode: 0
@@ -76,10 +73,10 @@ MonoBehaviour:
       width: 499
       height: 305
     soundEffect: {fileID: 8300000, guid: 0188fcfad9f9cfe449848b66c5475f5d, type: 3}
-    backgroundMusic: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 733885ad777d84a449e5e4a905306689, type: 3}
   - guid: 407fc26e-0791-4e15-a34a-c002e25fcd10
     characterSpr: {fileID: 0}
-    characterName: 
+    characterName: ...
     dialogueText: 
     backgroundSpr: {fileID: 0}
     startNode: 0
