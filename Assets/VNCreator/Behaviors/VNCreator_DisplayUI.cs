@@ -26,6 +26,7 @@ namespace VNCreator
         [SerializeField] private Button choiceBtn1;
         [SerializeField] private Button choiceBtn2;
         [SerializeField] private Button choiceBtn3;
+        [SerializeField] private Button choiceBtn4;
         [Header("End")]
         [SerializeField] private GameObject endScreen;
         [Header("Main menu")]
@@ -88,6 +89,7 @@ namespace VNCreator
                 choiceBtn1.gameObject.SetActive(false);
                 choiceBtn2.gameObject.SetActive(false);
                 choiceBtn3.gameObject.SetActive(false);
+                choiceBtn4.gameObject.SetActive(false);
 
                 previousBtn.gameObject.SetActive(loadList.Count != 1);
             }
@@ -96,19 +98,25 @@ namespace VNCreator
                 nextBtn.gameObject.SetActive(false);
 
                 choiceBtn1.gameObject.SetActive(true);
-                choiceBtn1.transform.GetChild(0).GetComponent<Text>().text = currentNode.choiceOptions[0];
+                choiceBtn1.transform.GetChild(0).GetComponent<TMP_Text>().text = currentNode.choiceOptions[0];
 
                 choiceBtn2.gameObject.SetActive(true);
-                choiceBtn2.transform.GetChild(0).GetComponent<Text>().text = currentNode.choiceOptions[1];
+                choiceBtn2.transform.GetChild(0).GetComponent<TMP_Text>().text = currentNode.choiceOptions[1];
 
                 if (currentNode.choices == 3)
                 {
                     choiceBtn3.gameObject.SetActive(true);
-                    choiceBtn3.transform.GetChild(0).GetComponent<Text>().text = currentNode.choiceOptions[2];
+                    choiceBtn3.transform.GetChild(0).GetComponent<TMP_Text>().text = currentNode.choiceOptions[2];
+                }
+                else if (currentNode.choices == 4)
+                {
+                    choiceBtn4.gameObject.SetActive(true);
+                    choiceBtn4.transform.GetChild(0).GetComponent<TMP_Text>().text = currentNode.choiceOptions[3];
                 }
                 else
                 {
                     choiceBtn3.gameObject.SetActive(false);
+                    choiceBtn4.gameObject.SetActive(false);
                 }
             }
 

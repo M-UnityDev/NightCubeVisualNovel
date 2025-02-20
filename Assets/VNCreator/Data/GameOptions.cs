@@ -4,6 +4,11 @@ using UnityEngine;
 
 namespace VNCreator
 {
+    enum Language
+    {
+        en,
+        ru
+    }
     public static class GameOptions
     {
         public static float musicVolume = 0.5f;
