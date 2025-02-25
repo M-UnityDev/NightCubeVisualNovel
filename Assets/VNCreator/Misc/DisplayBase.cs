@@ -8,7 +8,8 @@ namespace VNCreator
     public class DisplayBase : MonoBehaviour
     {
         public StoryObject story;
-
+        public StoryObject storyRU;
+        public StoryObject storyEN;
         protected NodeData currentNode;
         protected bool lastNode;
 
@@ -16,6 +17,7 @@ namespace VNCreator
 
         void Awake()
         {
+            story = storyRU;
             if (PlayerPrefs.GetString(GameSaveManager.currentLoadName) == string.Empty)
             {
                 currentNode = story.GetFirstNode();

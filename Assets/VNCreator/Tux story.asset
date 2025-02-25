@@ -60,7 +60,7 @@ MonoBehaviour:
     characterSpr: {fileID: 21300000, guid: 52193d8b55858dc47874a88821c49770, type: 3}
     characterName: ...
     dialogueText: 
-    backgroundSpr: {fileID: 2727068240372747140, guid: d79f8ef814e11424da22344763941bb6, type: 3}
+    backgroundSpr: {fileID: 8804248294480250408, guid: 05dd87a6824c9a349ae3eb3a7f0e6e19, type: 3}
     startNode: 1
     endNode: 0
     choices: 1

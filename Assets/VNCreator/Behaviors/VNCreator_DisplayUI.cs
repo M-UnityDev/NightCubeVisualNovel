@@ -3,11 +3,12 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using TMPro;
-
+using DG.Tweening;
 namespace VNCreator
 {
     public class VNCreator_DisplayUI : DisplayBase
     {
+        [SerializeField] private StoryObject StoryObjectRU;
         [Header("Text")]
         [SerializeField] private TMP_Text characterNameTxt;
         [SerializeField] private TMP_Text dialogueTxt;
@@ -23,6 +24,7 @@ namespace VNCreator
         [SerializeField] private Button saveBtn;
         [SerializeField] private Button menuButton;
         [Header("Choices")]
+        [SerializeField] private CanvasGroup choiceBtnParent;
         [SerializeField] private Button choiceBtn1;
         [SerializeField] private Button choiceBtn2;
         [SerializeField] private Button choiceBtn3;
@@ -32,7 +34,6 @@ namespace VNCreator
         [Header("Main menu")]
         [Scene]
         [SerializeField] private string mainMenu;
-
         void Start()
         {
             nextBtn.onClick.AddListener(delegate { NextNode(0); });
@@ -85,7 +86,7 @@ namespace VNCreator
             if (currentNode.choices <= 1) 
             {
                 nextBtn.gameObject.SetActive(true);
-
+                choiceBtnParent.DOFade(0, 1);
                 choiceBtn1.gameObject.SetActive(false);
                 choiceBtn2.gameObject.SetActive(false);
                 choiceBtn3.gameObject.SetActive(false);
@@ -118,6 +119,7 @@ namespace VNCreator
                     choiceBtn3.gameObject.SetActive(false);
                     choiceBtn4.gameObject.SetActive(false);
                 }
+                choiceBtnParent.DOFade(1, 1);
             }
 
             if (currentNode.backgroundMusic != null)
@@ -147,12 +149,12 @@ namespace VNCreator
         protected override void Previous()
         {
             base.Previous();
-            StartCoroutine(DisplayCurrentNode());
+            StartCoroutine(nameof(DisplayCurrentNode));
         }
 
         void ExitGame()
         {
-            SceneManager.LoadScene(mainMenu, LoadSceneMode.Single);
+            SceneManager.LoadScene(mainMenu);
         }
     }
 }

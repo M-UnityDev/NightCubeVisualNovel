@@ -18,8 +18,8 @@ namespace VNCreator
         {
             EditorUtility.SetDirty(_story);
 
-            List<NodeData> nodes = new List<NodeData>();
-            List<Link> links = new List<Link>();
+            List<NodeData> nodes = new();
+            List<Link> links = new();
 
             foreach (BaseNode _node in _graph.nodes.ToList().Cast<BaseNode>().ToList())
             {

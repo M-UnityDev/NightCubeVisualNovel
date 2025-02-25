@@ -48,7 +48,7 @@ namespace VNCreator
             return null;
         }
 
-        List<Link> _tempLinks = new List<Link>();
+        List<Link> _tempLinks = new();
         public NodeData GetNextNode(string _currentGuid, int _choiceId)
         {
             _tempLinks = new List<Link>();

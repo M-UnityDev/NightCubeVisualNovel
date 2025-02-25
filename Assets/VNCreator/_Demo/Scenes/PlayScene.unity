@@ -194,7 +194,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8168902}
   m_Enabled: 1
-  m_Alpha: 1
+  m_Alpha: 0
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
@@ -2028,7 +2028,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19bffdf8e809ebd439aaf9f444d2ea04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  story: {fileID: 11400000, guid: cce44b4bc30a4b449b255ee6e09e754d, type: 2}
+  story: {fileID: 0}
+  storyRU: {fileID: 11400000, guid: cce44b4bc30a4b449b255ee6e09e754d, type: 2}
+  storyEN: {fileID: 0}
+  StoryObjectRU: {fileID: 11400000, guid: cce44b4bc30a4b449b255ee6e09e754d, type: 2}
   characterNameTxt: {fileID: 2028308117}
   dialogueTxt: {fileID: 1236659807}
   characterImg: {fileID: 1548648291}
@@ -2039,6 +2042,7 @@ MonoBehaviour:
   previousBtn: {fileID: 460052267}
   saveBtn: {fileID: 672824052}
   menuButton: {fileID: 2092157681}
+  choiceBtnParent: {fileID: 8168905}
   choiceBtn1: {fileID: 446084360}
   choiceBtn2: {fileID: 1897164524}
   choiceBtn3: {fileID: 1883126466}
@@ -2052,11 +2056,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1128735935}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c4f1c219f4b9a84428f4659566e7bde3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  StoryObjectRU: {fileID: 11400000, guid: cce44b4bc30a4b449b255ee6e09e754d, type: 2}
 --- !u!1 &1236659802
 GameObject:
   m_ObjectHideFlags: 0
