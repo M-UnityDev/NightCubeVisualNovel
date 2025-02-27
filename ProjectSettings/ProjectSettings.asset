@@ -15,7 +15,7 @@ PlayerSettings:
   companyName: NightCube
   productName: "\u0411\u0435\u0441\u0430\u0451\u0411\u0438\u0433\u041C\u0430\u043A
     \u043F\u043E\u043A\u0430 \u0447\u0442\u043E \u0437\u0430\u043A\u0440\u044B\u0442"
-  defaultCursor: {fileID: 2800000, guid: e89e94c938bf20549b956865c8ecab8d, type: 3}
+  defaultCursor: {fileID: 2800000, guid: 3685351df227bba4a99336b27aff94c9, type: 3}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
   m_ShowUnitySplashScreen: 1
