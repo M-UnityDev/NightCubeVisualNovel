@@ -1,15 +1,13 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 namespace VNCreator
 {
     public class DisplayBase : MonoBehaviour
     {
-        public StoryObject story;
-        public StoryObject storyRU;
-        public StoryObject storyEN;
+        [SerializeField] private StoryObject story;
+        [SerializeField] private StoryObject storyRU;
+        [SerializeField] private StoryObject storyEN;
         protected NodeData currentNode;
         protected bool lastNode;
 
@@ -17,7 +15,7 @@ namespace VNCreator
 
         void Awake()
         {
-            story = storyRU;
+            story = PlayerPrefs.GetInt("Language",0).Equals(1) ? storyRU : storyEN;
             if (PlayerPrefs.GetString(GameSaveManager.currentLoadName) == string.Empty)
             {
                 currentNode = story.GetFirstNode();

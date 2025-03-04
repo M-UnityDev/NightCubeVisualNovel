@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 631c8e40946cbd34d8a6208bc7abad4b
+guid: 74f5c7357235cf049b9f768fcc74c939
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8356139608377358061
-    second: LirenHmmm_0
+      213: -9141887116397788371
+    second: ClancyHmmm_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,9 +40,9 @@ TextureImporter:
     filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
-    wrapW: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: LirenHmmm_0
+      name: ClancyHmmm_0
       rect:
         serializedVersion: 2
         x: 53
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 31988158c47090c80800000000000000
-      internalID: -8356139608377358061
+      spriteID: d23c36a7a1e712180800000000000000
+      internalID: -9141887116397788371
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      LirenHmmm_0: -8356139608377358061
+      ClancyHmmm_0: -9141887116397788371
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

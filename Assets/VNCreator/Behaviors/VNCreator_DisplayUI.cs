@@ -8,7 +8,6 @@ namespace VNCreator
 {
     public class VNCreator_DisplayUI : DisplayBase
     {
-        [SerializeField] private StoryObject StoryObjectRU;
         [Header("Text")]
         [SerializeField] private TMP_Text characterNameTxt;
         [SerializeField] private TMP_Text dialogueTxt;
