@@ -27,7 +27,7 @@ namespace VNCreator
                 if(loadList == null || loadList.Count == 0)
                 {
                     currentNode = story.GetFirstNode();
-                    loadList = new List<string>();
+                    List<string> loadList = null;
                     loadList.Add(currentNode.guid);
                 }
                 else

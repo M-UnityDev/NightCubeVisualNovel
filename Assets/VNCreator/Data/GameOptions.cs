@@ -1,13 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-
 namespace VNCreator
 {
-    enum Language
+    public enum Language
     {
-        en,
-        ru
+        EN,
+        RU
     }
     public static class GameOptions
     {
@@ -15,7 +12,7 @@ namespace VNCreator
         public static float sfxVolume = 0.5f;
         public static float readSpeed = 0.5f;
         public static bool isInstantText = false;
-
+        public static Language Language;
         public static void InitilizeOptions()
         {
             if (PlayerPrefs.HasKey("MusicVolume"))
@@ -25,7 +22,7 @@ namespace VNCreator
             if (PlayerPrefs.HasKey("ReadSpeed"))
                 readSpeed = PlayerPrefs.GetFloat("ReadSpeed");
             if (PlayerPrefs.HasKey("InstantText"))
-                isInstantText = PlayerPrefs.GetInt("InstantText") == 1 ? true : false;
+                isInstantText = PlayerPrefs.GetInt("InstantText").Equals(1) ? true : false;
         }
 
         public static void SetMusicVolume(float index)
