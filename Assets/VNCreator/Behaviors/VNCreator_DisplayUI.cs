@@ -14,6 +14,8 @@ namespace VNCreator
         [Header("Visuals")]
         [SerializeField] private Image characterImg;
         [SerializeField] private Image backgroundImg;
+	[SerializeField] private Image characterNameImg;
+	[SerializeField] private Color[] characterClrs;
         [Header("Audio")]
         [SerializeField] private AudioSource musicSource;
         [SerializeField] private AudioSource soundEffectSource;
@@ -69,6 +71,36 @@ namespace VNCreator
 
         IEnumerator DisplayCurrentNode()
         {
+	    switch (currentNode.characterName)
+	    {
+		case "Кленси":
+		characterNameImg.color = characterClrs[1];
+		break;
+		case "Clancy":
+		characterNameImg.color = characterClrs[1];
+		break;	
+		case "Лирен":
+		characterNameImg.color = characterClrs[2];
+		break;			
+		case "Liren":
+		characterNameImg.color = characterClrs[2];
+		break;	
+		case "Борис":
+		characterNameImg.color = characterClrs[3];
+		break;	
+		case "Boris":
+		characterNameImg.color = characterClrs[3];
+		break;
+		case "Мэн":
+		characterNameImg.color = characterClrs[4];
+		break;	
+		case "Man":
+		characterNameImg.color = characterClrs[4];
+		break;
+		default:
+		characterNameImg.color = characterClrs[0];
+		break;
+	    }
             characterNameTxt.text = currentNode.characterName;
             if (currentNode.characterSpr != null)
             {
