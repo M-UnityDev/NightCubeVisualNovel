@@ -10,6 +10,7 @@ namespace VNCreator
         public string guid;
         public Sprite characterSpr;
         public string characterName;
+        public string endName;
         public string dialogueText;
         public Sprite backgroundSpr;
         public bool startNode;

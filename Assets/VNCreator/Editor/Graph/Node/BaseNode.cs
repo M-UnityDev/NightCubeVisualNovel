@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEditor;
+﻿using UnityEditor;
 #if UNITY_EDITOR
 using UnityEditor.Experimental.GraphView;
 #endif
@@ -61,7 +59,14 @@ namespace VNCreator
                     node.nodeData.characterName = charNameField.value;
                 }
             );
-
+            TextField endNameField = this.Query<TextField>("End_Name");
+            endNameField.value = node.nodeData.endName;
+            endNameField.RegisterValueChangedCallback(
+                e =>
+                {
+                    node.nodeData.endName = endNameField.value;
+                }
+            );
             TextField dialogueField = this.Query<TextField>("Dialogue_Field");
             dialogueField.multiline = true;
             dialogueField.value = node.nodeData.dialogueText;
@@ -84,7 +89,7 @@ namespace VNCreator
 
             ObjectField musicField = this.Query<ObjectField>("Music_Field").First();
             musicField.objectType = typeof(AudioClip);
-            musicField.value = node.nodeData.soundEffect;
+            musicField.value = node.nodeData.backgroundMusic;
             musicField.RegisterCallback<ChangeEvent<UnityEngine.Object>>(
                 e =>
                 {

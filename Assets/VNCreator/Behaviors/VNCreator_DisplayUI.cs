@@ -11,6 +11,7 @@ namespace VNCreator
         [Header("Text")]
         [SerializeField] private TMP_Text characterNameTxt;
         [SerializeField] private TMP_Text dialogueTxt;
+        [SerializeField] private TMP_Text endingTxt;
         [Header("Visuals")]
         [SerializeField] private Image characterImg;
         [SerializeField] private Image backgroundImg;
@@ -35,6 +36,7 @@ namespace VNCreator
         [Header("Main menu")]
         [Scene]
         [SerializeField] private string mainMenu;
+	private bool isrunning;
         void Start()
         {
             nextBtn.onClick.AddListener(delegate { NextNode(0); });
@@ -51,7 +53,8 @@ namespace VNCreator
                 choiceBtn2.onClick.AddListener(delegate { NextNode(1); });
             if(choiceBtn3 != null)
                 choiceBtn3.onClick.AddListener(delegate { NextNode(2); });
-
+	    if(choiceBtn4 != null)
+                choiceBtn4.onClick.AddListener(delegate { NextNode(3); });
             endScreen.SetActive(false);
 
             StartCoroutine(DisplayCurrentNode());
@@ -59,9 +62,17 @@ namespace VNCreator
 
         protected override void NextNode(int _choiceId)
         {
+	    if (isrunning)
+	    {
+		StopAllCoroutines();
+		isrunning = false;
+	    }
             if (lastNode)
             {
                 endScreen.SetActive(true);
+                print(currentNode.endName);
+                print(currentNode);
+                endingTxt.text = currentNode.endName;
                 return;
             }
 
@@ -71,35 +82,24 @@ namespace VNCreator
 
         IEnumerator DisplayCurrentNode()
         {
+	    isrunning = true;
 	    switch (currentNode.characterName)
 	    {
-		case "Кленси":
-		characterNameImg.color = characterClrs[1];
-		break;
-		case "Clancy":
-		characterNameImg.color = characterClrs[1];
-		break;	
-		case "Лирен":
-		characterNameImg.color = characterClrs[2];
-		break;			
-		case "Liren":
-		characterNameImg.color = characterClrs[2];
-		break;	
-		case "Борис":
-		characterNameImg.color = characterClrs[3];
-		break;	
-		case "Boris":
-		characterNameImg.color = characterClrs[3];
-		break;
-		case "Мэн":
-		characterNameImg.color = characterClrs[4];
-		break;	
-		case "Man":
-		characterNameImg.color = characterClrs[4];
-		break;
+		case "Кленси" or "Clancy":
+		    characterNameImg.color = characterClrs[1];
+		    break;	
+		case "Лирен" or "Liren":
+		    characterNameImg.color = characterClrs[2];
+		    break;				
+		case "Борис" or "Boris":
+		    characterNameImg.color = characterClrs[3];
+		    break;	
+		case "Мэн" or "Man":
+		    characterNameImg.color = characterClrs[4];
+		    break;	
 		default:
-		characterNameImg.color = characterClrs[0];
-		break;
+		   characterNameImg.color = characterClrs[0];
+		   break;
 	    }
             characterNameTxt.text = currentNode.characterName;
             if (currentNode.characterSpr != null)
@@ -117,7 +117,8 @@ namespace VNCreator
             if (currentNode.choices <= 1) 
             {
                 nextBtn.gameObject.SetActive(true);
-                choiceBtnParent.DOFade(0, 1);
+		choiceBtnParent.blocksRaycasts = false;
+                choiceBtnParent.DOFade(0, 0.5f);
                 choiceBtn1.gameObject.SetActive(false);
                 choiceBtn2.gameObject.SetActive(false);
                 choiceBtn3.gameObject.SetActive(false);
@@ -128,7 +129,7 @@ namespace VNCreator
             else
             {
                 nextBtn.gameObject.SetActive(false);
-
+		choiceBtnParent.blocksRaycasts = true; 
                 choiceBtn1.gameObject.SetActive(true);
                 choiceBtn1.transform.GetChild(0).GetComponent<TMP_Text>().text = currentNode.choiceOptions[0];
 
@@ -142,6 +143,8 @@ namespace VNCreator
                 }
                 else if (currentNode.choices == 4)
                 {
+		    choiceBtn3.gameObject.SetActive(true);
+                    choiceBtn3.transform.GetChild(0).GetComponent<TMP_Text>().text = currentNode.choiceOptions[2];
                     choiceBtn4.gameObject.SetActive(true);
                     choiceBtn4.transform.GetChild(0).GetComponent<TMP_Text>().text = currentNode.choiceOptions[3];
                 }
@@ -150,7 +153,7 @@ namespace VNCreator
                     choiceBtn3.gameObject.SetActive(false);
                     choiceBtn4.gameObject.SetActive(false);
                 }
-                choiceBtnParent.DOFade(1, 1);
+                choiceBtnParent.DOFade(1, 0.5f);
             }
 
             if (currentNode.backgroundMusic != null)
@@ -175,6 +178,7 @@ namespace VNCreator
                     yield return new WaitForSeconds(0.01f/ GameOptions.readSpeed);
                 }
             }
+	    isrunning = false;
         }
 
         protected override void Previous()

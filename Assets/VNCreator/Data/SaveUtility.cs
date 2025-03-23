@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using Codice.CM.Client.Differences.Merge;
 using UnityEditor;
 #if UNITY_EDITOR
 using UnityEditor.Experimental.GraphView;
@@ -33,6 +34,7 @@ namespace VNCreator
                         backgroundSpr = _node.nodeData.backgroundSpr,
                         startNode = _node.nodeData.startNode,
                         endNode = _node.nodeData.endNode,
+                        endName = _node.nodeData.endName,
                         choices = _node.nodeData.choices,
                         choiceOptions = _node.nodeData.choiceOptions,
                         nodePosition = _node.GetPosition(),
@@ -54,9 +56,7 @@ namespace VNCreator
                     portId = i
                 });
             }
-
             _story.SetLists(nodes, links);
-
             //_story.nodes = nodes;
             //_story.links = links;
         }
@@ -84,22 +84,20 @@ namespace VNCreator
                 {
                     string targetGuid = _links[j].targetGuid;
                     BaseNode _target = _nodes.First(x => x.nodeData.guid == targetGuid);
-                    LinkNodes(_nodes[i].outputContainer[_links.Count > 1 ? _outputIdx : 0].Q<Port>(), (Port)_target.inputContainer[0], _graph);
+                    Port _otput = _nodes[i].outputContainer[_links.Count > 1 ? _outputIdx : 0].Q<Port>();
+                    if (_otput != null) LinkNodes(_otput, (Port)_target.inputContainer[0], _graph);
                     _outputIdx += 2;
                 }
             }
         }
-
         void LinkNodes(Port _output, Port _input, ExtendedGraphView _graph)
         {
             //Debug.Log(_output);
-
             Edge _temp = new Edge
             {
                 output = _output,
                 input = _input
             };
-
             _temp.input.Connect(_temp);
             _temp.output.Connect(_temp);
             _graph.Add(_temp);
