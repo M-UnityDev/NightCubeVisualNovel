@@ -9,7 +9,6 @@ public class IntroDirector : MonoBehaviour
     private void Awake()
     {
         duration = intro.clip.frameCount/intro.playbackSpeed/intro.clip.frameRate;
-        print(duration);
         DOTween.To(() => alpha, x => alpha = x, 0, 1).OnUpdate(() => {intro.targetCameraAlpha = alpha;}).SetDelay((float)duration).OnComplete(() => {Destroy(gameObject);}).SetEase(Ease.InOutCubic);
     }
 }

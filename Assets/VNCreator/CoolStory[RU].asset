@@ -362,27 +362,6 @@ MonoBehaviour:
       height: 305
     soundEffect: {fileID: 8300000, guid: c5c434aa05cad5437aee62ce221e34de, type: 3}
     backgroundMusic: {fileID: 0}
-  - guid: f683b6d4-a46d-4d83-a901-5c069b3cd807
-    characterSpr: {fileID: 3593641134924692357, guid: 9edba7152c29f754da23ff26c45e9ecb, type: 3}
-    characterName: ...
-    endName: 
-    dialogueText: "\u0415\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043D\u043D\u043E
-      \u043D\u0438\u043A\u0442\u043E \u043D\u0435 \u0445\u043E\u0447\u0435\u0442
-      \u0432\u044B\u0445\u043E\u0434\u0438\u0442\u044C \u0438\u0437 \u0431\u0443\u043D\u043A\u0435\u0440\u0430."
-    backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 4818
-      y: -551
-      width: 499
-      height: 305
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
   - guid: eb9bcb28-4255-434f-ab71-eccdfbfe7943
     characterSpr: {fileID: 21300000, guid: 534b1445063a09942b9d4b2c25e81830, type: 3}
     characterName: "\u041A\u043B\u0435\u043D\u0441\u0438"
@@ -405,34 +384,12 @@ MonoBehaviour:
       height: 305
     soundEffect: {fileID: 8300000, guid: 653fda38220365ec0a59df989e6aee9b, type: 3}
     backgroundMusic: {fileID: 0}
-  - guid: f9486d59-1e14-48f4-83fa-6c62c731c378
-    characterSpr: {fileID: 0}
-    characterName: AAAA
-    endName: 
-    dialogueText: 
-    backgroundSpr: {fileID: 0}
-    startNode: 0
-    endNode: 0
-    choices: 4
-    choiceOptions:
-    - AAAA
-    - 
-    - 
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 5506
-      y: -108
-      width: 499
-      height: 453
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
   - guid: 02f43133-b23a-45b8-8823-84c225201068
     characterSpr: {fileID: 0}
     characterName: 
     endName: 
     dialogueText: 
-    backgroundSpr: {fileID: 0}
+    backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
     choices: 1
@@ -451,7 +408,7 @@ MonoBehaviour:
     characterName: 
     endName: 
     dialogueText: 
-    backgroundSpr: {fileID: 0}
+    backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
     choices: 1
@@ -470,7 +427,7 @@ MonoBehaviour:
     characterName: 
     endName: 
     dialogueText: 
-    backgroundSpr: {fileID: 0}
+    backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
     choices: 1
@@ -486,10 +443,10 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: c4e2c210-39ea-467e-b8ca-790d8eed9c2f
     characterSpr: {fileID: 0}
-    characterName: AAAA
+    characterName: "\u041A\u043B\u0435\u043D\u0441\u0438"
     endName: 
     dialogueText: 
-    backgroundSpr: {fileID: 0}
+    backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
     choices: 1
@@ -499,6 +456,50 @@ MonoBehaviour:
       serializedVersion: 2
       x: 6037
       y: -498
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: f9486d59-1e14-48f4-83fa-6c62c731c378
+    characterSpr: {fileID: 0}
+    characterName: AAAA
+    endName: 
+    dialogueText: 
+    backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 4
+    choiceOptions:
+    - "\u0417\u0430\u0441\u0442\u0430\u0432\u0438\u0442\u044C \u0432\u044B\u0439\u0442\u0438
+      \u041A\u043B\u0435\u043D\u0441\u0438"
+    - 
+    - 
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 5364
+      y: 112
+      width: 499
+      height: 453
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: f683b6d4-a46d-4d83-a901-5c069b3cd807
+    characterSpr: {fileID: 0}
+    characterName: ...
+    endName: 
+    dialogueText: "\u0415\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043D\u043D\u043E
+      \u043D\u0438\u043A\u0442\u043E \u043D\u0435 \u0445\u043E\u0447\u0435\u0442
+      \u0432\u044B\u0445\u043E\u0434\u0438\u0442\u044C \u0438\u0437 \u0431\u0443\u043D\u043A\u0435\u0440\u0430."
+    backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 5115
+      y: -193
       width: 499
       height: 305
     soundEffect: {fileID: 0}

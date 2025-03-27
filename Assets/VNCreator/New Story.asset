@@ -20,11 +20,8 @@ MonoBehaviour:
     targetGuid: e6fb2d57-adbd-4f5f-87fe-0389cc9b8ab4
     portId: 1
   - guid: eb4eb3cc-84b0-4fda-ae8a-44b823eb2df0
-    targetGuid: c3fa9e4d-8019-407e-9127-03881dcb5d9e
-    portId: 2
-  - guid: eb4eb3cc-84b0-4fda-ae8a-44b823eb2df0
     targetGuid: e9939d15-336f-4e16-a84b-258b2a8691e8
-    portId: 3
+    portId: 2
   nodes:
   - guid: eb4eb3cc-84b0-4fda-ae8a-44b823eb2df0
     characterSpr: {fileID: 0}
@@ -67,6 +64,25 @@ MonoBehaviour:
       height: 305
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
+  - guid: e9939d15-336f-4e16-a84b-258b2a8691e8
+    characterSpr: {fileID: 0}
+    characterName: 
+    endName: 
+    dialogueText: 
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3138
+      y: 281
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
   - guid: c3fa9e4d-8019-407e-9127-03881dcb5d9e
     characterSpr: {fileID: 0}
     characterName: 
@@ -80,8 +96,8 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 2639
-      y: -24
+      x: 2309
+      y: 615
       width: 499
       height: 305
     soundEffect: {fileID: 0}
@@ -99,27 +115,8 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 2390
-      y: 105
-      width: 499
-      height: 305
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: e9939d15-336f-4e16-a84b-258b2a8691e8
-    characterSpr: {fileID: 0}
-    characterName: 
-    endName: 
-    dialogueText: 
-    backgroundSpr: {fileID: 0}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 3138
-      y: 281
+      x: 2677
+      y: 21
       width: 499
       height: 305
     soundEffect: {fileID: 0}
