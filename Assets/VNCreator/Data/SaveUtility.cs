@@ -1,12 +1,9 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using Codice.CM.Client.Differences.Merge;
 using UnityEditor;
 #if UNITY_EDITOR
 using UnityEditor.Experimental.GraphView;
 #endif
-using UnityEngine;
 using UnityEngine.UIElements;
 using VNCreator.Editors.Graph;
 
