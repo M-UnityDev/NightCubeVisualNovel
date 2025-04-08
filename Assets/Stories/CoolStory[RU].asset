@@ -181,11 +181,11 @@ MonoBehaviour:
   - guid: 8feb64b4-b735-4d29-93d6-d1a035836f34
     targetGuid: 407fc26e-0791-4e15-a34a-c002e25fcd10
     portId: 55
-  - guid: f3b86ca6-8216-4126-8974-f27d02f2d6a4
-    targetGuid: 5d5d91d8-d6e9-415b-907f-21cd9a41cc50
-    portId: 56
   - guid: 5d5d91d8-d6e9-415b-907f-21cd9a41cc50
     targetGuid: 8feb64b4-b735-4d29-93d6-d1a035836f34
+    portId: 56
+  - guid: f3b86ca6-8216-4126-8974-f27d02f2d6a4
+    targetGuid: 5d5d91d8-d6e9-415b-907f-21cd9a41cc50
     portId: 57
   nodes:
   - guid: f9486d59-1e14-48f4-83fa-6c62c731c378
@@ -1259,7 +1259,7 @@ MonoBehaviour:
       \u0435\u0451, \u0442\u0430\u043A \u043A\u0430\u043A \u043E\u043D\u0430 \u0431\u044B\u043B\u0430
       \u0434\u043E \u0441\u0438\u0445 \u043F\u043E\u0440 \u0440\u0430\u0441\u043A\u0430\u043B\u0435\u043D\u043D\u043E\u0439
       \u043E\u0442 \u043C\u0435\u0442\u0435\u043E\u0440\u0438\u0442\u0430."
-    backgroundSpr: {fileID: 21300000, guid: 25abb7853eaecbb4daa515d0fa767d53, type: 3}
+    backgroundSpr: {fileID: 21300000, guid: 8b64929279f787445b368e59f80eda83, type: 3}
     startNode: 0
     endNode: 0
     choices: 1
