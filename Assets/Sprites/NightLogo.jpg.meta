@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f6cf6007833e9dd4fac295a4dc8b2dd7
+guid: b7b2f5d068591d342b14f5904e589911
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2723897453111051853
-    second: 13_20240508221136_0
+      213: -5616895177420846795
+    second: NightLogo_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 13_20240508221136_0
+      name: NightLogo_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 780
-        height: 1052
+        width: 600
+        height: 800
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d4686414d4a3dc520800000000000000
-      internalID: 2723897453111051853
+      spriteID: 539c9318897cc02b0800000000000000
+      internalID: -5616895177420846795
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      13_20240508221136_0: 2723897453111051853
+      NightLogo_0: -5616895177420846795
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

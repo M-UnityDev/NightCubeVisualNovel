@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 96cfa13aa4c9b5449bed8a903852d341
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3356428861069398031
+    second: "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_0"
+  - first:
+      213: -7108203531944999374
+    second: "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_1"
+  - first:
+      213: 3526593052453009454
+    second: "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_2"
+  - first:
+      213: -5315468950416345601
+    second: "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_3"
+  - first:
+      213: 7730379568707839335
+    second: "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_4"
+  - first:
+      213: 2540176581420052720
+    second: "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_5"
+  - first:
+      213: -1374562242056308296
+    second: "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_6"
+  - first:
+      213: 1515897380383325245
+    second: "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_7"
+  - first:
+      213: 3648220868371720708
+    second: "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_8"
+  - first:
+      213: 6146894676752301741
+    second: "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_9"
+  - first:
+      213: -6031706374822026617
+    second: "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_10"
+  - first:
+      213: 7963375590005507710
+    second: "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_11"
+  - first:
+      213: 1342344884777991863
+    second: "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_12"
+  - first:
+      213: -1541702936125210429
+    second: "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_13"
+  - first:
+      213: -4629463692468626041
+    second: "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_14"
+  - first:
+      213: 5080248156317333112
+    second: "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_15"
+  - first:
+      213: 5303464443907746791
+    second: "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_16"
+  - first:
+      213: 7147916445426737439
+    second: "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_17"
+  - first:
+      213: 7141380535481073087
+    second: "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_18"
+  - first:
+      213: 9012211051470007851
+    second: "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_19"
+  - first:
+      213: -6864451438242092861
+    second: "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_20"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_0"
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 569
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ffe616ebb19b61d0800000000000000
+      internalID: -3356428861069398031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_1"
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 575
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 236cd3f6c869a5d90800000000000000
+      internalID: -7108203531944999374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_2"
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 583
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2872de42b9f0f030800000000000000
+      internalID: 3526593052453009454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_3"
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 576
+        width: 72
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff5b0d3f629ab36b0800000000000000
+      internalID: -5315468950416345601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_4"
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 574
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 765a4cba243d74b60800000000000000
+      internalID: 7730379568707839335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_5"
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 570
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f0fe427425804320800000000000000
+      internalID: 2540176581420052720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_6"
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 0
+        width: 551
+        height: 577
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b9b1907ce29cece0800000000000000
+      internalID: -1374562242056308296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_7"
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 392
+        width: 75
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3c71b9c2ac890510800000000000000
+      internalID: 1515897380383325245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_8"
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 388
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40aa679fc8511a230800000000000000
+      internalID: 3648220868371720708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_9"
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 349
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dae7f8f04282e4550800000000000000
+      internalID: 6146894676752301741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_10"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 225
+        width: 19
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 782264b62031b4ca0800000000000000
+      internalID: -6031706374822026617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_11"
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 343
+        width: 21
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e768b4748e7938e60800000000000000
+      internalID: 7963375590005507710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_12"
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 297
+        width: 17
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7be31478f87f0a210800000000000000
+      internalID: 1342344884777991863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_13"
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 230
+        width: 17
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c0841f0955ca9ae0800000000000000
+      internalID: -1541702936125210429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_14"
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 188
+        width: 20
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78dd6d5bc47d0cfb0800000000000000
+      internalID: -4629463692468626041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_15"
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 152
+        width: 21
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 876b02828caa08640800000000000000
+      internalID: 5080248156317333112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_16"
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 179
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eb290210d0b99940800000000000000
+      internalID: 5303464443907746791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_17"
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 188
+        width: 21
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1165d5c220823360800000000000000
+      internalID: 7147916445426737439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_18"
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 35
+        width: 134
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbdfc37a2c74b1360800000000000000
+      internalID: 7141380535481073087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_19"
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 168
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2e28bbd33ec11d70800000000000000
+      internalID: 9012211051470007851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_20"
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 0
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c829ad49c19cb0a0800000000000000
+      internalID: -6864451438242092861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_0": -3356428861069398031
+      "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_1": -7108203531944999374
+      "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_10": -6031706374822026617
+      "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_11": 7963375590005507710
+      "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_12": 1342344884777991863
+      "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_13": -1541702936125210429
+      "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_14": -4629463692468626041
+      "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_15": 5080248156317333112
+      "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_16": 5303464443907746791
+      "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_17": 7147916445426737439
+      "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_18": 7141380535481073087
+      "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_19": 9012211051470007851
+      "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_2": 3526593052453009454
+      "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_20": -6864451438242092861
+      "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_3": -5315468950416345601
+      "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_4": 7730379568707839335
+      "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_5": 2540176581420052720
+      "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_6": -1374562242056308296
+      "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_7": 1515897380383325245
+      "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_8": 3648220868371720708
+      "NightLogo \u2014 \u043A\u043E\u043F\u0438\u044F_9": 6146894676752301741
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

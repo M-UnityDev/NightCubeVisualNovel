@@ -96,8 +96,14 @@ namespace VNCreator
 		    break;	
 		case "Мэн" or "Man":
 		    characterNameImg.color = characterClrs[4];
-		    break;	
-		default:
+		    break;
+        case "M-Unity":
+            characterNameImg.color = characterClrs[5];
+            break;
+        case "Nightmare" or "Найтмер":
+            characterNameImg.color = characterClrs[6];
+            break;
+        default:
 		   characterNameImg.color = characterClrs[0];
 		   break;
 	    }
