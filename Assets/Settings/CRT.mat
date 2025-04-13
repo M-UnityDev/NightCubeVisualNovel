@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: LowColorResolution
-  m_Shader: {fileID: -6465566751694194690, guid: 1b45144d9f7da5bfdbe68387c2db4c5e, type: 3}
+  m_Name: CRT
+  m_Shader: {fileID: -6465566751694194690, guid: 42247e35858965d5aa81aefd7304cd26, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -53,17 +53,18 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _ColRes: 8
-    - _Dith: 0
+    - _Blur_offset: 0.001
     - _EnableExternalAlpha: 0
     - _Fullscreen_AlphaBlendOperation: 0
-    - _Fullscreen_BlendMode: 1
+    - _Fullscreen_BlendMode: 0
     - _Fullscreen_ColorBlendOperation: 0
     - _Fullscreen_DepthWrite: 1
     - _Fullscreen_DstAlphaBlend: 10
     - _Fullscreen_DstColorBlend: 10
     - _Fullscreen_SrcAlphaBlend: 1
     - _Fullscreen_SrcColorBlend: 5
+    - _Lines_Frequency: 200
+    - _Scan_lines_speed: 0.01
     - _ZWrite: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
