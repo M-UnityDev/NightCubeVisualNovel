@@ -1,14 +1,23 @@
 using UnityEngine;
-using UnityEngine.Video;
+using UnityEngine.UI;
 using DG.Tweening;
+using System.Collections;
 public class IntroDirector : MonoBehaviour
 {
-    private float alpha = 1;
-    private double duration;
-    [SerializeField] private VideoPlayer intro;
+    [SerializeField] private Sprite[] Sprites;
+    private Image Image;
     private void Awake()
     {
-        duration = intro.clip.frameCount/intro.playbackSpeed/intro.clip.frameRate;
-        DOTween.To(() => alpha, x => alpha = x, 0, 1).OnUpdate(() => {intro.targetCameraAlpha = alpha;}).SetDelay((float)duration).OnComplete(() => {Destroy(gameObject);}).SetEase(Ease.InOutCubic);
+        Image = GetComponent<Image>();
+        StartCoroutine(nameof(Anim));
+    }
+    private IEnumerator Anim()
+    {
+        foreach (Sprite s in Sprites)
+        {
+            Image.sprite = s;
+            yield return new WaitForSeconds(0.05f);
+        }
+        Image.DOColor(new Color(1, 1, 1, 0), 1);
     }
 }
