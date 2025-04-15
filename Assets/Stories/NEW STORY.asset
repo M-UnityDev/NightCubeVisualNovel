@@ -39,7 +39,7 @@ MonoBehaviour:
   - guid: 066b08cd-d9e7-434a-905b-a8c33ed4c633
     characterSpr: {fileID: 21300000, guid: 8e9213edd999b08c79f7332c53138ced, type: 3}
     characterName: "\u041A\u0442\u043E-\u0442\u043E"
-    endName: 
+    endName: "\u041D\u0435 \u0437\u043D\u0430\u044E"
     dialogueText: "\u041D\u0435 \u0437\u043D\u0430\u044E"
     backgroundSpr: {fileID: 21300000, guid: 8e9213edd999b08c79f7332c53138ced, type: 3}
     startNode: 0
