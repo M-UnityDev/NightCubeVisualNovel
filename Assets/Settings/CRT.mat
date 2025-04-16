@@ -56,7 +56,7 @@ Material:
     - _Blur_offset: 0.001
     - _EnableExternalAlpha: 0
     - _Fullscreen_AlphaBlendOperation: 0
-    - _Fullscreen_BlendMode: 0
+    - _Fullscreen_BlendMode: 1
     - _Fullscreen_ColorBlendOperation: 0
     - _Fullscreen_DepthWrite: 1
     - _Fullscreen_DstAlphaBlend: 10
