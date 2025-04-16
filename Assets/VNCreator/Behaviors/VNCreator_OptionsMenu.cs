@@ -1,27 +1,27 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Rendering.Universal;
 using TMPro;
 namespace VNCreator
 {
     public class VNCreator_OptionsMenu : MonoBehaviour
     {
-        public Slider musicVolumeSlider;
-        public Slider sfxVolumeSlider;
-        public Slider readSpeedSlider;
-        public Toggle instantTextToggle;
-	public TMP_Dropdown languageDrop;
-        public Button backButton;
-
+        [SerializeField] private Slider musicVolumeSlider;
+        [SerializeField] private Slider sfxVolumeSlider;
+        [SerializeField] private Slider readSpeedSlider;
+        [SerializeField] private Toggle instantTextToggle;
+        [SerializeField] private Toggle CRToggle;
+	    [SerializeField] private TMP_Dropdown languageDrop;
+        [SerializeField] private Button backButton;
         [Header("Menu Objects")]
-        public GameObject optionsMenu;
-        public GameObject mainMenu;
-
-        void Start()
+        [SerializeField] private GameObject optionsMenu;
+        [SerializeField] private GameObject mainMenu;
+        [SerializeField] private GameObject PPCamera;
+        [SerializeField] private ScriptableRendererData Renderer;
+        private void Start()
         {
             GameOptions.InitilizeOptions();
-
+            UpdateCRT(false);
             if(musicVolumeSlider != null)
             {
                 musicVolumeSlider.value = GameOptions.musicVolume;
@@ -42,26 +42,37 @@ namespace VNCreator
                 instantTextToggle.isOn = GameOptions.isInstantText;
                 instantTextToggle.onValueChanged.AddListener(GameOptions.SetInstantText);
             }
-	    if (languageDrop != null)
+	        if (languageDrop != null)
             {
                 languageDrop.value = GameOptions.chosenLanguage.Equals(Language.RU) ? 1 : 0;
                 languageDrop.onValueChanged.AddListener(GameOptions.SetLanguage);
-		languageDrop.onValueChanged.AddListener(UpdateLanguage);
+		        languageDrop.onValueChanged.AddListener(UpdateLanguage);
+            }
+            if (CRToggle != null)
+            {
+                CRToggle.isOn = GameOptions.isCRT;
+                CRToggle.onValueChanged.AddListener(GameOptions.SetCRT);
+                CRToggle.onValueChanged.AddListener(UpdateCRT);
             }
             backButton.onClick.AddListener(Back);
-	    UpdateLanguage(0);
+	        UpdateLanguage(0);
         }
-	public void UpdateLanguage(int index)
-	{
-	    foreach(TextLocalizer text in FindObjectsByType<TextLocalizer>(FindObjectsInactive.Include, FindObjectsSortMode.None))
+	    public void UpdateLanguage(int index)
 	    {
-		text.CheckText();
-	    }
-	}
-        void Back()
+	        foreach(TextLocalizer text in FindObjectsByType<TextLocalizer>(FindObjectsInactive.Include, FindObjectsSortMode.None))
+	        {
+		        text.CheckText();
+	        }
+        }
+        public void UpdateCRT(bool index)
+        {
+            PPCamera.SetActive(GameOptions.isCRT);
+            foreach (ScriptableRendererFeature feature in Renderer.rendererFeatures) if (feature.name.Equals("CRT")) feature.SetActive(GameOptions.isCRT);
+        }
+        private void Back()
         {
             mainMenu.SetActive(true);
             optionsMenu.SetActive(false);
-	}
+	    }
     }
 }

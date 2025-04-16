@@ -26,7 +26,8 @@ MonoBehaviour:
     probeVolumeBlendStatesCS: {fileID: 0}
   m_RendererFeatures:
   - {fileID: 5509406891663539801}
-  m_RendererFeatureMap: 59beb1bc6058754c
+  - {fileID: 4289727846619845816}
+  m_RendererFeatureMap: 59beb1bc6058754cb894e0a0bf2c883b
   m_UseNativeRenderPass: 0
   m_TransparencySortMode: 2
   m_TransparencySortAxis: {x: 0, y: 1, z: 0}
@@ -54,6 +55,26 @@ MonoBehaviour:
   m_PostProcessData: {fileID: 0}
   m_DefaultMaterialType: 1
   m_DefaultCustomMaterial: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+--- !u!114 &4289727846619845816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b00045f12942b46c698459096c89274e, type: 3}
+  m_Name: CRT
+  m_EditorClassIdentifier: 
+  m_Active: 0
+  injectionPoint: 600
+  fetchColorBuffer: 1
+  requirements: 0
+  passMaterial: {fileID: 2100000, guid: 80a965c367218e5df91f4b8380903093, type: 2}
+  passIndex: 0
+  bindDepthStencilAttachment: 0
+  m_Version: 1
 --- !u!114 &5509406891663539801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72,5 +93,5 @@ MonoBehaviour:
   requirements: 0
   passMaterial: {fileID: 2100000, guid: db5ff3e7bc5dabd96b941e6e7818adc8, type: 2}
   passIndex: 0
-  bindDepthStencilAttachment: 1
+  bindDepthStencilAttachment: 0
   m_Version: 1

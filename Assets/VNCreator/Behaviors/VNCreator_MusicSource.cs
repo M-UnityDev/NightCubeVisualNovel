@@ -4,10 +4,8 @@ namespace VNCreator
     [RequireComponent(typeof(AudioSource))]
     public class VNCreator_MusicSource : MonoBehaviour
     {
-        AudioSource source;
-
+        private AudioSource source;
         public static VNCreator_MusicSource instance;
-
         private void Awake()
         {
             instance = this;
@@ -16,7 +14,6 @@ namespace VNCreator
             source.loop = true;
             source.volume = GameOptions.musicVolume;
         }
-
         public void Play(AudioClip clip)
         {
             source.clip = clip;
