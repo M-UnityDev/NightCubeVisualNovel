@@ -18,6 +18,7 @@ namespace VNCreator
         [SerializeField] private GameObject mainMenu;
         [SerializeField] private GameObject PPCamera;
         [SerializeField] private ScriptableRendererData Renderer;
+        [SerializeField] private GlobalTextLocalizer GlobalTextLocalizer;
         private void Start()
         {
             GameOptions.InitilizeOptions();
@@ -59,10 +60,7 @@ namespace VNCreator
         }
 	    public void UpdateLanguage(int index)
 	    {
-	        foreach(TextLocalizer text in FindObjectsByType<TextLocalizer>(FindObjectsInactive.Include, FindObjectsSortMode.None))
-	        {
-		        text.CheckText();
-	        }
+            GlobalTextLocalizer.UpdateLocale();
         }
         public void UpdateCRT(bool index)
         {
