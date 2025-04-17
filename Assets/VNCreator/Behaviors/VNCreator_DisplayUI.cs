@@ -69,8 +69,6 @@ namespace VNCreator
             if (lastNode)
             {
                 endScreen.SetActive(true);
-                print(currentNode.endName);
-                print(currentNode);
                 endingTxt.text = currentNode.endName;
                 return;
             }

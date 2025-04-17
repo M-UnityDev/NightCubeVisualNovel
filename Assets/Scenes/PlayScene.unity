@@ -249,7 +249,6 @@ GameObject:
   - component: {fileID: 64693532}
   - component: {fileID: 64693534}
   - component: {fileID: 64693535}
-  - component: {fileID: 64693536}
   m_Layer: 5
   m_Name: Exit
   m_TagString: Untagged
@@ -375,20 +374,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &64693536
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 64693531}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23bdf993cfefe757e8f5b831f21ac4db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TextEN: Exit
-  TextRU: "\u0412\u044B\u0439\u0442\u0438"
 --- !u!1 &223541763
 GameObject:
   m_ObjectHideFlags: 0
@@ -1607,7 +1592,6 @@ GameObject:
   - component: {fileID: 864056020}
   - component: {fileID: 864056022}
   - component: {fileID: 864056024}
-  - component: {fileID: 864056023}
   m_Layer: 5
   m_Name: Exit
   m_TagString: Untagged
@@ -1642,20 +1626,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 864056019}
   m_CullTransparentMesh: 1
---- !u!114 &864056023
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 864056019}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23bdf993cfefe757e8f5b831f21ac4db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TextEN: Exit
-  TextRU: "\u0412\u044B\u0439\u0442\u0438"
 --- !u!114 &864056024
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1900,7 +1870,6 @@ GameObject:
   - component: {fileID: 905118149}
   - component: {fileID: 905118151}
   - component: {fileID: 905118152}
-  - component: {fileID: 905118153}
   m_Layer: 5
   m_Name: Back
   m_TagString: Untagged
@@ -2026,20 +1995,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &905118153
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 905118148}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23bdf993cfefe757e8f5b831f21ac4db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TextEN: Back
-  TextRU: "\u041D\u0430\u0437\u0430\u0434"
 --- !u!1 &908272759
 GameObject:
   m_ObjectHideFlags: 0
@@ -2557,7 +2512,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   story: {fileID: 0}
   storyRU: {fileID: 11400000, guid: cce44b4bc30a4b449b255ee6e09e754d, type: 2}
-  storyEN: {fileID: 11400000, guid: cce44b4bc30a4b449b255ee6e09e754d, type: 2}
+  storyEN: {fileID: 11400000, guid: 37b5597a1ce0abeb1a80efd87d977a43, type: 2}
   characterNameTxt: {fileID: 2028308117}
   dialogueTxt: {fileID: 1236659807}
   endingTxt: {fileID: 661800539}
@@ -2944,7 +2899,6 @@ GameObject:
   - component: {fileID: 1314110552}
   - component: {fileID: 1314110554}
   - component: {fileID: 1314110556}
-  - component: {fileID: 1314110555}
   m_Layer: 5
   m_Name: Restart
   m_TagString: Untagged
@@ -2979,20 +2933,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1314110551}
   m_CullTransparentMesh: 1
---- !u!114 &1314110555
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1314110551}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23bdf993cfefe757e8f5b831f21ac4db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TextEN: Restart
-  TextRU: "\u0417\u0430\u043D\u043E\u0432\u043E"
 --- !u!114 &1314110556
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3178,23 +3118,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextLocales:
   - TextToLocalize: {fileID: 64693535}
-    TextEN: 
-    TextRU: 
+    TextEN: Exit
+    TextRU: "\u0412\u044B\u0439\u0442\u0438"
   - TextToLocalize: {fileID: 1880714867}
-    TextEN: 
-    TextRU: 
+    TextEN: Save
+    TextRU: "\u0421\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u044C"
   - TextToLocalize: {fileID: 905118152}
-    TextEN: 
-    TextRU: 
+    TextEN: Back
+    TextRU: "\u041D\u0430\u0437\u0430\u0434"
   - TextToLocalize: {fileID: 1678609208}
-    TextEN: 
-    TextRU: 
+    TextEN: Next
+    TextRU: "\u0414\u0430\u043B\u044C\u0448\u0435"
   - TextToLocalize: {fileID: 1796545145}
     TextEN: 'Ending:'
     TextRU: "\u041A\u043E\u043D\u0446\u043E\u0432\u043A\u0430:"
   - TextToLocalize: {fileID: 611499765}
     TextEN: Thanks For Playing!
     TextRU: "\u0421\u043F\u0430\u0441\u0438\u0431\u043E \u0437\u0430 \u0438\u0433\u0440\u0443!"
+  - TextToLocalize: {fileID: 864056024}
+    TextEN: Exit
+    TextRU: "\u0412\u044B\u0439\u0442\u0438"
+  - TextToLocalize: {fileID: 1314110556}
+    TextEN: Restart
+    TextRU: "\u0417\u0430\u043D\u043E\u0432\u043E"
 --- !u!20 &1342946488 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 5053359401846114088, guid: 81083bbc1099e4e0ea1e57117acb5daf, type: 3}
@@ -3501,7 +3447,6 @@ GameObject:
   - component: {fileID: 1678609205}
   - component: {fileID: 1678609207}
   - component: {fileID: 1678609208}
-  - component: {fileID: 1678609209}
   m_Layer: 5
   m_Name: Next
   m_TagString: Untagged
@@ -3627,20 +3572,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &1678609209
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1678609204}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23bdf993cfefe757e8f5b831f21ac4db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TextEN: Next
-  TextRU: "\u0414\u0430\u043B\u044C\u0448\u0435"
 --- !u!1 &1682216590
 GameObject:
   m_ObjectHideFlags: 0
@@ -4163,7 +4094,6 @@ GameObject:
   - component: {fileID: 1880714864}
   - component: {fileID: 1880714866}
   - component: {fileID: 1880714867}
-  - component: {fileID: 1880714868}
   m_Layer: 5
   m_Name: Save
   m_TagString: Untagged
@@ -4289,20 +4219,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &1880714868
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1880714863}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23bdf993cfefe757e8f5b831f21ac4db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TextEN: Save
-  TextRU: "\u0421\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u044C"
 --- !u!1 &1883126464
 GameObject:
   m_ObjectHideFlags: 0
