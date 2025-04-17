@@ -58,10 +58,7 @@ namespace VNCreator
             backButton.onClick.AddListener(Back);
 	        UpdateLanguage(0);
         }
-	    public void UpdateLanguage(int index)
-	    {
-            GlobalTextLocalizer.UpdateLocale();
-        }
+	    public void UpdateLanguage(int index) => GlobalTextLocalizer.UpdateLocale();
         public void UpdateCRT(bool index)
         {
             PPCamera.SetActive(GameOptions.isCRT);
