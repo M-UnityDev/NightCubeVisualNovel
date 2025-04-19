@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 80d55d090c78b6240aa6dccd6042a022, type: 3}
-  m_Name: NEW STORY
+  m_Name: 'NEWSTORY[TRANSLATED]'
   m_EditorClassIdentifier: 
   links:
   - guid: 10afb5dd-1086-4652-9672-0df67c60e2e3
@@ -19,9 +19,9 @@ MonoBehaviour:
   nodes:
   - guid: 10afb5dd-1086-4652-9672-0df67c60e2e3
     characterSpr: {fileID: 21300000, guid: 8e9213edd999b08c79f7332c53138ced, type: 3}
-    characterName: "\u041A\u0442\u043E-\u0442\u043E"
+    characterName: Someone
     endName: 
-    dialogueText: "\u0427\u0451 \u0442\u0430\u043C \u0432\u043E\u043E\u0431\u0449\u0435?"
+    dialogueText: What is there at all?
     backgroundSpr: {fileID: 21300000, guid: 8e9213edd999b08c79f7332c53138ced, type: 3}
     startNode: 1
     endNode: 0
@@ -38,9 +38,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 8300000, guid: 862d1084243c3eb76a54f4a91ef6815d, type: 3}
   - guid: 066b08cd-d9e7-434a-905b-a8c33ed4c633
     characterSpr: {fileID: 21300000, guid: 8e9213edd999b08c79f7332c53138ced, type: 3}
-    characterName: "\u041A\u0442\u043E-\u0442\u043E"
-    endName: "\u041D\u0435 \u0437\u043D\u0430\u044E"
-    dialogueText: "\u041D\u0435 \u0437\u043D\u0430\u044E"
+    characterName: Someone
+    endName: Don't know
+    dialogueText: Don't know
     backgroundSpr: {fileID: 21300000, guid: 8e9213edd999b08c79f7332c53138ced, type: 3}
     startNode: 0
     endNode: 1
