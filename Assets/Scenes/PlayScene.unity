@@ -4621,7 +4621,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   restartButton: {fileID: 1682216592}
   mainMenuButton: {fileID: 1844119504}
-  mainMenu: Assets/VNCreator/_Demo/Scenes/MainMenu.unity
+  mainMenu: Assets/Scenes/MainMenu.unity
 --- !u!1 &1999840307
 GameObject:
   m_ObjectHideFlags: 0
