@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 80d55d090c78b6240aa6dccd6042a022, type: 3}
-  m_Name: 'MainStory[RU]'
+  m_Name: 'MainStory[EN]'
   m_EditorClassIdentifier: 
   links:
   - guid: f9486d59-1e14-48f4-83fa-6c62c731c378
@@ -43,453 +43,447 @@ MonoBehaviour:
   - guid: 1dc4cfed-1a6f-4b61-b3b2-749d85f1279f
     targetGuid: 1f785814-e6bf-420d-877a-a60f9ecdc0b2
     portId: 9
-  - guid: 5e935910-37b4-4b50-be08-4daaf4ed67ae
-    targetGuid: d634b67f-ec64-46f3-a323-31d02f71697e
-    portId: 10
-  - guid: d634b67f-ec64-46f3-a323-31d02f71697e
-    targetGuid: ef5d0520-93c4-48c0-82cf-f2a6012a2060
-    portId: 11
-  - guid: 74dd713e-014a-4320-a6fe-1b4b69a9a315
-    targetGuid: e8d86814-6144-42c2-896a-0e6c27cc5087
-    portId: 12
-  - guid: ef5d0520-93c4-48c0-82cf-f2a6012a2060
-    targetGuid: 1e4e489b-dc1f-4e15-a11f-68cfb916db4c
-    portId: 13
-  - guid: 60b6b614-24b3-4e8d-b047-3813109534f3
-    targetGuid: 35cc8ecc-7615-4791-9af6-0831e5e9421c
-    portId: 14
-  - guid: 43726418-889d-4bf0-a174-7699f52561cc
-    targetGuid: 8f70e04f-6104-4008-bbb1-c2602e47b2d8
-    portId: 15
-  - guid: 407fc26e-0791-4e15-a34a-c002e25fcd10
-    targetGuid: 1acf4cee-d653-461a-adb7-884fea503f3f
-    portId: 16
-  - guid: 46b891cf-f857-4fda-ac31-61740ce8d330
-    targetGuid: 60b6b614-24b3-4e8d-b047-3813109534f3
-    portId: 17
-  - guid: 9764f5c1-d1ae-4d1c-9101-d95059f774cc
-    targetGuid: eb9bcb28-4255-434f-ab71-eccdfbfe7943
-    portId: 18
-  - guid: 0d63ffe2-c6a1-4d54-b80b-e621315a1f59
-    targetGuid: 5c9117aa-fa8f-4375-a86d-6208651811e3
-    portId: 19
-  - guid: 03108dc1-9ac7-49c6-a56b-d63b1b13280e
-    targetGuid: 46b891cf-f857-4fda-ac31-61740ce8d330
-    portId: 20
-  - guid: 8f70e04f-6104-4008-bbb1-c2602e47b2d8
-    targetGuid: 3a8acdae-e694-4ddf-9d61-467eeed3756d
-    portId: 21
-  - guid: 1acf4cee-d653-461a-adb7-884fea503f3f
-    targetGuid: 03108dc1-9ac7-49c6-a56b-d63b1b13280e
-    portId: 22
-  - guid: 35cc8ecc-7615-4791-9af6-0831e5e9421c
-    targetGuid: 43726418-889d-4bf0-a174-7699f52561cc
-    portId: 23
-  - guid: 3a8acdae-e694-4ddf-9d61-467eeed3756d
-    targetGuid: 9764f5c1-d1ae-4d1c-9101-d95059f774cc
-    portId: 24
-  - guid: 5c9117aa-fa8f-4375-a86d-6208651811e3
-    targetGuid: f683b6d4-a46d-4d83-a901-5c069b3cd807
-    portId: 25
-  - guid: eb9bcb28-4255-434f-ab71-eccdfbfe7943
-    targetGuid: 0d63ffe2-c6a1-4d54-b80b-e621315a1f59
-    portId: 26
-  - guid: f683b6d4-a46d-4d83-a901-5c069b3cd807
-    targetGuid: f9486d59-1e14-48f4-83fa-6c62c731c378
-    portId: 27
-  - guid: 1e4e489b-dc1f-4e15-a11f-68cfb916db4c
-    targetGuid: a8eba871-11b8-41f8-b5a7-3bb946dc5ebf
-    portId: 28
-  - guid: a8eba871-11b8-41f8-b5a7-3bb946dc5ebf
-    targetGuid: 0df4600b-1420-4819-9568-8391bd028acd
-    portId: 29
-  - guid: 0df4600b-1420-4819-9568-8391bd028acd
-    targetGuid: 5c123a17-48d3-4ce9-8a42-941f0184ee70
-    portId: 30
-  - guid: 5c123a17-48d3-4ce9-8a42-941f0184ee70
-    targetGuid: d4b53915-3932-4333-9c0b-bec45eb7f23f
-    portId: 31
-  - guid: d4b53915-3932-4333-9c0b-bec45eb7f23f
-    targetGuid: 112f79bc-f726-42de-bec8-29e536312091
-    portId: 32
-  - guid: 112f79bc-f726-42de-bec8-29e536312091
-    targetGuid: dfd5ebf6-c5e1-43a8-890e-81f5ea864b49
-    portId: 33
-  - guid: dfd5ebf6-c5e1-43a8-890e-81f5ea864b49
-    targetGuid: 42e0aef7-2bbc-41ea-aa2f-7a2ec76cf1f4
-    portId: 34
-  - guid: 42e0aef7-2bbc-41ea-aa2f-7a2ec76cf1f4
-    targetGuid: fb40c95b-44fe-468e-b633-24f2470316d1
-    portId: 35
-  - guid: fb40c95b-44fe-468e-b633-24f2470316d1
-    targetGuid: 2432c25f-e483-4ae6-8301-701a2c5957f5
-    portId: 36
-  - guid: 2432c25f-e483-4ae6-8301-701a2c5957f5
-    targetGuid: fb55f05f-3ff0-4679-9de0-92bb230860c3
-    portId: 37
-  - guid: fb55f05f-3ff0-4679-9de0-92bb230860c3
-    targetGuid: ec6be3e8-57e3-4aff-b5ba-9c01ea74019a
-    portId: 38
-  - guid: ec6be3e8-57e3-4aff-b5ba-9c01ea74019a
-    targetGuid: 29a88c7e-37f8-456c-a692-366bf29bb896
-    portId: 39
-  - guid: fe4b8948-92cf-461f-9a00-4bb894e48924
-    targetGuid: 2239909a-311c-4b31-a761-009d2412ee17
-    portId: 40
-  - guid: 20a0b5ea-ad83-4dd3-9ef6-6dd24d807c6a
-    targetGuid: b7b909c0-b0bf-4300-bfa2-7847a039a057
-    portId: 41
-  - guid: b7b909c0-b0bf-4300-bfa2-7847a039a057
-    targetGuid: a904034d-941f-42d0-b6db-245fd24e5cfc
-    portId: 42
-  - guid: a904034d-941f-42d0-b6db-245fd24e5cfc
-    targetGuid: 73d82220-fb43-4fe8-9ac9-134825c566c8
-    portId: 43
-  - guid: 73d82220-fb43-4fe8-9ac9-134825c566c8
-    targetGuid: f735db9f-ad62-4c04-9c2a-202565323f6c
-    portId: 44
-  - guid: f735db9f-ad62-4c04-9c2a-202565323f6c
-    targetGuid: a2e33b35-23ed-4984-a361-09cb57e4b3b4
-    portId: 45
-  - guid: 8e8c19e6-5f5a-49ea-a47c-1b7d693e8543
-    targetGuid: bed66511-dfbe-47f4-9c67-939674f2784e
-    portId: 46
-  - guid: 0b9d5e0e-8b83-451e-9986-621ed844bc1f
-    targetGuid: 25e2af27-4efc-4d53-a828-aca769ad1051
-    portId: 47
-  - guid: 946f2bcf-bfcc-423f-a9bb-10ac68a8b05c
-    targetGuid: 9a38d601-0b26-45a8-8cda-1feb77330ee8
-    portId: 48
-  - guid: 844a92f5-ce95-4539-a820-0d1a9ef29812
-    targetGuid: b4cff15a-b28c-454d-b2d9-50514994f76c
-    portId: 49
-  - guid: b73d12f9-74cb-48ac-837e-2ce31fe43ed8
-    targetGuid: 7e21f344-fb6c-4ed8-8f80-5a1d69d68765
-    portId: 50
-  - guid: 2de29dd1-bb1a-4fc2-99bd-67fd9b270d09
-    targetGuid: a6c01ec7-7125-405e-8d38-86e6f62434f2
-    portId: 51
-  - guid: 9a38d601-0b26-45a8-8cda-1feb77330ee8
-    targetGuid: 7bc45b07-23f7-4593-aec8-3f1b42e600dc
-    portId: 52
-  - guid: a6c01ec7-7125-405e-8d38-86e6f62434f2
-    targetGuid: a299804e-5b75-4833-ac0f-9ab827749b81
-    portId: 53
-  - guid: 47c69285-4e02-4d5c-960e-5abf48549440
-    targetGuid: 811a0bc9-0642-4c4d-8f4e-59804a45868b
-    portId: 54
-  - guid: a299804e-5b75-4833-ac0f-9ab827749b81
-    targetGuid: 456dd657-f0a6-461b-bfaf-1c5ecbd6ae39
-    portId: 55
-  - guid: d44c5fca-f200-4aba-bc78-2d7eb28d53ac
-    targetGuid: a84f1399-6e15-4cc2-b389-5b72be4e8a97
-    portId: 56
-  - guid: a84f1399-6e15-4cc2-b389-5b72be4e8a97
-    targetGuid: 04c659cf-1b2a-4262-b5bc-91e2189e60b3
-    portId: 57
-  - guid: ddf372ce-2777-4d4c-9a43-cc2cf73b9077
-    targetGuid: 844a92f5-ce95-4539-a820-0d1a9ef29812
-    portId: 58
-  - guid: b4cff15a-b28c-454d-b2d9-50514994f76c
-    targetGuid: cab4f358-faf8-471f-826c-b8cd66642f09
-    portId: 59
-  - guid: cab4f358-faf8-471f-826c-b8cd66642f09
-    targetGuid: 5579c9ca-7d79-466a-a535-db48b18cad1a
-    portId: 60
-  - guid: 5579c9ca-7d79-466a-a535-db48b18cad1a
-    targetGuid: 1eb29367-c511-445e-a307-8c6eb5b1e131
-    portId: 61
-  - guid: 1eb29367-c511-445e-a307-8c6eb5b1e131
-    targetGuid: b73d12f9-74cb-48ac-837e-2ce31fe43ed8
-    portId: 62
-  - guid: 7e21f344-fb6c-4ed8-8f80-5a1d69d68765
-    targetGuid: 2de29dd1-bb1a-4fc2-99bd-67fd9b270d09
-    portId: 63
-  - guid: 456dd657-f0a6-461b-bfaf-1c5ecbd6ae39
-    targetGuid: 4df4006b-ec02-44a7-9c4c-a4e3cf3e1adf
-    portId: 64
-  - guid: 4df4006b-ec02-44a7-9c4c-a4e3cf3e1adf
-    targetGuid: 47c69285-4e02-4d5c-960e-5abf48549440
-    portId: 65
-  - guid: 811a0bc9-0642-4c4d-8f4e-59804a45868b
-    targetGuid: 67cea927-c797-451e-afe8-7f145330292d
-    portId: 66
-  - guid: 85fddcf2-f238-4155-953e-2b50dbd95770
-    targetGuid: 09f1ea70-719c-473d-b35b-6855b2fdfe44
-    portId: 67
-  - guid: c62093f6-81b7-4520-bece-478ad06de412
-    targetGuid: d44c5fca-f200-4aba-bc78-2d7eb28d53ac
-    portId: 68
-  - guid: 7271044c-be3c-4d09-820c-7444227c4eb9
-    targetGuid: 1fb3695f-6bf2-49d4-9eb0-eb00f23eed5b
-    portId: 69
-  - guid: 1fb3695f-6bf2-49d4-9eb0-eb00f23eed5b
-    targetGuid: 59ea2994-ddb4-4726-8e92-b8b6159af1ce
-    portId: 70
-  - guid: 59ea2994-ddb4-4726-8e92-b8b6159af1ce
-    targetGuid: 8c8e1715-0e2f-406d-9d67-22129b702595
-    portId: 71
-  - guid: c5617be7-eb67-4acb-bbc0-111f22a89851
-    targetGuid: ebaae290-a79d-4d60-943a-efe22263bc7e
-    portId: 72
-  - guid: ebaae290-a79d-4d60-943a-efe22263bc7e
-    targetGuid: 94fa3d1d-6348-417f-9e29-11e87a51b1cb
-    portId: 73
-  - guid: 94fa3d1d-6348-417f-9e29-11e87a51b1cb
-    targetGuid: 6173654d-8e6d-4282-ab23-9307a95b8a79
-    portId: 74
-  - guid: 484831c5-1027-4ec4-99a7-51b99b2627b0
-    targetGuid: c62093f6-81b7-4520-bece-478ad06de412
-    portId: 75
-  - guid: bed66511-dfbe-47f4-9c67-939674f2784e
-    targetGuid: 6173654d-8e6d-4282-ab23-9307a95b8a79
-    portId: 76
-  - guid: 94be1210-b4a1-46d4-a06d-62d9872cf1a1
-    targetGuid: 7737bd72-63be-40fb-a866-d9887c2fa6f5
-    portId: 77
-  - guid: a2e33b35-23ed-4984-a361-09cb57e4b3b4
-    targetGuid: 946f2bcf-bfcc-423f-a9bb-10ac68a8b05c
-    portId: 78
-  - guid: 29a88c7e-37f8-456c-a692-366bf29bb896
-    targetGuid: fe4b8948-92cf-461f-9a00-4bb894e48924
-    portId: 79
-  - guid: 04c659cf-1b2a-4262-b5bc-91e2189e60b3
-    targetGuid: e6f58f4c-4925-45a1-a9d0-984b8408841c
-    portId: 80
-  - guid: 8feb64b4-b735-4d29-93d6-d1a035836f34
-    targetGuid: a7743ed1-ffe0-418a-9914-babad85e8d03
-    portId: 81
-  - guid: be83c91a-ed41-4a45-b474-557ddf5aad02
-    targetGuid: 8feb64b4-b735-4d29-93d6-d1a035836f34
-    portId: 82
-  - guid: f3b86ca6-8216-4126-8974-f27d02f2d6a4
-    targetGuid: 5d5d91d8-d6e9-415b-907f-21cd9a41cc50
-    portId: 83
-  - guid: 5d5d91d8-d6e9-415b-907f-21cd9a41cc50
-    targetGuid: be83c91a-ed41-4a45-b474-557ddf5aad02
-    portId: 84
-  - guid: a7743ed1-ffe0-418a-9914-babad85e8d03
-    targetGuid: 407fc26e-0791-4e15-a34a-c002e25fcd10
-    portId: 85
-  - guid: 412c76c5-8f29-49b2-9a90-d92bc91ad8df
-    targetGuid: 8e8c19e6-5f5a-49ea-a47c-1b7d693e8543
-    portId: 86
-  - guid: e6f58f4c-4925-45a1-a9d0-984b8408841c
-    targetGuid: 7271044c-be3c-4d09-820c-7444227c4eb9
-    portId: 87
-  - guid: 2239909a-311c-4b31-a761-009d2412ee17
-    targetGuid: 6173654d-8e6d-4282-ab23-9307a95b8a79
-    portId: 88
-  - guid: 09f1ea70-719c-473d-b35b-6855b2fdfe44
-    targetGuid: 484831c5-1027-4ec4-99a7-51b99b2627b0
-    portId: 89
-  - guid: 8c8e1715-0e2f-406d-9d67-22129b702595
-    targetGuid: c5617be7-eb67-4acb-bbc0-111f22a89851
-    portId: 90
-  - guid: 781dddec-7055-4b74-bfaf-6e6ee547efe3
-    targetGuid: c50865bf-f332-407c-a2c4-f7d45742a14e
-    portId: 91
-  - guid: c50865bf-f332-407c-a2c4-f7d45742a14e
-    targetGuid: 5e488123-c702-46d9-88e2-fefb1d2d94df
-    portId: 92
-  - guid: 5e488123-c702-46d9-88e2-fefb1d2d94df
-    targetGuid: 283d1a1e-7918-4a5c-a383-e2ffdf4f1da5
-    portId: 93
-  - guid: 7b78527b-97c7-413f-889c-961eda8661c9
-    targetGuid: 028201f7-bc34-42ea-9f5e-42b5c9351062
-    portId: 94
-  - guid: 028201f7-bc34-42ea-9f5e-42b5c9351062
-    targetGuid: d7d085bf-3d1d-43a3-b3ee-6a4c585a6cfc
-    portId: 95
-  - guid: 028201f7-bc34-42ea-9f5e-42b5c9351062
-    targetGuid: 4d838e56-5ffa-4eea-b946-fdba58001453
-    portId: 96
-  - guid: 028201f7-bc34-42ea-9f5e-42b5c9351062
-    targetGuid: 5edb246d-c416-4485-9564-f84222be78d5
-    portId: 97
-  - guid: d7d085bf-3d1d-43a3-b3ee-6a4c585a6cfc
-    targetGuid: a48910d6-7b4a-4a1d-ae40-997cba0ee93d
-    portId: 98
-  - guid: a48910d6-7b4a-4a1d-ae40-997cba0ee93d
-    targetGuid: fab70337-ddb9-4fb1-8929-9524929d5cbc
-    portId: 99
-  - guid: be7d88a1-cb12-4443-a525-a9eb9199c8f1
-    targetGuid: 618a98c6-848c-4af8-b526-f9f7acde84ea
-    portId: 100
-  - guid: 4d838e56-5ffa-4eea-b946-fdba58001453
-    targetGuid: 2aa82269-22fd-44e8-ab29-e4eb3e308e6d
-    portId: 101
-  - guid: 5edb246d-c416-4485-9564-f84222be78d5
-    targetGuid: faf5a04c-f3db-4e62-a0d5-bb25892f40cc
-    portId: 102
-  - guid: 2aa82269-22fd-44e8-ab29-e4eb3e308e6d
-    targetGuid: 5dfebb40-e3c8-4b84-9485-0d3979d947ad
-    portId: 103
-  - guid: faf5a04c-f3db-4e62-a0d5-bb25892f40cc
-    targetGuid: cf916e13-eb34-4f94-bc24-eb89b2293ec3
-    portId: 104
-  - guid: f437d802-d7d6-43e2-a40c-77391a40052b
-    targetGuid: ead76d41-a7c4-45e4-9727-417403c28849
-    portId: 105
-  - guid: 5dfebb40-e3c8-4b84-9485-0d3979d947ad
-    targetGuid: 672f88b0-c5a7-45a0-bd40-a154c23a2f71
-    portId: 106
-  - guid: cf916e13-eb34-4f94-bc24-eb89b2293ec3
-    targetGuid: f437d802-d7d6-43e2-a40c-77391a40052b
-    portId: 107
-  - guid: 672f88b0-c5a7-45a0-bd40-a154c23a2f71
-    targetGuid: 623dd581-a4b4-4588-bdc8-844e260b3521
-    portId: 108
-  - guid: 7469ee89-ea2e-4692-b940-bd860ceb394a
-    targetGuid: 4da51a8f-893b-4495-8218-cdd7f4e0b4b5
-    portId: 109
-  - guid: 4da51a8f-893b-4495-8218-cdd7f4e0b4b5
-    targetGuid: 781dddec-7055-4b74-bfaf-6e6ee547efe3
-    portId: 110
-  - guid: bc185f1a-df9d-46ee-af3c-1cbe44b119bd
-    targetGuid: 0e47e454-15a2-444b-912b-d7d9f943600d
-    portId: 111
-  - guid: 2c1e4d9f-f2b0-4a73-b7d8-b39b6ff843bd
-    targetGuid: 3daf3dd6-6bfa-4995-8a82-f7eb38dcbc57
-    portId: 112
-  - guid: bc7f68b0-7ad5-44f1-b998-0bbd9f3b14f3
-    targetGuid: bc185f1a-df9d-46ee-af3c-1cbe44b119bd
-    portId: 113
-  - guid: 0e47e454-15a2-444b-912b-d7d9f943600d
-    targetGuid: c0ff55bd-fca3-44f0-96e6-af0c2427481f
-    portId: 114
-  - guid: c0ff55bd-fca3-44f0-96e6-af0c2427481f
-    targetGuid: 34049eda-c012-46a0-9919-4f8814bd57ab
-    portId: 115
-  - guid: 34049eda-c012-46a0-9919-4f8814bd57ab
-    targetGuid: 2c1e4d9f-f2b0-4a73-b7d8-b39b6ff843bd
-    portId: 116
-  - guid: 3daf3dd6-6bfa-4995-8a82-f7eb38dcbc57
-    targetGuid: 78b3541a-ff7c-4eac-8fa8-33362a1df728
-    portId: 117
-  - guid: 78b3541a-ff7c-4eac-8fa8-33362a1df728
-    targetGuid: edc8a750-eabb-4769-9cb0-3c2bf1391f6c
-    portId: 118
-  - guid: ecba79b0-8220-4c18-ad04-711b6e883e57
-    targetGuid: a5778a2c-bdf9-487c-8504-8ad48319a277
-    portId: 119
-  - guid: 0f04def8-5b1a-4f98-8b48-ddc0ffd38bbf
-    targetGuid: adc94302-8dba-4967-9c52-e61eb44cfd99
-    portId: 120
-  - guid: fe2568a6-9894-495f-877f-0b436cf85782
-    targetGuid: e60d9928-58f8-4200-9cd9-8f14c046848d
-    portId: 121
-  - guid: 49604052-b899-41c0-b4dd-7f58d00ee24b
-    targetGuid: ecba79b0-8220-4c18-ad04-711b6e883e57
-    portId: 122
-  - guid: e60d9928-58f8-4200-9cd9-8f14c046848d
-    targetGuid: d3a39aa1-0917-4e7b-bc73-022658168ead
-    portId: 123
-  - guid: d3a39aa1-0917-4e7b-bc73-022658168ead
-    targetGuid: 7f992ff2-37e2-499b-8aaf-c839b8a38a4c
-    portId: 124
-  - guid: edc8a750-eabb-4769-9cb0-3c2bf1391f6c
-    targetGuid: 49604052-b899-41c0-b4dd-7f58d00ee24b
-    portId: 125
-  - guid: a5778a2c-bdf9-487c-8504-8ad48319a277
-    targetGuid: 0f04def8-5b1a-4f98-8b48-ddc0ffd38bbf
-    portId: 126
-  - guid: adc94302-8dba-4967-9c52-e61eb44cfd99
-    targetGuid: fe2568a6-9894-495f-877f-0b436cf85782
-    portId: 127
-  - guid: 623dd581-a4b4-4588-bdc8-844e260b3521
-    targetGuid: 618a98c6-848c-4af8-b526-f9f7acde84ea
-    portId: 128
-  - guid: 618a98c6-848c-4af8-b526-f9f7acde84ea
-    targetGuid: bef6722b-0c69-405b-857f-eb176f0441e6
-    portId: 129
-  - guid: bef6722b-0c69-405b-857f-eb176f0441e6
-    targetGuid: 63435a35-d530-4b13-ba81-dcb1158f62f9
-    portId: 130
-  - guid: 63435a35-d530-4b13-ba81-dcb1158f62f9
-    targetGuid: 0ffb9899-18c4-4475-a3f9-fdee9ad5092c
-    portId: 131
-  - guid: 5baf979f-94de-4e9d-9fd1-06af6199cbda
-    targetGuid: 3dbac65e-2156-4a34-8dcf-f38778d89ca1
-    portId: 132
-  - guid: 3dbac65e-2156-4a34-8dcf-f38778d89ca1
-    targetGuid: 6b62de1e-5e1e-40bd-a368-81e03410a9f6
-    portId: 133
-  - guid: dd29a6d8-feeb-4cca-9c85-fce26fcfa7f0
-    targetGuid: 1f20e931-3ae6-4b50-b0e5-5bc1e161bd39
-    portId: 134
-  - guid: 2c58ad96-3917-465a-8941-109662bd4fda
-    targetGuid: eb7cc5dc-4151-4688-b234-2a39c611ad2e
-    portId: 135
-  - guid: eb7cc5dc-4151-4688-b234-2a39c611ad2e
-    targetGuid: bb04eb43-a6d3-462d-ac5a-56fd56ce33f6
-    portId: 136
-  - guid: 0ffb9899-18c4-4475-a3f9-fdee9ad5092c
-    targetGuid: ba8ababf-3668-4518-b2c5-368712950165
-    portId: 137
-  - guid: ba8ababf-3668-4518-b2c5-368712950165
-    targetGuid: 8f2ebeeb-1f5b-40ba-ade4-724430548f29
-    portId: 138
-  - guid: 8f2ebeeb-1f5b-40ba-ade4-724430548f29
-    targetGuid: 2c58ad96-3917-465a-8941-109662bd4fda
-    portId: 139
-  - guid: bb04eb43-a6d3-462d-ac5a-56fd56ce33f6
-    targetGuid: 5baf979f-94de-4e9d-9fd1-06af6199cbda
-    portId: 140
-  - guid: 6b62de1e-5e1e-40bd-a368-81e03410a9f6
-    targetGuid: dd29a6d8-feeb-4cca-9c85-fce26fcfa7f0
-    portId: 141
-  - guid: bae04ccd-184b-42ee-a92c-d3dd6aa6de89
-    targetGuid: f19ffd97-e3ab-483f-9e44-1b16cab3522b
-    portId: 142
-  - guid: 1f20e931-3ae6-4b50-b0e5-5bc1e161bd39
-    targetGuid: 5a33296b-fd8f-415b-9a0f-ca443b11df10
-    portId: 143
-  - guid: 5a33296b-fd8f-415b-9a0f-ca443b11df10
-    targetGuid: 4690f1a5-963f-4a45-9ce0-d3ed1688a162
-    portId: 144
-  - guid: 4690f1a5-963f-4a45-9ce0-d3ed1688a162
-    targetGuid: bae04ccd-184b-42ee-a92c-d3dd6aa6de89
-    portId: 145
-  - guid: 5fb0deb1-89e7-4aa6-9634-3576b6d568eb
-    targetGuid: bc7f68b0-7ad5-44f1-b998-0bbd9f3b14f3
-    portId: 146
-  - guid: 6173654d-8e6d-4282-ab23-9307a95b8a79
-    targetGuid: cfd1835c-6cde-4b9f-a160-67c0e62ef387
-    portId: 147
-  - guid: cfd1835c-6cde-4b9f-a160-67c0e62ef387
-    targetGuid: 6e288a4b-802d-414b-8421-8b3678df03c3
-    portId: 148
-  - guid: 6e288a4b-802d-414b-8421-8b3678df03c3
-    targetGuid: 7469ee89-ea2e-4692-b940-bd860ceb394a
-    portId: 149
-  - guid: a518afab-532e-4052-b19b-01de4f831703
-    targetGuid: 544a7984-7bc6-4e8b-955b-0449280d02a5
-    portId: 150
-  - guid: 544a7984-7bc6-4e8b-955b-0449280d02a5
-    targetGuid: 7fd4f1af-75ad-4119-85f3-a452f5ee5373
-    portId: 151
   - guid: 1f785814-e6bf-420d-877a-a60f9ecdc0b2
     targetGuid: 74dd713e-014a-4320-a6fe-1b4b69a9a315
-    portId: 152
-  - guid: ead76d41-a7c4-45e4-9727-417403c28849
-    targetGuid: 618a98c6-848c-4af8-b526-f9f7acde84ea
-    portId: 153
-  - guid: fab70337-ddb9-4fb1-8929-9524929d5cbc
-    targetGuid: be7d88a1-cb12-4443-a525-a9eb9199c8f1
-    portId: 154
-  - guid: 283d1a1e-7918-4a5c-a383-e2ffdf4f1da5
-    targetGuid: 7b78527b-97c7-413f-889c-961eda8661c9
-    portId: 155
-  - guid: f19ffd97-e3ab-483f-9e44-1b16cab3522b
-    targetGuid: 5fb0deb1-89e7-4aa6-9634-3576b6d568eb
-    portId: 156
+    portId: 10
+  - guid: 5e935910-37b4-4b50-be08-4daaf4ed67ae
+    targetGuid: d634b67f-ec64-46f3-a323-31d02f71697e
+    portId: 11
+  - guid: d634b67f-ec64-46f3-a323-31d02f71697e
+    targetGuid: ef5d0520-93c4-48c0-82cf-f2a6012a2060
+    portId: 12
+  - guid: 74dd713e-014a-4320-a6fe-1b4b69a9a315
+    targetGuid: e8d86814-6144-42c2-896a-0e6c27cc5087
+    portId: 13
+  - guid: ef5d0520-93c4-48c0-82cf-f2a6012a2060
+    targetGuid: 1e4e489b-dc1f-4e15-a11f-68cfb916db4c
+    portId: 14
+  - guid: 60b6b614-24b3-4e8d-b047-3813109534f3
+    targetGuid: 35cc8ecc-7615-4791-9af6-0831e5e9421c
+    portId: 15
+  - guid: 43726418-889d-4bf0-a174-7699f52561cc
+    targetGuid: 8f70e04f-6104-4008-bbb1-c2602e47b2d8
+    portId: 16
+  - guid: 407fc26e-0791-4e15-a34a-c002e25fcd10
+    targetGuid: 1acf4cee-d653-461a-adb7-884fea503f3f
+    portId: 17
+  - guid: 46b891cf-f857-4fda-ac31-61740ce8d330
+    targetGuid: 60b6b614-24b3-4e8d-b047-3813109534f3
+    portId: 18
+  - guid: 9764f5c1-d1ae-4d1c-9101-d95059f774cc
+    targetGuid: eb9bcb28-4255-434f-ab71-eccdfbfe7943
+    portId: 19
+  - guid: 0d63ffe2-c6a1-4d54-b80b-e621315a1f59
+    targetGuid: 5c9117aa-fa8f-4375-a86d-6208651811e3
+    portId: 20
+  - guid: 03108dc1-9ac7-49c6-a56b-d63b1b13280e
+    targetGuid: 46b891cf-f857-4fda-ac31-61740ce8d330
+    portId: 21
+  - guid: 8f70e04f-6104-4008-bbb1-c2602e47b2d8
+    targetGuid: 3a8acdae-e694-4ddf-9d61-467eeed3756d
+    portId: 22
+  - guid: 1acf4cee-d653-461a-adb7-884fea503f3f
+    targetGuid: 03108dc1-9ac7-49c6-a56b-d63b1b13280e
+    portId: 23
+  - guid: 35cc8ecc-7615-4791-9af6-0831e5e9421c
+    targetGuid: 43726418-889d-4bf0-a174-7699f52561cc
+    portId: 24
+  - guid: 3a8acdae-e694-4ddf-9d61-467eeed3756d
+    targetGuid: 9764f5c1-d1ae-4d1c-9101-d95059f774cc
+    portId: 25
+  - guid: 5c9117aa-fa8f-4375-a86d-6208651811e3
+    targetGuid: f683b6d4-a46d-4d83-a901-5c069b3cd807
+    portId: 26
+  - guid: eb9bcb28-4255-434f-ab71-eccdfbfe7943
+    targetGuid: 0d63ffe2-c6a1-4d54-b80b-e621315a1f59
+    portId: 27
+  - guid: f683b6d4-a46d-4d83-a901-5c069b3cd807
+    targetGuid: f9486d59-1e14-48f4-83fa-6c62c731c378
+    portId: 28
+  - guid: 1e4e489b-dc1f-4e15-a11f-68cfb916db4c
+    targetGuid: a8eba871-11b8-41f8-b5a7-3bb946dc5ebf
+    portId: 29
+  - guid: a8eba871-11b8-41f8-b5a7-3bb946dc5ebf
+    targetGuid: 0df4600b-1420-4819-9568-8391bd028acd
+    portId: 30
+  - guid: 0df4600b-1420-4819-9568-8391bd028acd
+    targetGuid: 5c123a17-48d3-4ce9-8a42-941f0184ee70
+    portId: 31
+  - guid: 5c123a17-48d3-4ce9-8a42-941f0184ee70
+    targetGuid: d4b53915-3932-4333-9c0b-bec45eb7f23f
+    portId: 32
+  - guid: d4b53915-3932-4333-9c0b-bec45eb7f23f
+    targetGuid: 112f79bc-f726-42de-bec8-29e536312091
+    portId: 33
+  - guid: 112f79bc-f726-42de-bec8-29e536312091
+    targetGuid: dfd5ebf6-c5e1-43a8-890e-81f5ea864b49
+    portId: 34
+  - guid: dfd5ebf6-c5e1-43a8-890e-81f5ea864b49
+    targetGuid: 42e0aef7-2bbc-41ea-aa2f-7a2ec76cf1f4
+    portId: 35
+  - guid: 42e0aef7-2bbc-41ea-aa2f-7a2ec76cf1f4
+    targetGuid: fb40c95b-44fe-468e-b633-24f2470316d1
+    portId: 36
+  - guid: fb40c95b-44fe-468e-b633-24f2470316d1
+    targetGuid: 2432c25f-e483-4ae6-8301-701a2c5957f5
+    portId: 37
+  - guid: 2432c25f-e483-4ae6-8301-701a2c5957f5
+    targetGuid: fb55f05f-3ff0-4679-9de0-92bb230860c3
+    portId: 38
+  - guid: fb55f05f-3ff0-4679-9de0-92bb230860c3
+    targetGuid: ec6be3e8-57e3-4aff-b5ba-9c01ea74019a
+    portId: 39
+  - guid: ec6be3e8-57e3-4aff-b5ba-9c01ea74019a
+    targetGuid: 29a88c7e-37f8-456c-a692-366bf29bb896
+    portId: 40
+  - guid: fe4b8948-92cf-461f-9a00-4bb894e48924
+    targetGuid: 2239909a-311c-4b31-a761-009d2412ee17
+    portId: 41
+  - guid: 20a0b5ea-ad83-4dd3-9ef6-6dd24d807c6a
+    targetGuid: b7b909c0-b0bf-4300-bfa2-7847a039a057
+    portId: 42
+  - guid: b7b909c0-b0bf-4300-bfa2-7847a039a057
+    targetGuid: a904034d-941f-42d0-b6db-245fd24e5cfc
+    portId: 43
+  - guid: a904034d-941f-42d0-b6db-245fd24e5cfc
+    targetGuid: 73d82220-fb43-4fe8-9ac9-134825c566c8
+    portId: 44
+  - guid: 73d82220-fb43-4fe8-9ac9-134825c566c8
+    targetGuid: f735db9f-ad62-4c04-9c2a-202565323f6c
+    portId: 45
+  - guid: f735db9f-ad62-4c04-9c2a-202565323f6c
+    targetGuid: a2e33b35-23ed-4984-a361-09cb57e4b3b4
+    portId: 46
+  - guid: 8e8c19e6-5f5a-49ea-a47c-1b7d693e8543
+    targetGuid: bed66511-dfbe-47f4-9c67-939674f2784e
+    portId: 47
+  - guid: 0b9d5e0e-8b83-451e-9986-621ed844bc1f
+    targetGuid: 25e2af27-4efc-4d53-a828-aca769ad1051
+    portId: 48
+  - guid: 946f2bcf-bfcc-423f-a9bb-10ac68a8b05c
+    targetGuid: 9a38d601-0b26-45a8-8cda-1feb77330ee8
+    portId: 49
+  - guid: 844a92f5-ce95-4539-a820-0d1a9ef29812
+    targetGuid: b4cff15a-b28c-454d-b2d9-50514994f76c
+    portId: 50
+  - guid: b73d12f9-74cb-48ac-837e-2ce31fe43ed8
+    targetGuid: 7e21f344-fb6c-4ed8-8f80-5a1d69d68765
+    portId: 51
+  - guid: 2de29dd1-bb1a-4fc2-99bd-67fd9b270d09
+    targetGuid: a6c01ec7-7125-405e-8d38-86e6f62434f2
+    portId: 52
+  - guid: 9a38d601-0b26-45a8-8cda-1feb77330ee8
+    targetGuid: 7bc45b07-23f7-4593-aec8-3f1b42e600dc
+    portId: 53
   - guid: 67cea927-c797-451e-afe8-7f145330292d
     targetGuid: 85fddcf2-f238-4155-953e-2b50dbd95770
-    portId: 157
+    portId: 54
+  - guid: a6c01ec7-7125-405e-8d38-86e6f62434f2
+    targetGuid: a299804e-5b75-4833-ac0f-9ab827749b81
+    portId: 55
+  - guid: 47c69285-4e02-4d5c-960e-5abf48549440
+    targetGuid: 811a0bc9-0642-4c4d-8f4e-59804a45868b
+    portId: 56
+  - guid: a299804e-5b75-4833-ac0f-9ab827749b81
+    targetGuid: 456dd657-f0a6-461b-bfaf-1c5ecbd6ae39
+    portId: 57
+  - guid: d44c5fca-f200-4aba-bc78-2d7eb28d53ac
+    targetGuid: a84f1399-6e15-4cc2-b389-5b72be4e8a97
+    portId: 58
+  - guid: a84f1399-6e15-4cc2-b389-5b72be4e8a97
+    targetGuid: 04c659cf-1b2a-4262-b5bc-91e2189e60b3
+    portId: 59
   - guid: 7bc45b07-23f7-4593-aec8-3f1b42e600dc
     targetGuid: ddf372ce-2777-4d4c-9a43-cc2cf73b9077
-    portId: 158
+    portId: 60
+  - guid: ddf372ce-2777-4d4c-9a43-cc2cf73b9077
+    targetGuid: 844a92f5-ce95-4539-a820-0d1a9ef29812
+    portId: 61
+  - guid: b4cff15a-b28c-454d-b2d9-50514994f76c
+    targetGuid: cab4f358-faf8-471f-826c-b8cd66642f09
+    portId: 62
+  - guid: cab4f358-faf8-471f-826c-b8cd66642f09
+    targetGuid: 5579c9ca-7d79-466a-a535-db48b18cad1a
+    portId: 63
+  - guid: 5579c9ca-7d79-466a-a535-db48b18cad1a
+    targetGuid: 1eb29367-c511-445e-a307-8c6eb5b1e131
+    portId: 64
+  - guid: 1eb29367-c511-445e-a307-8c6eb5b1e131
+    targetGuid: b73d12f9-74cb-48ac-837e-2ce31fe43ed8
+    portId: 65
+  - guid: 7e21f344-fb6c-4ed8-8f80-5a1d69d68765
+    targetGuid: 2de29dd1-bb1a-4fc2-99bd-67fd9b270d09
+    portId: 66
+  - guid: 456dd657-f0a6-461b-bfaf-1c5ecbd6ae39
+    targetGuid: 4df4006b-ec02-44a7-9c4c-a4e3cf3e1adf
+    portId: 67
+  - guid: 4df4006b-ec02-44a7-9c4c-a4e3cf3e1adf
+    targetGuid: 47c69285-4e02-4d5c-960e-5abf48549440
+    portId: 68
+  - guid: 811a0bc9-0642-4c4d-8f4e-59804a45868b
+    targetGuid: 67cea927-c797-451e-afe8-7f145330292d
+    portId: 69
+  - guid: 85fddcf2-f238-4155-953e-2b50dbd95770
+    targetGuid: 09f1ea70-719c-473d-b35b-6855b2fdfe44
+    portId: 70
+  - guid: c62093f6-81b7-4520-bece-478ad06de412
+    targetGuid: d44c5fca-f200-4aba-bc78-2d7eb28d53ac
+    portId: 71
+  - guid: 7271044c-be3c-4d09-820c-7444227c4eb9
+    targetGuid: 1fb3695f-6bf2-49d4-9eb0-eb00f23eed5b
+    portId: 72
+  - guid: 1fb3695f-6bf2-49d4-9eb0-eb00f23eed5b
+    targetGuid: 59ea2994-ddb4-4726-8e92-b8b6159af1ce
+    portId: 73
+  - guid: 59ea2994-ddb4-4726-8e92-b8b6159af1ce
+    targetGuid: 8c8e1715-0e2f-406d-9d67-22129b702595
+    portId: 74
+  - guid: c5617be7-eb67-4acb-bbc0-111f22a89851
+    targetGuid: ebaae290-a79d-4d60-943a-efe22263bc7e
+    portId: 75
+  - guid: ebaae290-a79d-4d60-943a-efe22263bc7e
+    targetGuid: 94fa3d1d-6348-417f-9e29-11e87a51b1cb
+    portId: 76
+  - guid: 94fa3d1d-6348-417f-9e29-11e87a51b1cb
+    targetGuid: 6173654d-8e6d-4282-ab23-9307a95b8a79
+    portId: 77
+  - guid: 484831c5-1027-4ec4-99a7-51b99b2627b0
+    targetGuid: c62093f6-81b7-4520-bece-478ad06de412
+    portId: 78
+  - guid: bed66511-dfbe-47f4-9c67-939674f2784e
+    targetGuid: 6173654d-8e6d-4282-ab23-9307a95b8a79
+    portId: 79
+  - guid: 94be1210-b4a1-46d4-a06d-62d9872cf1a1
+    targetGuid: 7737bd72-63be-40fb-a866-d9887c2fa6f5
+    portId: 80
+  - guid: a2e33b35-23ed-4984-a361-09cb57e4b3b4
+    targetGuid: 946f2bcf-bfcc-423f-a9bb-10ac68a8b05c
+    portId: 81
+  - guid: 29a88c7e-37f8-456c-a692-366bf29bb896
+    targetGuid: fe4b8948-92cf-461f-9a00-4bb894e48924
+    portId: 82
+  - guid: 04c659cf-1b2a-4262-b5bc-91e2189e60b3
+    targetGuid: e6f58f4c-4925-45a1-a9d0-984b8408841c
+    portId: 83
+  - guid: 8feb64b4-b735-4d29-93d6-d1a035836f34
+    targetGuid: a7743ed1-ffe0-418a-9914-babad85e8d03
+    portId: 84
+  - guid: be83c91a-ed41-4a45-b474-557ddf5aad02
+    targetGuid: 8feb64b4-b735-4d29-93d6-d1a035836f34
+    portId: 85
+  - guid: f3b86ca6-8216-4126-8974-f27d02f2d6a4
+    targetGuid: 5d5d91d8-d6e9-415b-907f-21cd9a41cc50
+    portId: 86
+  - guid: 5d5d91d8-d6e9-415b-907f-21cd9a41cc50
+    targetGuid: be83c91a-ed41-4a45-b474-557ddf5aad02
+    portId: 87
+  - guid: a7743ed1-ffe0-418a-9914-babad85e8d03
+    targetGuid: 407fc26e-0791-4e15-a34a-c002e25fcd10
+    portId: 88
+  - guid: 412c76c5-8f29-49b2-9a90-d92bc91ad8df
+    targetGuid: 8e8c19e6-5f5a-49ea-a47c-1b7d693e8543
+    portId: 89
+  - guid: e6f58f4c-4925-45a1-a9d0-984b8408841c
+    targetGuid: 7271044c-be3c-4d09-820c-7444227c4eb9
+    portId: 90
+  - guid: 2239909a-311c-4b31-a761-009d2412ee17
+    targetGuid: 6173654d-8e6d-4282-ab23-9307a95b8a79
+    portId: 91
+  - guid: 09f1ea70-719c-473d-b35b-6855b2fdfe44
+    targetGuid: 484831c5-1027-4ec4-99a7-51b99b2627b0
+    portId: 92
+  - guid: 8c8e1715-0e2f-406d-9d67-22129b702595
+    targetGuid: c5617be7-eb67-4acb-bbc0-111f22a89851
+    portId: 93
+  - guid: 283d1a1e-7918-4a5c-a383-e2ffdf4f1da5
+    targetGuid: 7b78527b-97c7-413f-889c-961eda8661c9
+    portId: 94
+  - guid: 781dddec-7055-4b74-bfaf-6e6ee547efe3
+    targetGuid: c50865bf-f332-407c-a2c4-f7d45742a14e
+    portId: 95
+  - guid: c50865bf-f332-407c-a2c4-f7d45742a14e
+    targetGuid: 5e488123-c702-46d9-88e2-fefb1d2d94df
+    portId: 96
+  - guid: 5e488123-c702-46d9-88e2-fefb1d2d94df
+    targetGuid: 283d1a1e-7918-4a5c-a383-e2ffdf4f1da5
+    portId: 97
+  - guid: 7b78527b-97c7-413f-889c-961eda8661c9
+    targetGuid: 028201f7-bc34-42ea-9f5e-42b5c9351062
+    portId: 98
+  - guid: 028201f7-bc34-42ea-9f5e-42b5c9351062
+    targetGuid: d7d085bf-3d1d-43a3-b3ee-6a4c585a6cfc
+    portId: 99
+  - guid: 028201f7-bc34-42ea-9f5e-42b5c9351062
+    targetGuid: 4d838e56-5ffa-4eea-b946-fdba58001453
+    portId: 100
+  - guid: 028201f7-bc34-42ea-9f5e-42b5c9351062
+    targetGuid: 5edb246d-c416-4485-9564-f84222be78d5
+    portId: 101
+  - guid: d7d085bf-3d1d-43a3-b3ee-6a4c585a6cfc
+    targetGuid: a48910d6-7b4a-4a1d-ae40-997cba0ee93d
+    portId: 102
+  - guid: a48910d6-7b4a-4a1d-ae40-997cba0ee93d
+    targetGuid: fab70337-ddb9-4fb1-8929-9524929d5cbc
+    portId: 103
+  - guid: fab70337-ddb9-4fb1-8929-9524929d5cbc
+    targetGuid: be7d88a1-cb12-4443-a525-a9eb9199c8f1
+    portId: 104
+  - guid: be7d88a1-cb12-4443-a525-a9eb9199c8f1
+    targetGuid: 618a98c6-848c-4af8-b526-f9f7acde84ea
+    portId: 105
+  - guid: 4d838e56-5ffa-4eea-b946-fdba58001453
+    targetGuid: 2aa82269-22fd-44e8-ab29-e4eb3e308e6d
+    portId: 106
+  - guid: 5edb246d-c416-4485-9564-f84222be78d5
+    targetGuid: faf5a04c-f3db-4e62-a0d5-bb25892f40cc
+    portId: 107
+  - guid: 2aa82269-22fd-44e8-ab29-e4eb3e308e6d
+    targetGuid: 5dfebb40-e3c8-4b84-9485-0d3979d947ad
+    portId: 108
+  - guid: faf5a04c-f3db-4e62-a0d5-bb25892f40cc
+    targetGuid: cf916e13-eb34-4f94-bc24-eb89b2293ec3
+    portId: 109
+  - guid: f437d802-d7d6-43e2-a40c-77391a40052b
+    targetGuid: ead76d41-a7c4-45e4-9727-417403c28849
+    portId: 110
+  - guid: 5dfebb40-e3c8-4b84-9485-0d3979d947ad
+    targetGuid: 672f88b0-c5a7-45a0-bd40-a154c23a2f71
+    portId: 111
+  - guid: cf916e13-eb34-4f94-bc24-eb89b2293ec3
+    targetGuid: f437d802-d7d6-43e2-a40c-77391a40052b
+    portId: 112
+  - guid: 672f88b0-c5a7-45a0-bd40-a154c23a2f71
+    targetGuid: 623dd581-a4b4-4588-bdc8-844e260b3521
+    portId: 113
+  - guid: 7469ee89-ea2e-4692-b940-bd860ceb394a
+    targetGuid: 4da51a8f-893b-4495-8218-cdd7f4e0b4b5
+    portId: 114
+  - guid: 4da51a8f-893b-4495-8218-cdd7f4e0b4b5
+    targetGuid: 781dddec-7055-4b74-bfaf-6e6ee547efe3
+    portId: 115
+  - guid: bc185f1a-df9d-46ee-af3c-1cbe44b119bd
+    targetGuid: 0e47e454-15a2-444b-912b-d7d9f943600d
+    portId: 116
+  - guid: 2c1e4d9f-f2b0-4a73-b7d8-b39b6ff843bd
+    targetGuid: 3daf3dd6-6bfa-4995-8a82-f7eb38dcbc57
+    portId: 117
+  - guid: bc7f68b0-7ad5-44f1-b998-0bbd9f3b14f3
+    targetGuid: bc185f1a-df9d-46ee-af3c-1cbe44b119bd
+    portId: 118
+  - guid: 0e47e454-15a2-444b-912b-d7d9f943600d
+    targetGuid: c0ff55bd-fca3-44f0-96e6-af0c2427481f
+    portId: 119
+  - guid: c0ff55bd-fca3-44f0-96e6-af0c2427481f
+    targetGuid: 34049eda-c012-46a0-9919-4f8814bd57ab
+    portId: 120
+  - guid: 34049eda-c012-46a0-9919-4f8814bd57ab
+    targetGuid: 2c1e4d9f-f2b0-4a73-b7d8-b39b6ff843bd
+    portId: 121
+  - guid: 78b3541a-ff7c-4eac-8fa8-33362a1df728
+    targetGuid: edc8a750-eabb-4769-9cb0-3c2bf1391f6c
+    portId: 122
+  - guid: ecba79b0-8220-4c18-ad04-711b6e883e57
+    targetGuid: a5778a2c-bdf9-487c-8504-8ad48319a277
+    portId: 123
+  - guid: 0f04def8-5b1a-4f98-8b48-ddc0ffd38bbf
+    targetGuid: adc94302-8dba-4967-9c52-e61eb44cfd99
+    portId: 124
+  - guid: fe2568a6-9894-495f-877f-0b436cf85782
+    targetGuid: e60d9928-58f8-4200-9cd9-8f14c046848d
+    portId: 125
+  - guid: 49604052-b899-41c0-b4dd-7f58d00ee24b
+    targetGuid: ecba79b0-8220-4c18-ad04-711b6e883e57
+    portId: 126
+  - guid: e60d9928-58f8-4200-9cd9-8f14c046848d
+    targetGuid: d3a39aa1-0917-4e7b-bc73-022658168ead
+    portId: 127
+  - guid: d3a39aa1-0917-4e7b-bc73-022658168ead
+    targetGuid: 7f992ff2-37e2-499b-8aaf-c839b8a38a4c
+    portId: 128
+  - guid: edc8a750-eabb-4769-9cb0-3c2bf1391f6c
+    targetGuid: 49604052-b899-41c0-b4dd-7f58d00ee24b
+    portId: 129
+  - guid: a5778a2c-bdf9-487c-8504-8ad48319a277
+    targetGuid: 0f04def8-5b1a-4f98-8b48-ddc0ffd38bbf
+    portId: 130
+  - guid: adc94302-8dba-4967-9c52-e61eb44cfd99
+    targetGuid: fe2568a6-9894-495f-877f-0b436cf85782
+    portId: 131
+  - guid: 623dd581-a4b4-4588-bdc8-844e260b3521
+    targetGuid: 618a98c6-848c-4af8-b526-f9f7acde84ea
+    portId: 132
+  - guid: ead76d41-a7c4-45e4-9727-417403c28849
+    targetGuid: 618a98c6-848c-4af8-b526-f9f7acde84ea
+    portId: 133
+  - guid: 618a98c6-848c-4af8-b526-f9f7acde84ea
+    targetGuid: bef6722b-0c69-405b-857f-eb176f0441e6
+    portId: 134
+  - guid: bef6722b-0c69-405b-857f-eb176f0441e6
+    targetGuid: 63435a35-d530-4b13-ba81-dcb1158f62f9
+    portId: 135
+  - guid: 5baf979f-94de-4e9d-9fd1-06af6199cbda
+    targetGuid: 3dbac65e-2156-4a34-8dcf-f38778d89ca1
+    portId: 136
+  - guid: 3dbac65e-2156-4a34-8dcf-f38778d89ca1
+    targetGuid: 6b62de1e-5e1e-40bd-a368-81e03410a9f6
+    portId: 137
+  - guid: dd29a6d8-feeb-4cca-9c85-fce26fcfa7f0
+    targetGuid: 1f20e931-3ae6-4b50-b0e5-5bc1e161bd39
+    portId: 138
+  - guid: 2c58ad96-3917-465a-8941-109662bd4fda
+    targetGuid: eb7cc5dc-4151-4688-b234-2a39c611ad2e
+    portId: 139
+  - guid: eb7cc5dc-4151-4688-b234-2a39c611ad2e
+    targetGuid: bb04eb43-a6d3-462d-ac5a-56fd56ce33f6
+    portId: 140
+  - guid: 0ffb9899-18c4-4475-a3f9-fdee9ad5092c
+    targetGuid: ba8ababf-3668-4518-b2c5-368712950165
+    portId: 141
+  - guid: ba8ababf-3668-4518-b2c5-368712950165
+    targetGuid: 8f2ebeeb-1f5b-40ba-ade4-724430548f29
+    portId: 142
+  - guid: 8f2ebeeb-1f5b-40ba-ade4-724430548f29
+    targetGuid: 2c58ad96-3917-465a-8941-109662bd4fda
+    portId: 143
+  - guid: bb04eb43-a6d3-462d-ac5a-56fd56ce33f6
+    targetGuid: 5baf979f-94de-4e9d-9fd1-06af6199cbda
+    portId: 144
+  - guid: 6b62de1e-5e1e-40bd-a368-81e03410a9f6
+    targetGuid: dd29a6d8-feeb-4cca-9c85-fce26fcfa7f0
+    portId: 145
+  - guid: bae04ccd-184b-42ee-a92c-d3dd6aa6de89
+    targetGuid: f19ffd97-e3ab-483f-9e44-1b16cab3522b
+    portId: 146
+  - guid: 1f20e931-3ae6-4b50-b0e5-5bc1e161bd39
+    targetGuid: 5a33296b-fd8f-415b-9a0f-ca443b11df10
+    portId: 147
+  - guid: 5a33296b-fd8f-415b-9a0f-ca443b11df10
+    targetGuid: 4690f1a5-963f-4a45-9ce0-d3ed1688a162
+    portId: 148
+  - guid: 4690f1a5-963f-4a45-9ce0-d3ed1688a162
+    targetGuid: bae04ccd-184b-42ee-a92c-d3dd6aa6de89
+    portId: 149
+  - guid: 5fb0deb1-89e7-4aa6-9634-3576b6d568eb
+    targetGuid: bc7f68b0-7ad5-44f1-b998-0bbd9f3b14f3
+    portId: 150
+  - guid: f19ffd97-e3ab-483f-9e44-1b16cab3522b
+    targetGuid: 5fb0deb1-89e7-4aa6-9634-3576b6d568eb
+    portId: 151
+  - guid: 6173654d-8e6d-4282-ab23-9307a95b8a79
+    targetGuid: cfd1835c-6cde-4b9f-a160-67c0e62ef387
+    portId: 152
+  - guid: cfd1835c-6cde-4b9f-a160-67c0e62ef387
+    targetGuid: 6e288a4b-802d-414b-8421-8b3678df03c3
+    portId: 153
+  - guid: 6e288a4b-802d-414b-8421-8b3678df03c3
+    targetGuid: 7469ee89-ea2e-4692-b940-bd860ceb394a
+    portId: 154
+  - guid: a518afab-532e-4052-b19b-01de4f831703
+    targetGuid: 544a7984-7bc6-4e8b-955b-0449280d02a5
+    portId: 155
+  - guid: 544a7984-7bc6-4e8b-955b-0449280d02a5
+    targetGuid: 7fd4f1af-75ad-4119-85f3-a452f5ee5373
+    portId: 156
   nodes:
   - guid: f9486d59-1e14-48f4-83fa-6c62c731c378
     characterSpr: {fileID: 0}
@@ -501,14 +495,10 @@ MonoBehaviour:
     endNode: 0
     choices: 4
     choiceOptions:
-    - "\u0417\u0430\u0441\u0442\u0430\u0432\u0438\u0442\u044C \u0432\u044B\u0439\u0442\u0438
-      \u041A\u043B\u0435\u043D\u0441\u0438"
-    - "\u0417\u0430\u0441\u0442\u0430\u0432\u0438\u0442\u044C \u0432\u044B\u0439\u0442\u0438
-      \u041B\u0438\u0440\u0435\u043D\u0430"
-    - "\u0417\u0430\u0441\u0442\u0430\u0432\u0438\u0442\u044C \u0432\u044B\u0439\u0442\u0438
-      \u0411\u043E\u0440\u0438\u0441\u0430"
-    - "\u0417\u0430\u0441\u0442\u0430\u0432\u0438\u0442\u044C \u0432\u044B\u0439\u0442\u0438
-      \u041C\u044D\u043D\u0430"
+    - Make Clancy to come out
+    - Make Liren to come out
+    - Make Boris to come out
+    - Make Man to come out
     nodePosition:
       serializedVersion: 2
       x: 5365
@@ -519,9 +509,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 25e2af27-4efc-4d53-a828-aca769ad1051
     characterSpr: {fileID: 21300000, guid: 5b1600e241318dc45b43c4aee63f2446, type: 3}
-    characterName: "\u0411\u043E\u0440\u0438\u0441"
+    characterName: Boris
     endName: 
-    dialogueText: "\u0425\u043E\u0440\u043E\u0448\u043E, \u044F \u043F\u043E\u0448\u0451\u043B."
+    dialogueText: Okay, I went.
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -540,9 +530,7 @@ MonoBehaviour:
     characterSpr: {fileID: 0}
     characterName: ...
     endName: 
-    dialogueText: "\u041C\u044D\u043D \u0441\u043F\u043E\u043A\u043E\u0439\u043D\u043E
-      \u043E\u0434\u0435\u0432\u0430\u0435\u0442 \u043A\u043E\u0441\u0442\u044E\u043C
-      \u0438 \u0432\u044B\u0433\u043B\u044F\u0434\u044B\u0432\u0430\u0435\u0442 \u043D\u0430\u0440\u0443\u0436\u0443."
+    dialogueText: Man calmly puts on a suit and looks out.
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -559,10 +547,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 02f43133-b23a-45b8-8823-84c225201068
     characterSpr: {fileID: 21300000, guid: 5506209a84d053143a139fa2c514c33f, type: 3}
-    characterName: "\u041A\u043B\u0435\u043D\u0441\u0438"
+    characterName: Clancy
     endName: 
-    dialogueText: "\u041F\u0443\u0441\u0442\u044C \u0432-\u0432\u043E\u043E\u0431\u0449\u0435
-      \u0432\u044B\u0439\u0434\u0435\u0442 \u041B\u0438\u0440\u0435\u043D!.. "
+    dialogueText: Let Liren come out!
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -579,9 +566,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 1e5e5608-bbe6-4296-b5ae-d014ed0b03d3
     characterSpr: {fileID: 21300000, guid: 80e26e7f25102b947966e4bc9b94fdd2, type: 3}
-    characterName: "\u041B\u0438\u0440\u0435\u043D"
+    characterName: Liren
     endName: 
-    dialogueText: "\u0410 \u0447\u0442\u043E \u0441\u0440\u0430\u0437\u0443 \u044F!?"
+    dialogueText: Why me!?
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -598,11 +585,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: c4e2c210-39ea-467e-b8ca-790d8eed9c2f
     characterSpr: {fileID: 21300000, guid: 534b1445063a09942b9d4b2c25e81830, type: 3}
-    characterName: "\u041A\u043B\u0435\u043D\u0441\u0438"
+    characterName: Clancy
     endName: 
-    dialogueText: "\u041E\u043A\u0435\u0439, \u044F \u0432\u044B\u0439\u0434\u0443
-      \u0440\u0430\u0437 \u0442\u0443\u0442 \u0432\u044B \u0445\u0430\u043E\u0441
-      \u0443\u0441\u0442\u0440\u0430\u0438\u0432\u0430\u0435\u0442\u0435"
+    dialogueText: Okay, I will go out since you all are making chaos here.
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -621,9 +606,7 @@ MonoBehaviour:
     characterSpr: {fileID: 21300000, guid: 534b1445063a09942b9d4b2c25e81830, type: 3}
     characterName: ...
     endName: 
-    dialogueText: "\u0427\u0435\u0440\u0435\u0437 \u043D\u0435\u043A\u043E\u0442\u043E\u0440\u043E\u0435
-      \u0432\u0440\u0435\u043C\u044F \u041A\u043B\u0435\u043D\u0441\u0438 \u043D\u0430\u043A\u043E\u043D\u0435\u0446-\u0442\u043E
-      \u0440\u0435\u0448\u0430\u0435\u0442\u0441\u044F \u0432\u044B\u0439\u0442\u0438. "
+    dialogueText: After a while, Clancy finally decides to go out.
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -638,12 +621,30 @@ MonoBehaviour:
       height: 305
     soundEffect: {fileID: 8300000, guid: 2ac0d65fc06799edf825e2910a05f6b1, type: 3}
     backgroundMusic: {fileID: 0}
+  - guid: 1f785814-e6bf-420d-877a-a60f9ecdc0b2
+    characterSpr: {fileID: 0}
+    characterName: ...
+    endName: 
+    dialogueText: After a long time, he does not return, you understand that he died.
+    backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 7042
+      y: -447
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: 2ac0d65fc06799edf825e2910a05f6b1, type: 3}
+    backgroundMusic: {fileID: 0}
   - guid: 5e935910-37b4-4b50-be08-4daaf4ed67ae
     characterSpr: {fileID: -3932639698103319621, guid: 0551312c42d436b438832b7d2928ee51, type: 3}
-    characterName: "\u041C\u044D\u043D"
+    characterName: Man
     endName: 
-    dialogueText: "\u0410 \u043F\u043E\u0447\u0435\u043C\u0443 \u0431\u044B \u0440\u0435\u0430\u043B\u044C\u043D\u043E
-      \u043D\u0435 \u0442\u0435\u0431\u0435 \u043F\u043E\u0439\u0442\u0438! \r"
+    dialogueText: Why don't you really go!
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -660,11 +661,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: d634b67f-ec64-46f3-a323-31d02f71697e
     characterSpr: {fileID: -3932639698103319621, guid: 0551312c42d436b438832b7d2928ee51, type: 3}
-    characterName: "\u041C\u044D\u043D"
+    characterName: Man
     endName: 
-    dialogueText: "\u0421\u0438\u0434\u0438\u0448\u044C \u0432 \u0443\u0433\u043B\u0443
-      \u0441\u0435\u0431\u0435, \u043F\u043E\u043A\u0430 \u043C\u044B \u0442\u0443\u0442
-      \u0440\u0435\u0448\u0430\u0435\u043C \u043F\u0440\u043E\u0431\u043B\u0435\u043C\u0443!"
+    dialogueText: You sit in the corner while we solve the problem here!
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -683,11 +682,8 @@ MonoBehaviour:
     characterSpr: {fileID: 0}
     characterName: ...
     endName: 
-    dialogueText: "\u041E\u043D \u0443\u043C\u0435\u0440 \u0438\u0437-\u0437\u0430
-      \u0441\u0438\u043B\u044C\u043D\u043E \u0433\u043E\u0440\u044F\u0447\u0435\u0439
-      \u0437\u0435\u043C\u043B\u0438, \u043A\u043E\u0442\u043E\u0440\u0430\u044F
-      \u0435\u0449\u0451 \u043D\u0435 \u043E\u0441\u0442\u044B\u043B\u0430 \u043E\u0442
-      \u043F\u0430\u0434\u0435\u043D\u0438\u044F \u043C\u0435\u0442\u0435\u043E\u0440\u0438\u0442\u0430. "
+    dialogueText: He died because of a very hot earth, which has not yet cooled from
+      the fall of the meteorite.
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -705,11 +701,8 @@ MonoBehaviour:
   - guid: e8d86814-6144-42c2-896a-0e6c27cc5087
     characterSpr: {fileID: 0}
     characterName: ...
-    endName: "\u041D\u0438 \u0435\u0434\u044B, \u043D\u0438 \u0434\u0440\u0443\u0433\u0430
-      \u043F\u0430\u043D\u0434\u044B"
-    dialogueText: "\u0410 \u0440\u0435\u0431\u044F\u0442\u0430 \u043F\u043E\u043D\u0438\u043C\u0430\u044E\u0442
-      \u044D\u0442\u043E \u0438 \u0431\u043E\u043B\u044C\u0448\u0435 \u043D\u0435
-      \u0436\u0435\u043B\u0430\u044E\u0442 \u0432\u044B\u0445\u043E\u0434\u0438\u0442\u044C."
+    endName: Neither food nor a friend Panda
+    dialogueText: And the guys understand this and no longer want to go out
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 1
@@ -726,11 +719,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: ef5d0520-93c4-48c0-82cf-f2a6012a2060
     characterSpr: {fileID: 21300000, guid: 80e26e7f25102b947966e4bc9b94fdd2, type: 3}
-    characterName: "\u041B\u0438\u0440\u0435\u043D"
+    characterName: Liren
     endName: 
-    dialogueText: "\u0422\u0430\u043A, \u044F \u0432\u043E\u043E\u0431\u0449\u0435-\u0442\u043E
-      \u0434\u0443\u043C\u0430\u043B, \u0447\u0442\u043E \u043D\u0430\u043C \u0434\u0435\u043B\u0430\u0442\u044C
-      \u0434\u0430\u043B\u044C\u0448\u0435!"
+    dialogueText: So, I actually thought what to do next!
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -747,11 +738,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 60b6b614-24b3-4e8d-b047-3813109534f3
     characterSpr: {fileID: 21300000, guid: 1bd31b70fa9015f44be5f87fd3024c91, type: 3}
-    characterName: "\u0411\u043E\u0440\u0438\u0441"
+    characterName: Boris
     endName: 
-    dialogueText: "\u041A\u0410\u041A \u0422\u042B \u041F\u041E\u041D\u042F\u041B,
-      \u0427\u0422\u041E \u0411\u0423\u041D\u041A\u0415\u0420 \u0412\u041E\u041E\u0411\u0429\u0415
-      \u041F\u041E\u041D\u0410\u0414\u041E\u0411\u0418\u0422\u0421\u042F!? "
+    dialogueText: HOW DID YOU EVEN FIGURE OUT THAT THE BUNKER WILL BE NEEDED AT ALL!?
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -768,9 +757,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 43726418-889d-4bf0-a174-7699f52561cc
     characterSpr: {fileID: 21300000, guid: 5b1600e241318dc45b43c4aee63f2446, type: 3}
-    characterName: "\u0411\u043E\u0440\u0438\u0441"
+    characterName: Boris
     endName: 
-    dialogueText: "\u041D\u0443 \u043B\u0430\u0434\u043D\u043E. "
+    dialogueText: 'OK. '
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -789,12 +778,8 @@ MonoBehaviour:
     characterSpr: {fileID: 0}
     characterName: ...
     endName: 
-    dialogueText: "\u0412\u0430\u0448\u0430 \u0437\u0430\u0434\u0430\u0447\u0430,
-      \u043A\u0430\u043A \u0432\u043D\u0443\u0442\u0440\u0435\u043D\u043D\u0435\u0439
-      \u043A\u043E\u043B\u043B\u0435\u043A\u0442\u0438\u0432\u043D\u043E\u0439 \u0448\u0438\u0437\u044B
-      \u0440\u0435\u0431\u044F\u0442 \u043D\u0435 \u0434\u043E\u043F\u0443\u0441\u0442\u0438\u0442\u044C
-      \u043F\u043E\u0433\u0438\u0431\u0435\u043B\u044C \u043D\u0438\u043A\u043E\u0433\u043E
-      \u0438\u0437 \u0440\u0435\u0431\u044F\u0442. "
+    dialogueText: Your task is, as an internal collective schiza of the guys, to
+      prevent the destruction of any of the guys.
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -810,12 +795,10 @@ MonoBehaviour:
     soundEffect: {fileID: 8300000, guid: 2ac0d65fc06799edf825e2910a05f6b1, type: 3}
     backgroundMusic: {fileID: 0}
   - guid: 46b891cf-f857-4fda-ac31-61740ce8d330
-    characterSpr: {fileID: -3932639698103319621, guid: 0551312c42d436b438832b7d2928ee51, type: 3}
-    characterName: "\u041C\u044D\u043D"
+    characterSpr: {fileID: -589471285161861467, guid: fe1fa6e2135f756479bb5af962651aa0, type: 3}
+    characterName: Man
     endName: 
-    dialogueText: "\u0422\u042B \u041F\u041E\u0427\u041A\u0423 \u0427\u0422\u041E
-      \u041B\u0418 \u041F\u0420\u041E\u0414\u0410\u041B, \u0427\u0422\u041E\u0411\u042B
-      \u041F\u041E\u0421\u0422\u0420\u041E\u0418\u0422\u042C \u042D\u0422\u041E \u0412\u0421\u0401!? "
+    dialogueText: You sold the kidney to build it all!?
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -832,11 +815,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 9764f5c1-d1ae-4d1c-9101-d95059f774cc
     characterSpr: {fileID: 21300000, guid: 5b1600e241318dc45b43c4aee63f2446, type: 3}
-    characterName: "\u0411\u043E\u0440\u0438\u0441"
+    characterName: Boris
     endName: 
-    dialogueText: "\u0410 \u043A\u0442\u043E-\u0442\u043E \u0432\u0437\u044F\u043B
-      \u0435\u0434\u044B \u0438 \u0432\u043E\u0434\u044B \u0445\u043E\u0442\u044F
-      \u0431\u044B?.. "
+    dialogueText: Did someone take food and water at least? ..
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -853,18 +834,11 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 0d63ffe2-c6a1-4d54-b80b-e621315a1f59
     characterSpr: {fileID: 21300000, guid: 54ec1979a8b0f1d48b0aeda1c7aa96e7, type: 3}
-    characterName: "\u041B\u0438\u0440\u0435\u043D"
+    characterName: Liren
     endName: 
-    dialogueText: "\u041F\u043E\u043D\u044F\u0442\u043D\u043E, \u0435\u0434\u044B
-      \u0438 \u0432\u043E\u0434\u044B \u043F\u0440\u0438\u043C\u0435\u0440\u043D\u043E
-      \u0445\u0432\u0430\u0442\u0438\u0442 \u043D\u0430 \u043D\u0430\u0441 \u0447\u0435\u0442\u0432\u0451\u0440\u0442\u044B\u0445
-      \u0442\u043E\u043B\u044C\u043A\u043E \u043C\u0430\u043A\u0441\u0438\u043C\u0443\u043C
-      \u043D\u0430 \u043F\u043E\u043B\u0442\u043E\u0440\u044B \u043D\u0435\u0434\u0435\u043B\u0438.
-      \u041F\u0440\u0438\u0434\u0451\u0442\u0441\u044F \u043A\u043E\u043C\u0443-\u0442\u043E
-      \u0432\u044B\u0445\u043E\u0434\u0438\u0442\u044C \u0438\u0437 \u0431\u0443\u043D\u043A\u0435\u0440\u0430
-      \u0438 \u0438\u0441\u0441\u043B\u0435\u0434\u043E\u0432\u0430\u0442\u044C \u043E\u0431\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0443,
-      \u043D\u0430\u0439\u0434\u044F \u043F\u0440\u0438 \u044D\u0442\u043E\u043C
-      \u043F\u0440\u043E\u043F\u0438\u0442\u0430\u043D\u0438\u0435."
+    dialogueText: It is clear that food and water are approximately enough for us
+      fourth only a maximum of a week and a half. Someone will have to leave the
+      bunker and explore the situation, while finding food.
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -881,10 +855,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 03108dc1-9ac7-49c6-a56b-d63b1b13280e
     characterSpr: {fileID: 21300000, guid: 00e6e080803740b4aa99edad3e618172, type: 3}
-    characterName: "\u041B\u0438\u0440\u0435\u043D"
+    characterName: Liren
     endName: 
-    dialogueText: "\u041E\u0422\u041A\u0423\u0414\u0410 \u0423 \u0422\u0415\u0411\u042F
-      \u0411\u0423\u041D\u041A\u0415\u0420, \u041F\u0410\u041D\u0414\u0410!? "
+    dialogueText: Where did you get the bunker, panda!?
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -903,11 +876,8 @@ MonoBehaviour:
     characterSpr: {fileID: 0}
     characterName: ...
     endName: 
-    dialogueText: "\u0422\u0430\u043A \u043E\u043D\u0438 \u0441\u0438\u0434\u0435\u043B\u0438
-      \u043D\u0430 \u0442\u0430\u0431\u0443\u0440\u0435\u0442\u043A\u0430\u0445 \u0438
-      \u043D\u0430 \u0447\u0451\u043C-\u0442\u043E \u0435\u0449\u0451 \u043F\u0430\u0440\u0443
-      \u0447\u0430\u0441\u043E\u0432, \u043E\u0431\u0443\u0441\u0442\u0440\u0430\u0438\u0432\u0430\u044F\u0441\u044C
-      \u0432 \u043D\u043E\u0432\u043E\u043C \u0434\u043E\u043C\u0435."
+    dialogueText: So they sat on stools and on something for a couple of hours, settling
+      in a new house
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -924,10 +894,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 1acf4cee-d653-461a-adb7-884fea503f3f
     characterSpr: {fileID: 21300000, guid: 534b1445063a09942b9d4b2c25e81830, type: 3}
-    characterName: "\u041A\u043B\u0435\u043D\u0441\u0438"
+    characterName: Clancy
     endName: 
-    dialogueText: "\u0414\u043E\u0431\u0440\u043E \u043F\u043E\u0436\u0430\u043B\u043E\u0432\u0430\u0442\u044C
-      \u0432 \u043C\u043E\u0439 \u0431\u0443\u043D\u043A\u0435\u0440!"
+    dialogueText: Welcome to my bunker!
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -944,10 +913,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 8300000, guid: 7c6ae89907f5f7880822708dc06738c5, type: 3}
   - guid: 35cc8ecc-7615-4791-9af6-0831e5e9421c
     characterSpr: {fileID: 21300000, guid: 534b1445063a09942b9d4b2c25e81830, type: 3}
-    characterName: "\u041A\u043B\u0435\u043D\u0441\u0438"
+    characterName: Clancy
     endName: 
-    dialogueText: "\u041D\u0443 \u043F\u043E\u0434\u0443\u043C\u0430\u043B \u043F\u043E\u043D\u0430\u0434\u043E\u0431\u0438\u0442\u0441\u044F,
-      \u043D\u0443 \u0432\u0435\u0434\u044C \u043F\u043E\u043D\u0430\u0434\u043E\u0431\u0438\u043B\u0441\u044F. "
+    dialogueText: Well, I thought it would be necessary, well, It is necessary now.
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -964,9 +932,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 3a8acdae-e694-4ddf-9d61-467eeed3756d
     characterSpr: {fileID: 21300000, guid: 5b1600e241318dc45b43c4aee63f2446, type: 3}
-    characterName: "\u0411\u043E\u0440\u0438\u0441"
+    characterName: Boris
     endName: 
-    dialogueText: "\u0410 \u0443 \u043C\u0435\u043D\u044F \u0432\u043E\u043F\u0440\u043E\u0441\u0438\u043A."
+    dialogueText: And I have a question.
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -983,14 +951,10 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 5c9117aa-fa8f-4375-a86d-6208651811e3
     characterSpr: {fileID: 3593641134924692357, guid: 9edba7152c29f754da23ff26c45e9ecb, type: 3}
-    characterName: "\u041C\u044D\u043D"
+    characterName: Man
     endName: 
-    dialogueText: "\u041D\u0430\u043C \u0432\u0441\u0435 \u0440\u0430\u0432\u043D\u043E
-      \u0440\u0430\u043D\u043E \u0438\u043B\u0438 \u043F\u043E\u0437\u0434\u043D\u043E
-      \u043D\u0443\u0436\u043D\u043E \u0431\u0443\u0434\u0435\u0442 \u044D\u0442\u043E
-      \u0441\u0434\u0435\u043B\u0430\u0442\u044C. \u0422\u0430\u043A \u0447\u0442\u043E
-      \u043A\u0442\u043E \u0431\u0443\u0434\u0435\u0442 \u0432\u044B\u0445\u043E\u0434\u0438\u0442\u044C
-      \u043F\u0440\u043E\u0433\u0443\u043B\u044F\u0442\u044C\u0441\u044F?"
+    dialogueText: We will still need to do this sooner or later. So who will go out
+      for a walk?
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -1007,12 +971,10 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: eb9bcb28-4255-434f-ab71-eccdfbfe7943
     characterSpr: {fileID: 21300000, guid: 534b1445063a09942b9d4b2c25e81830, type: 3}
-    characterName: "\u041A\u043B\u0435\u043D\u0441\u0438"
+    characterName: Clancy
     endName: 
-    dialogueText: "\u041D\u0443 \u0442\u0443\u0442 \u0435\u0441\u0442\u044C \u043A\u043E\u043D\u0441\u0435\u0440\u0432\u044B
-      \u0438 \u0437\u0430\u043F\u0430\u0441 \u0432\u043E\u0434\u044B \u043D\u0430
-      3 \u043D\u0435\u0434\u0435\u043B\u0438 \u0440\u0430\u0441\u0441\u0447\u0438\u0442\u0430\u043D\u044B
-      \u043D\u0430 \u0434\u0432\u0443\u0445 \u0447\u0435\u043B\u043E\u0432\u0435\u043A."
+    dialogueText: Well, there is canned food and water supply for 3 weeks is designed
+      for two people.
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -1031,9 +993,7 @@ MonoBehaviour:
     characterSpr: {fileID: 0}
     characterName: ...
     endName: 
-    dialogueText: "\u0415\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043D\u043D\u043E,
-      \u043D\u0438\u043A\u0442\u043E \u043D\u0435 \u0445\u043E\u0447\u0435\u0442
-      \u0432\u044B\u0445\u043E\u0434\u0438\u0442\u044C \u0438\u0437 \u0431\u0443\u043D\u043A\u0435\u0440\u0430."
+    dialogueText: Naturally, no one wants to leave the bunker.
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -1050,9 +1010,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 1e4e489b-dc1f-4e15-a11f-68cfb916db4c
     characterSpr: {fileID: 21300000, guid: 5a186c1a3cd5d7a4ea171d4b0b211c66, type: 3}
-    characterName: "\u0411\u043E\u0440\u0438\u0441"
+    characterName: Boris
     endName: 
-    dialogueText: "\u0422\u0430\u043A, \u0434\u0435\u0439\u0441\u0442\u0432\u0443\u0439! "
+    dialogueText: So do something!
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -1069,10 +1029,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: a8eba871-11b8-41f8-b5a7-3bb946dc5ebf
     characterSpr: {fileID: 21300000, guid: 5a186c1a3cd5d7a4ea171d4b0b211c66, type: 3}
-    characterName: "\u0411\u043E\u0440\u0438\u0441"
+    characterName: Boris
     endName: 
-    dialogueText: "\u041D\u0435\u0436\u0435\u043B\u0438 \u0434\u0443\u043C\u0430\u0442\u044C
-      \u043F\u0440\u043E \u0441\u0435\u0431\u044F \u043F\u043B\u0430\u043D \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0439!"
+    dialogueText: Rather than think about yourself a plan of action!
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -1091,11 +1050,8 @@ MonoBehaviour:
     characterSpr: {fileID: 0}
     characterName: ...
     endName: 
-    dialogueText: "\u041B\u0438\u0440\u0435\u043D\u0430 \u0441 \u043F\u0438\u043D\u043A\u0430\u043C\u0438
-      \u0434\u043E\u0432\u043E\u0434\u044F\u0442 \u0432 \u0441\u043F\u0435\u0446\u0438\u0430\u043B\u044C\u043D\u043E\u043C
-      \u043A\u043E\u0441\u0442\u044E\u043C\u0435, \u043A\u043E\u0442\u043E\u0440\u044B\u0439
-      \u043E\u043D\u0438 \u043D\u0430\u0448\u043B\u0438 \u0433\u0434\u0435-\u0442\u043E
-      \u0432 \u0437\u0430\u043A\u043E\u0443\u043B\u043A\u0430\u0445 \u0431\u0443\u043D\u043A\u0435\u0440\u0430."
+    dialogueText: Liren with kicks is brought in a special suit, which they found
+      somewhere in the backs of the bunker.
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -1112,10 +1068,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 5c123a17-48d3-4ce9-8a42-941f0184ee70
     characterSpr: {fileID: 21300000, guid: 80e26e7f25102b947966e4bc9b94fdd2, type: 3}
-    characterName: "\u041B\u0438\u0440\u0435\u043D"
+    characterName: Liren
     endName: 
-    dialogueText: "\u0414\u0430 \u0432\u0441\u0451, \u0432\u0441\u0451 \u0438\u0434\u0443
-      \u044F!"
+    dialogueText: Ok, I'm going!
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -1134,9 +1089,7 @@ MonoBehaviour:
     characterSpr: {fileID: 0}
     characterName: ...
     endName: 
-    dialogueText: "\u041D\u0435 \u043F\u0440\u043E\u0448\u043B\u043E \u0438 \u043F\u0430\u0440\u044B
-      \u043C\u0438\u043D\u0443\u0442, \u043A\u0430\u043A \u041B\u0438\u0440\u0435\u043D
-      \u0432\u0431\u0435\u0433\u0430\u0435\u0442 \u0432 \u0431\u0443\u043D\u043A\u0435\u0440."
+    dialogueText: In less than a couple of minutes, Liren runs into the bunker.
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -1153,10 +1106,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 112f79bc-f726-42de-bec8-29e536312091
     characterSpr: {fileID: 21300000, guid: 00e6e080803740b4aa99edad3e618172, type: 3}
-    characterName: "\u041B\u0438\u0440\u0435\u043D"
+    characterName: Liren
     endName: 
-    dialogueText: "\u0410\u0410\u0410\u0410\u0410 \u0417\u0415\u041C\u041B\u042F
-      \u042D\u0422\u041E \u041B\u0410\u0412\u0410!"
+    dialogueText: AAAAA! THE EARTH IS LAVA!
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -1173,9 +1125,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: dfd5ebf6-c5e1-43a8-890e-81f5ea864b49
     characterSpr: {fileID: 7741760457369533555, guid: 7f2fb37d8d0759b489b3909735c891e2, type: 3}
-    characterName: "\u041C\u044D\u043D"
+    characterName: Man
     endName: 
-    dialogueText: "\u0410 \u043E\u043D\u0430..."
+    dialogueText: And she ...
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -1192,10 +1144,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 42e0aef7-2bbc-41ea-aa2f-7a2ec76cf1f4
     characterSpr: {fileID: 21300000, guid: 9bdc57ca733b64446b89d42e6c8afb99, type: 3}
-    characterName: "\u0411\u043E\u0440\u0438\u0441"
+    characterName: Boris
     endName: 
-    dialogueText: "\u0427\u0442\u043E \u0442\u0430\u043C \u0443 \u0442\u0435\u0431\u044F
-      \u0441\u043B\u0443\u0447\u0438\u043B\u043E\u0441\u044C?"
+    dialogueText: What happened with you?
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -1212,12 +1163,10 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: fb40c95b-44fe-468e-b633-24f2470316d1
     characterSpr: {fileID: 21300000, guid: 00e6e080803740b4aa99edad3e618172, type: 3}
-    characterName: "\u041B\u0438\u0440\u0435\u043D"
+    characterName: Liren
     endName: 
-    dialogueText: "\u0417\u0435\u043C\u043B\u044F \u043F\u043E\u0445\u043E\u0434\u0443
-      \u0435\u0449\u0451 \u043D\u0435 \u043E\u0441\u0442\u044B\u043B\u0430 \u043E\u0442
-      \u043C\u0435\u0442\u0435\u043E\u0440\u0438\u0442\u0430! \u0412\u043E\u0442
-      \u0447\u0442\u043E \u0441\u043B\u0443\u0447\u0438\u043B\u043E\u0441\u044C!!"
+    dialogueText: The earth has not yet cooled off the meteorite! That's what happened
+      !!
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -1234,10 +1183,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 2432c25f-e483-4ae6-8301-701a2c5957f5
     characterSpr: {fileID: 3593641134924692357, guid: 9edba7152c29f754da23ff26c45e9ecb, type: 3}
-    characterName: "\u041C\u044D\u043D"
+    characterName: Man
     endName: 
-    dialogueText: "\u041F\u043E\u043D\u044F\u0442\u043D\u043E, \u043F\u043E\u0445\u043E\u0434\u0443
-      \u043C\u044B \u043D\u0435\u043C\u043D\u043E\u0433\u043E \u043F\u043E\u0442\u043E\u0440\u043E\u043F\u0438\u043B\u0438\u0441\u044C."
+    dialogueText: It is clear that we hurried a little on the campaign.
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -1254,9 +1202,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: fb55f05f-3ff0-4679-9de0-92bb230860c3
     characterSpr: {fileID: 21300000, guid: 80e26e7f25102b947966e4bc9b94fdd2, type: 3}
-    characterName: "\u041B\u0438\u0440\u0435\u043D"
+    characterName: Liren
     endName: 
-    dialogueText: "\u0415\u0449\u0451 \u043A\u0430\u043A \u0431\u043B\u0438\u043D!"
+    dialogueText: Of course we're! Damn it!
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -1275,10 +1223,7 @@ MonoBehaviour:
     characterSpr: {fileID: 0}
     characterName: ...
     endName: 
-    dialogueText: "\u041B\u0438\u0440\u0435\u043D \u043E\u0431\u0436\u0435\u0433
-      \u0441\u0435\u0431\u0435 \u043B\u0430\u043F\u043A\u0438, \u043D\u043E \u043E\u043A\u0430\u0437\u0430\u043B\u043E\u0441\u044C,
-      \u0447\u0442\u043E \u044D\u0442\u043E \u0431\u044B\u043B\u043E \u043D\u0435
-      \u043A\u0440\u0438\u0442\u0438\u0447\u043D\u043E."
+    dialogueText: Liren burned his paws, but it turned out that it was not critical.
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -1297,9 +1242,7 @@ MonoBehaviour:
     characterSpr: {fileID: 0}
     characterName: ...
     endName: 
-    dialogueText: "\u041F\u043E\u0441\u043B\u0435 \u043D\u0435\u0431\u043E\u043B\u044C\u0448\u043E\u0439
-      \u043F\u0440\u043E\u0432\u0435\u0440\u043A\u0438 \u0431\u044B\u043B\u043E \u043F\u043E\u043D\u044F\u0442\u043D\u043E,
-      \u0447\u0442\u043E \u0437\u0435\u043C\u043B\u044F \u043E\u0441\u0442\u044B\u043B\u0430."
+    dialogueText: After a small check, it was clear that the earth had cooled.
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -1316,9 +1259,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 20a0b5ea-ad83-4dd3-9ef6-6dd24d807c6a
     characterSpr: {fileID: 0}
-    characterName: "\u0412\u0441\u0435"
+    characterName: All
     endName: 
-    dialogueText: "\u0423\u0434\u0430\u0447\u0438 \u0442\u0435\u0431\u0435!"
+    dialogueText: Good luck!
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -1337,11 +1280,8 @@ MonoBehaviour:
     characterSpr: {fileID: 0}
     characterName: ...
     endName: 
-    dialogueText: "\u0411\u043E\u0440\u0438\u0441 \u0432\u044B\u0445\u043E\u0434\u0438\u0442
-      \u0438\u0437 \u0431\u0443\u043D\u043A\u0435\u0440\u0430 \u0432 \u0441\u043F\u0435\u0446\u0438\u0430\u043B\u044C\u043D\u043E\u043C
-      \u043A\u043E\u0441\u0442\u044E\u043C\u0435. \u041D\u043E \u043D\u0438 \u0447\u0435\u0440\u0435\u0437
-      \u0447\u0430\u0441, \u043D\u0438 \u0447\u0435\u0440\u0435\u0437 \u043D\u0435\u0441\u043A\u043E\u043B\u044C\u043A\u043E
-      \u0447\u0430\u0441\u043E\u0432, \u043E\u043D \u043D\u0435 \u0432\u043E\u0437\u0432\u0440\u0430\u0449\u0430\u0435\u0442\u0441\u044F."
+    dialogueText: Boris leaves the bunker in a special suit. But not in an hour or
+      a few hours, he does not return.
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -1360,7 +1300,7 @@ MonoBehaviour:
     characterSpr: {fileID: 0}
     characterName: ...
     endName: 
-    dialogueText: "\u0425\u043C..."
+    dialogueText: Hm
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -1379,7 +1319,7 @@ MonoBehaviour:
     characterSpr: {fileID: 0}
     characterName: ...
     endName: 
-    dialogueText: "\u0421\u0442\u0440\u0430\u043D\u043D\u043E."
+    dialogueText: Strange
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -1398,8 +1338,7 @@ MonoBehaviour:
     characterSpr: {fileID: 0}
     characterName: ...
     endName: 
-    dialogueText: "\u042F \u043D\u0435 \u0432\u0438\u0436\u0443 \u043C\u0435\u0442\u043A\u0438
-      \u043E \u0442\u043E\u043C, \u0447\u0442\u043E \u043E\u043D \u043C\u0451\u0440\u0442\u0432..."
+    dialogueText: I do not see tags that he is dead ...
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -1416,12 +1355,10 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 8e8c19e6-5f5a-49ea-a47c-1b7d693e8543
     characterSpr: {fileID: 3593641134924692357, guid: 9edba7152c29f754da23ff26c45e9ecb, type: 3}
-    characterName: "\u041C\u044D\u043D"
+    characterName: Man
     endName: 
-    dialogueText: "\u0420\u0435\u0431\u044F\u0442\u0430 \u0437\u0435\u043C\u043B\u044F
-      \u0435\u0449\u0451 \u0441\u043B\u0438\u0448\u043A\u043E\u043C \u0433\u043E\u0440\u044F\u0447\u0430\u044F,
-      \u0441\u0435\u0439\u0447\u0430\u0441 \u043D\u0435 \u0432\u0430\u0440\u0438\u0430\u043D\u0442
-      \u0432\u044B\u0445\u043E\u0434\u0438\u0442\u044C!"
+    dialogueText: "Guys, the earth is still too hot, now it\u2019s not an option
+      to go out!"
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -1440,9 +1377,7 @@ MonoBehaviour:
     characterSpr: {fileID: 21300000, guid: 9bdc57ca733b64446b89d42e6c8afb99, type: 3}
     characterName: ...
     endName: 
-    dialogueText: "\u0411\u043E\u0440\u0438\u0441 \u043D\u0435\u043B\u043E\u0432\u043A\u043E
-      \u0441\u043E\u0433\u043B\u0430\u0448\u0430\u0435\u0442\u0441\u044F \u043D\u0430
-      \u044D\u0442\u0443 \u0430\u0432\u0430\u043D\u0442\u044E\u0440\u0443. "
+    dialogueText: Boris awkwardly agrees to this adventure.
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -1459,11 +1394,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 946f2bcf-bfcc-423f-a9bb-10ac68a8b05c
     characterSpr: {fileID: 21300000, guid: 631c8e40946cbd34d8a6208bc7abad4b, type: 3}
-    characterName: "\u041B\u0438\u0440\u0435\u043D"
+    characterName: Liren
     endName: 
-    dialogueText: "\u041C\u043D\u0435 \u043A\u0430\u0436\u0435\u0442\u0441\u044F,
-      \u0447\u0442\u043E \u0411\u043E\u0440\u0438\u0441\u0430 \u0434\u043E\u043B\u0433\u043E
-      \u0443\u0436\u0435 \u043D\u0435\u0442."
+    dialogueText: It seems to me that Boris is gone for a long time.
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -1480,11 +1413,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 844a92f5-ce95-4539-a820-0d1a9ef29812
     characterSpr: {fileID: 21300000, guid: 74f5c7357235cf049b9f768fcc74c939, type: 3}
-    characterName: "\u041A\u043B\u0435\u043D\u0441\u0438"
+    characterName: Clancy
     endName: 
-    dialogueText: "\t\u0418 \u0447\u0442\u043E \u043D\u0430\u043C \u0442\u0435\u043F\u0435\u0440\u044C
-      \u0434\u0435\u043B\u0430\u0442\u044C? \u041C\u043E\u0436\u0435\u0442 \u043F\u043E\u0439\u0434\u0435\u043C
-      \u0437\u0430 \u043D\u0438\u043C, \u043D\u0430 \u043F\u043E\u0432\u0435\u0440\u0445\u043D\u043E\u0441\u0442\u044C?"
+    dialogueText: And what should we do now? Maybe we will follow him, to the surface?
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -1501,11 +1432,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: b73d12f9-74cb-48ac-837e-2ce31fe43ed8
     characterSpr: {fileID: -3932639698103319621, guid: 0551312c42d436b438832b7d2928ee51, type: 3}
-    characterName: "\u041C\u044D\u043D"
+    characterName: Man
     endName: 
-    dialogueText: "\u041F\u041E\u041A\u0410 \u0422\u0423\u0422 \u0421\u041F\u041E\u0420\u0418\u041C,
-      \u041C\u042B \u0414\u0420\u0423\u0413 \u0414\u0420\u0423\u0413\u0410 \u041F\u0420\u0418\u0411\u042C\u0415\u041C
-      \u0420\u0410\u041D\u041E \u0418\u041B\u0418 \u041F\u041E\u0417\u0414\u041D\u041E!"
+    dialogueText: So far we argue here, we will score each other sooner or later!
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -1522,11 +1451,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 2de29dd1-bb1a-4fc2-99bd-67fd9b270d09
     characterSpr: {fileID: 21300000, guid: 5506209a84d053143a139fa2c514c33f, type: 3}
-    characterName: "\u041A\u043B\u0435\u043D\u0441\u0438"
+    characterName: Clancy
     endName: 
-    dialogueText: "\u0418 \u0447\u0442\u043E \u043C\u044B \u0431\u0440\u043E\u0441\u0438\u043C
-      \u043D\u0430\u0448\u0435\u0433\u043E \u0434\u0440\u0443\u0433\u0430 \u0442\u0430\u043C,
-      \u043D\u0430 \u043F\u0440\u043E\u0438\u0437\u0432\u043E\u043B \u0441\u0443\u0434\u044C\u0431\u044B?"
+    dialogueText: Are we going to throw out friend to the mercy of fate?
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -2303,10 +2230,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 9a38d601-0b26-45a8-8cda-1feb77330ee8
     characterSpr: {fileID: 21300000, guid: 74f5c7357235cf049b9f768fcc74c939, type: 3}
-    characterName: "\u041A\u043B\u0435\u043D\u0441\u0438"
+    characterName: Clancy
     endName: 
-    dialogueText: "\u0410\u0433\u0430. \u041C\u043E\u0436\u0435\u0442 \u0441 \u043D\u0438\u043C
-      \u0447\u0442\u043E-\u0442\u043E \u043F\u0440\u043E\u0438\u0437\u043E\u0448\u043B\u043E?"
+    dialogueText: Yeah. Maybe something happened to him?
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -2321,17 +2247,32 @@ MonoBehaviour:
       height: 305
     soundEffect: {fileID: 8300000, guid: 653fda38220365ec0a59df989e6aee9b, type: 3}
     backgroundMusic: {fileID: 0}
+  - guid: 67cea927-c797-451e-afe8-7f145330292d
+    characterSpr: {fileID: 0}
+    characterName: ...
+    endName: 
+    dialogueText: Silence hung in the bunker, which acted on our heroes, forcing
+      them to go crazy.
+    backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 19017
+      y: 163
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: 2ac0d65fc06799edf825e2910a05f6b1, type: 3}
+    backgroundMusic: {fileID: 0}
   - guid: a6c01ec7-7125-405e-8d38-86e6f62434f2
     characterSpr: {fileID: 3593641134924692357, guid: 9edba7152c29f754da23ff26c45e9ecb, type: 3}
-    characterName: "\u041C\u044D\u043D"
+    characterName: Man
     endName: 
-    dialogueText: "\u041D\u0438\u043A\u043E\u0433\u043E \u0431\u0440\u043E\u0441\u0430\u0442\u044C
-      \u043C\u044B \u043D\u0435 \u0431\u0443\u0434\u0435\u043C. \u041D\u0430\u0434\u043E
-      \u043F\u0440\u043E\u0441\u0442\u043E \u0432\u0437\u044F\u0442\u044C \u0445\u043E\u0442\u044C
-      \u043A\u0430\u043A\u0443\u044E-\u0442\u043E \u043F\u0430\u0443\u0437\u0443
-      \u0432 \u044D\u0442\u043E\u0439 \u0441\u0443\u043C\u0430\u0442\u043E\u0445\u0438
-      \u0438 \u0441\u0430\u043C\u0438\u043C \u0442\u0443\u0442 \u043B\u0430\u043F\u044B
-      \u043D\u0435 \u043E\u0442\u043A\u0438\u043D\u0443\u0442\u044C."
+    dialogueText: "We will not throw anyone. You just need to take at least some
+      pause in this turmoil and here you can\u2019t throw back your paws."
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -2348,9 +2289,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 47c69285-4e02-4d5c-960e-5abf48549440
     characterSpr: {fileID: 3593641134924692357, guid: 9edba7152c29f754da23ff26c45e9ecb, type: 3}
-    characterName: "\u041C\u044D\u043D"
+    characterName: Man
     endName: 
-    dialogueText: "\u041B\u0430\u0434\u043D\u043E."
+    dialogueText: Ok.
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -2367,11 +2308,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: a299804e-5b75-4833-ac0f-9ab827749b81
     characterSpr: {fileID: 21300000, guid: 631c8e40946cbd34d8a6208bc7abad4b, type: 3}
-    characterName: "\u041B\u0438\u0440\u0435\u043D"
+    characterName: Liren
     endName: 
-    dialogueText: "\u0422\u044B \u043F\u0440\u0435\u0434\u043B\u0430\u0433\u0430\u0435\u0448\u044C
-      \u0447\u0435\u0440\u0435\u0437 \u0447\u0430\u0441-\u043F\u043E\u043B\u0442\u043E\u0440\u0430
-      \u0432\u044B\u0439\u0442\u0438 \u043A\u043E\u043C\u0443-\u0442\u043E?"
+    dialogueText: Do you propose to go out to someone in an hour and a half?
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -2388,12 +2327,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: d44c5fca-f200-4aba-bc78-2d7eb28d53ac
     characterSpr: {fileID: -4103263632174865716, guid: 31c99369c9d92414b8f3f7fa2dbc4ce7, type: 3}
-    characterName: "\u041D\u0430\u0439\u0442\u043C\u0435\u0440"
+    characterName: Nightmare
     endName: 
-    dialogueText: "\u041E\u0447\u0435\u043D\u044C \u0441\u043C\u0435\u0448\u043D\u043E
-      \u043C\u044B \u043E\u0434\u043D\u043E \u0436\u0438\u0432\u043E\u0442\u043D\u043E\u0435
-      \u043D\u0435\u043C\u043D\u043E\u0433\u043E \u043F\u043E\u0442\u0435\u0440\u044F\u043B\u0438,
-      \u0447\u0442\u043E \u0434\u0435\u043B\u0430\u0442\u044C-\u0442\u043E?"
+    dialogueText: Very funny, we have lost one animal a little, what to do?
     backgroundSpr: {fileID: 21300000, guid: 96cfa13aa4c9b5449bed8a903852d341, type: 3}
     startNode: 0
     endNode: 0
@@ -2412,8 +2348,7 @@ MonoBehaviour:
     characterSpr: {fileID: -815185786384529327, guid: 17a545f957da7f24a847d42d124ed7e1, type: 3}
     characterName: M-Unity
     endName: 
-    dialogueText: "\u0421\u043B\u043E\u043C\u0430\u0442\u044C \u0438\u0433\u0440\u0443
-      \u0438 \u0431\u0435\u0433\u0430\u0442\u044C :)"
+    dialogueText: Break the game and run :)
     backgroundSpr: {fileID: 21300000, guid: 8acffee286c01b444a14314b4e315bb8, type: 3}
     startNode: 0
     endNode: 0
@@ -2428,11 +2363,30 @@ MonoBehaviour:
       height: 305
     soundEffect: {fileID: 8300000, guid: 2ac0d65fc06799edf825e2910a05f6b1, type: 3}
     backgroundMusic: {fileID: 0}
+  - guid: 7bc45b07-23f7-4593-aec8-3f1b42e600dc
+    characterSpr: {fileID: 3593641134924692357, guid: 9edba7152c29f754da23ff26c45e9ecb, type: 3}
+    characterName: Man
+    endName: 
+    dialogueText: So, we need to calm down and wait a little more.
+    backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 11033
+      y: 163
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: c5c434aa05cad5437aee62ce221e34de, type: 3}
+    backgroundMusic: {fileID: 0}
   - guid: ddf372ce-2777-4d4c-9a43-cc2cf73b9077
     characterSpr: {fileID: 7741760457369533555, guid: 7f2fb37d8d0759b489b3909735c891e2, type: 3}
-    characterName: "\u041C\u044D\u043D"
+    characterName: Man
     endName: 
-    dialogueText: "\u041D\u0430\u0432\u0435\u0440\u043D\u043E\u0435. . . "
+    dialogueText: 'Maybe. . . '
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -2449,13 +2403,10 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: b4cff15a-b28c-454d-b2d9-50514994f76c
     characterSpr: {fileID: 21300000, guid: 54ec1979a8b0f1d48b0aeda1c7aa96e7, type: 3}
-    characterName: "\u041B\u0438\u0440\u0435\u043D"
+    characterName: Liren
     endName: 
-    dialogueText: "\t\t\u041D\u0435 \u0441\u0442\u043E\u0438\u0442, \u0432\u0441\u0451
-      \u0440\u0430\u0432\u043D\u043E! \u041C\u044B \u043D\u0435 \u0437\u043D\u0430\u0435\u043C
-      \u043D\u0438\u0447\u0435\u0433\u043E \u0438 \u043D\u0435 \u043C\u043E\u0436\u0435\u043C
-      \u0434\u0430\u0436\u0435 \u043F\u0440\u0435\u0434\u043F\u043E\u043B\u0430\u0433\u0430\u0442\u044C,
-      \u0447\u0442\u043E \u0442\u0430\u043C \u0432\u043E\u043E\u0431\u0449\u0435! "
+    dialogueText: It's not worth it, anyway! We don't know anything and can't even
+      guess what's there!
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -2472,13 +2423,10 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: cab4f358-faf8-471f-826c-b8cd66642f09
     characterSpr: {fileID: 21300000, guid: 5506209a84d053143a139fa2c514c33f, type: 3}
-    characterName: "\u041A\u043B\u0435\u043D\u0441\u0438"
+    characterName: Clancy
     endName: 
-    dialogueText: "\u0418 \u0447\u0442\u043E \u0442\u044B \u043F\u0440\u0435\u0434\u043B\u0430\u0433\u0430\u0435\u0448\u044C?
-      \u0421\u0438\u0434\u0435\u0442\u044C \u0437\u0434\u0435\u0441\u044C, \u0438
-      \u043F\u0440\u043E\u0441\u0442\u043E \u0434\u0443\u043C\u0430\u0442\u044C \u043E
-      \u0442\u043E\u043C, \u0447\u0442\u043E \u0441\u043A\u043E\u0440\u0435\u0435
-      \u0432\u0441\u0435\u0433\u043E \u0411\u043E\u0440\u0438\u0441 \u043C\u0451\u0440\u0442\u0432?!"
+    dialogueText: And what do you suggest? To sit here, and just think about the
+      fact that Boris is most likely dead?!
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -2495,9 +2443,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 5579c9ca-7d79-466a-a535-db48b18cad1a
     characterSpr: {fileID: -3932639698103319621, guid: 0551312c42d436b438832b7d2928ee51, type: 3}
-    characterName: "\u041C\u044D\u043D"
+    characterName: Man
     endName: 
-    dialogueText: "\u041F\u0415\u0420\u0415\u0421\u0422\u0410\u041D\u042C\u0422\u0415!!!"
+    dialogueText: Stop !!!
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -2514,9 +2462,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 1eb29367-c511-445e-a307-8c6eb5b1e131
     characterSpr: {fileID: -3932639698103319621, guid: 0551312c42d436b438832b7d2928ee51, type: 3}
-    characterName: "\u041C\u044D\u043D"
+    characterName: Man
     endName: 
-    dialogueText: "\u0425\u0412\u0410\u0422\u0418\u0422"
+    dialogueText: ENOUGH
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -2533,10 +2481,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 7e21f344-fb6c-4ed8-8f80-5a1d69d68765
     characterSpr: {fileID: 21300000, guid: 54ec1979a8b0f1d48b0aeda1c7aa96e7, type: 3}
-    characterName: "\u041B\u0438\u0440\u0435\u043D"
+    characterName: Liren
     endName: 
-    dialogueText: "\u0417\u0434\u0435\u0441\u044C \u044F \u0441 \u0442\u043E\u0431\u043E\u0439
-      \u0441\u043E\u0433\u043B\u0430\u0448\u0443\u0441\u044C."
+    dialogueText: Here I agree with you.
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -2551,32 +2498,11 @@ MonoBehaviour:
       height: 305
     soundEffect: {fileID: 8300000, guid: 4e8905d39b49f0d16b924a5c812f13f9, type: 3}
     backgroundMusic: {fileID: 0}
-  - guid: 456dd657-f0a6-461b-bfaf-1c5ecbd6ae39
-    characterSpr: {fileID: 3593641134924692357, guid: 9edba7152c29f754da23ff26c45e9ecb, type: 3}
-    characterName: "\u041C\u044D\u043D"
-    endName: 
-    dialogueText: "\u0418\u043C\u0435\u043D\u043D\u043E."
-    backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 17021
-      y: 163
-      width: 499
-      height: 305
-    soundEffect: {fileID: 8300000, guid: c5c434aa05cad5437aee62ce221e34de, type: 3}
-    backgroundMusic: {fileID: 0}
   - guid: 4df4006b-ec02-44a7-9c4c-a4e3cf3e1adf
     characterSpr: {fileID: 21300000, guid: 534b1445063a09942b9d4b2c25e81830, type: 3}
-    characterName: "\u041A\u043B\u0435\u043D\u0441\u0438"
+    characterName: Clancy
     endName: 
-    dialogueText: "\u041B\u0430\u0434\u043D\u043E, \u043D\u043E \u0442\u043E\u0433\u0434\u0430
-      \u0434\u0430\u0432\u0430\u0439\u0442\u0435 \u044F \u0432\u044B\u0439\u0434\u0443
-      \u043F\u043E\u0441\u043C\u043E\u0442\u0440\u044E, \u0447\u0442\u043E \u0442\u0430\u043C."
+    dialogueText: Okay, but then let me go out to see what is there.
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -2593,9 +2519,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 811a0bc9-0642-4c4d-8f4e-59804a45868b
     characterSpr: {fileID: 21300000, guid: 54ec1979a8b0f1d48b0aeda1c7aa96e7, type: 3}
-    characterName: "\u041B\u0438\u0440\u0435\u043D"
+    characterName: Liren
     endName: 
-    dialogueText: "\u041E\u043A\u0435\u0439."
+    dialogueText: Okay.
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -2614,8 +2540,7 @@ MonoBehaviour:
     characterSpr: {fileID: 0}
     characterName: ...
     endName: 
-    dialogueText: "\u041D\u043E \u0447\u0442\u043E \u0432 \u0441\u0430\u043C\u043E\u0439
-      \u0441\u0438\u0441\u0442\u0435\u043C\u0435 \u0442\u0432\u043E\u0440\u0438\u0442\u0441\u044F?"
+    dialogueText: But what is going on in the system itself?
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -2634,7 +2559,7 @@ MonoBehaviour:
     characterSpr: {fileID: -815185786384529327, guid: 17a545f957da7f24a847d42d124ed7e1, type: 3}
     characterName: M-Unity
     endName: 
-    dialogueText: "\u0413\u0434\u0435-\u0442\u043E, \u042B\u0445\u044B\u0445\u044B\u0445"
+    dialogueText: Somewhere, yyhyhyh
     backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
     startNode: 0
     endNode: 0
@@ -2651,10 +2576,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 7271044c-be3c-4d09-820c-7444227c4eb9
     characterSpr: {fileID: 21300000, guid: 534b1445063a09942b9d4b2c25e81830, type: 3}
-    characterName: "\u041A\u043B\u0435\u043D\u0441\u0438"
+    characterName: Clancy
     endName: 
-    dialogueText: "\u0420\u0435\u0431\u044F\u0442\u0430 \u044F \u0441\u043E\u0431\u0440\u0430\u043B\u0441\u044F
-      \u0438\u0434\u0442\u0438."
+    dialogueText: Guys I am going to go.
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -2671,9 +2595,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 1fb3695f-6bf2-49d4-9eb0-eb00f23eed5b
     characterSpr: {fileID: 0}
-    characterName: "\u0411\u043E\u0440\u0438\u0441 \u0438 \u041B\u0438\u0440\u0435\u043D"
+    characterName: Boris and Liren
     endName: 
-    dialogueText: "\u0423\u0434\u0430\u0447\u0438!"
+    dialogueText: Good luck!
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -2690,11 +2614,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 8300000, guid: 7c6ae89907f5f7880822708dc06738c5, type: 3}
   - guid: 59ea2994-ddb4-4726-8e92-b8b6159af1ce
     characterSpr: {fileID: 21300000, guid: 74f5c7357235cf049b9f768fcc74c939, type: 3}
-    characterName: "\u041A\u043B\u0435\u043D\u0441\u0438"
+    characterName: Clancy
     endName: 
-    dialogueText: "\u0418 \u0442\u0430\u043A \u0411\u043E\u0440\u0438\u0441 \u0433\u0434\u0435-\u0442\u043E
-      \u043D\u0430\u0432\u0435\u0440\u043D\u043E\u0435 \u0434\u043E\u043B\u0436\u0435\u043D
-      \u0431\u044B\u0442\u044C \u0440\u044F\u0434\u043E\u043C..."
+    dialogueText: And so Boris probably should be near ...
     backgroundSpr: {fileID: 21300000, guid: 6cfa4aca9c56d547fbbbcf196581844d, type: 3}
     startNode: 0
     endNode: 0
@@ -2711,12 +2633,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 8300000, guid: 1b11dfb312c99b0e9a26a3b967f39c48, type: 3}
   - guid: c5617be7-eb67-4acb-bbc0-111f22a89851
     characterSpr: {fileID: 21300000, guid: eecae6e5cecfaca40892da4be2992518, type: 3}
-    characterName: "\u041A\u043B\u0435\u043D\u0441\u0438"
+    characterName: Clancy
     endName: 
-    dialogueText: "\u0411\u041E\u0420\u0418\u0421! \u041C\u042B \u0423\u0416\u0415
-      \u0422\u0423\u0422 \u0421 \u0423\u041C\u0410 \u0427\u0423\u0422\u042C \u041D\u0415
-      \u0421\u041E\u0428\u041B\u0418 \u041F\u041E\u041A\u0410 \u0422\u0415\u0411\u042F
-      \u041D\u0415 \u0411\u042B\u041B\u041E!"
+    dialogueText: Boris! We are already crazy here nearly until you were!
     backgroundSpr: {fileID: 21300000, guid: 6cfa4aca9c56d547fbbbcf196581844d, type: 3}
     startNode: 0
     endNode: 0
@@ -2733,10 +2652,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: ebaae290-a79d-4d60-943a-efe22263bc7e
     characterSpr: {fileID: 21300000, guid: 5b1600e241318dc45b43c4aee63f2446, type: 3}
-    characterName: "\u0411\u043E\u0440\u0438\u0441"
+    characterName: Boris
     endName: 
-    dialogueText: "\u0414\u0430\u0432\u0430\u0439-\u043A\u0430 \u043B\u0443\u0447\u0448\u0435
-      \u043A \u043E\u0441\u0442\u0430\u043B\u044C\u043D\u044B\u043C \u043F\u043E\u0439\u0434\u0435\u043C."
+    dialogueText: Let's go to the bunker.
     backgroundSpr: {fileID: 21300000, guid: 6cfa4aca9c56d547fbbbcf196581844d, type: 3}
     startNode: 0
     endNode: 0
@@ -2753,9 +2671,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 94fa3d1d-6348-417f-9e29-11e87a51b1cb
     characterSpr: {fileID: 21300000, guid: 534b1445063a09942b9d4b2c25e81830, type: 3}
-    characterName: "\u041A\u043B\u0435\u043D\u0441\u0438"
+    characterName: Clancy
     endName: 
-    dialogueText: "\u041E\u043A\u0435\u0439."
+    dialogueText: Okay.
     backgroundSpr: {fileID: 21300000, guid: 6cfa4aca9c56d547fbbbcf196581844d, type: 3}
     startNode: 0
     endNode: 0
@@ -2772,9 +2690,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 484831c5-1027-4ec4-99a7-51b99b2627b0
     characterSpr: {fileID: -4789687603799666255, guid: c4392f69845dcf64691b07db8b83904d, type: 3}
-    characterName: "\u041D\u0430\u0439\u0442\u043C\u0435\u0440"
+    characterName: Nightmare
     endName: 
-    dialogueText: "\u0413\u0414\u0415 \u041E\u041D?!?"
+    dialogueText: Where is he?!?
     backgroundSpr: {fileID: 21300000, guid: ae2018191baaa3e48a18b53da45d802d, type: 3}
     startNode: 0
     endNode: 0
@@ -2793,12 +2711,8 @@ MonoBehaviour:
     characterSpr: {fileID: 0}
     characterName: ...
     endName: 
-    dialogueText: "\u0423\u0441\u043B\u044B\u0448\u0430\u0432 \u044D\u0442\u043E,
-      \u043E\u043D\u0438 \u0441\u0442\u0430\u043B\u0438 \u0436\u0434\u0430\u0442\u044C
-      \u043E\u043A\u043E\u043B\u043E \u0441\u0443\u0442\u043E\u043A \u0437\u0430
-      \u044D\u0442\u043E \u0432\u0440\u0435\u043C\u044F \u0440\u0435\u0448\u0438\u043B\u0438
-      \u043F\u043E\u0441\u043F\u0430\u0442\u044C, \u043D\u0435\u043C\u043D\u043E\u0433\u043E
-      \u043F\u043E\u0435\u0441\u0442\u044C \u0438 \u043F\u043E\u0433\u043E\u0432\u043E\u0440\u0438\u0442\u044C."
+    dialogueText: Hearing this, they began to wait about a day during this time decided
+      to sleep, eat a little and talk.
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -2815,12 +2729,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 94be1210-b4a1-46d4-a06d-62d9872cf1a1
     characterSpr: {fileID: 3593641134924692357, guid: 9edba7152c29f754da23ff26c45e9ecb, type: 3}
-    characterName: "\u041C\u044D\u043D"
+    characterName: Man
     endName: 
-    dialogueText: "\u042F\u0441\u043D\u043E, \u0440\u0430\u0437 \u0438\u0437 \u0432\u0430\u0441
-      \u043D\u0438\u043A\u0442\u043E \u043D\u0435 \u0445\u043E\u0447\u0435\u0442,
-      \u0437\u043D\u0430\u0447\u0438\u0442 \u044D\u0442\u043E \u0441\u0434\u0435\u043B\u0430\u044E
-      \u044F. "
+    dialogueText: Okay, since none of you want to, then I'll do it.
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -2839,10 +2750,8 @@ MonoBehaviour:
     characterSpr: {fileID: 0}
     characterName: ...
     endName: 
-    dialogueText: "\u0418\u043D\u0442\u0435\u0440\u0435\u0441\u043D\u043E, \u043D\u0443
-      \u043B\u0430\u0434\u043D\u043E \u043D\u0443\u0436\u043D\u043E \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u0442\u044C
-      \u0440\u0430\u0437 \u0435\u0433\u043E \u0441\u0443\u0434\u044C\u0431\u0430
-      \u043D\u0435\u044F\u0441\u043D\u0430, \u043F\u043E\u043A\u0430 \u0447\u0442\u043E."
+    dialogueText: Interesting, well, we need to continue since his fate is unclear
+      for now.
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -2861,10 +2770,7 @@ MonoBehaviour:
     characterSpr: {fileID: 0}
     characterName: ...
     endName: 
-    dialogueText: "\u0427\u0435\u0440\u0435\u0437 \u0441\u0443\u0442\u043A\u0438
-      \u0432\u0441\u0451 \u0436\u0435 \u041C\u044D\u043D \u0440\u0435\u0448\u0438\u043B
-      \u043F\u0440\u043E\u0432\u0435\u0440\u0438\u0442\u044C, \u043A\u0430\u043A
-      \u0442\u0430\u043C \u043D\u0430 \u0443\u043B\u0438\u0446\u0435."
+    dialogueText: After a day, Man decided to check how it was on the street.
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -2881,9 +2787,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 04c659cf-1b2a-4262-b5bc-91e2189e60b3
     characterSpr: {fileID: -4789687603799666255, guid: c4392f69845dcf64691b07db8b83904d, type: 3}
-    characterName: "\u041D\u0430\u0439\u0442\u043C\u0435\u0440"
+    characterName: Nightmare
     endName: 
-    dialogueText: "\u042F \u0422\u0415 \u0429\u0410\u0421..."
+    dialogueText: I AM GONNA...
     backgroundSpr: {fileID: 21300000, guid: 765cbd1dfa4fe124e9495552cae3f7c7, type: 3}
     startNode: 0
     endNode: 0
@@ -2902,11 +2808,8 @@ MonoBehaviour:
     characterSpr: {fileID: 0}
     characterName: ...
     endName: 
-    dialogueText: "\u041F\u043E\u043D\u044F\u0432, \u0447\u0442\u043E \u0434\u0435\u043B\u043E
-      \u043F\u0430\u0445\u043D\u0435\u0442 \u0431\u0438\u0442\u044B\u043C\u0438 \u043F\u0438\u043A\u0441\u0435\u043B\u044F\u043C\u0438,
-      \u043A\u0430\u043A \u043E\u043A\u0430\u0437\u0430\u043B\u043E\u0441\u044C \u0443
-      \u044D\u0442\u043E\u0439 \u043A\u0440\u0430\u0441\u043D\u043E\u0439 \u0445\u0438\u0442\u0440\u043E\u0439
-      \u043F\u0430\u043D\u0434\u044B \u0431\u044B\u043B \u0431\u0443\u043D\u043A\u0435\u0440."
+    dialogueText: Realizing that things smelled like broken pixels, it turned out
+      that this cunning red panda had a bunker.
     backgroundSpr: {fileID: 21300000, guid: c076fc096d4559e478b6ab226a2cde74, type: 3}
     startNode: 0
     endNode: 0
@@ -2925,11 +2828,8 @@ MonoBehaviour:
     characterSpr: {fileID: 0}
     characterName: ...
     endName: 
-    dialogueText: "\u0427\u0435\u0442\u0432\u0435\u0440\u043E \u043C\u0443\u0448\u043A\u0435\u0442\u0451\u0440\u043E\u0432
-      \u0441\u0438\u0434\u0435\u043B\u0438 \u043E\u043A\u043E\u043B\u043E \u0434\u043E\u043C\u0430
-      \u041A\u043B\u0435\u043D\u0441\u0438 \u043D\u0430 \u0437\u0430\u0434\u043D\u0435\u043C
-      \u0434\u0432\u043E\u0440\u0435, \u043A\u043E\u0433\u0434\u0430 \u0432\u0441\u0451
-      \u043F\u0440\u043E\u0438\u0437\u043E\u0448\u043B\u043E."
+    dialogueText: Four musketeers were sitting near the house of Clancy in the backyard
+      when everything happened.
     backgroundSpr: {fileID: 21300000, guid: ae648da8fef3aa0439a04e175f4244d9, type: 3}
     startNode: 0
     endNode: 0
@@ -2948,7 +2848,7 @@ MonoBehaviour:
     characterSpr: {fileID: 0}
     characterName: ...
     endName: 
-    dialogueText: "\u0413\u043E\u0440\u043E\u0434 \u0437\u0430\u0441\u044B\u043F\u0430\u0435\u0442."
+    dialogueText: The city falls asleep.
     backgroundSpr: {fileID: 21300000, guid: ae648da8fef3aa0439a04e175f4244d9, type: 3}
     startNode: 1
     endNode: 0
@@ -2967,11 +2867,8 @@ MonoBehaviour:
     characterSpr: {fileID: 0}
     characterName: ...
     endName: 
-    dialogueText: "\u041F\u0440\u043E\u0441\u044B\u043F\u0430\u0435\u0442\u0441\u044F
-      \u043C\u0435\u0442\u0435\u043E\u0440\u0438\u0442, \u043A\u043E\u0442\u043E\u0440\u044B\u0439
-      \u043F\u0430\u0434\u0430\u0435\u0442 \u043D\u0430 \u0437\u0435\u043C\u043B\u044E
-      \u0438 \u043D\u0430\u0441\u0442\u0443\u043F\u0430\u0435\u0442 \u043A\u043E\u043D\u0435\u0446
-      \u0441\u0432\u0435\u0442\u0430.\r"
+    dialogueText: A meteorite wakes up, which falls to the ground and comes the end
+      of the world.
     backgroundSpr: {fileID: 21300000, guid: 5b26ea2d01b588f40b7bce64267b93f9, type: 3}
     startNode: 0
     endNode: 0
@@ -2990,10 +2887,7 @@ MonoBehaviour:
     characterSpr: {fileID: 0}
     characterName: ...
     endName: 
-    dialogueText: "\u0417\u0430 1 \u043C\u0438\u043D\u0443\u0442\u0443 \u043E\u043D\u0438
-      \u0441\u0431\u0440\u043E\u0441\u0438\u043B\u0438 \u0442\u0443\u0434\u0430 \u0432\u0441\u0435,
-      \u0447\u0442\u043E \u0441\u043C\u043E\u0433\u043B\u0438 \u0438 \u0441\u043F\u0443\u0441\u0442\u0438\u043B\u0438\u0441\u044C
-      \u0441\u0430\u043C\u0438."
+    dialogueText: In 1 minute, they threw everything they could and went down themselves.
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -3012,16 +2906,9 @@ MonoBehaviour:
     characterSpr: {fileID: 0}
     characterName: ...
     endName: 
-    dialogueText: "\u041E\u043D \u0441\u043C\u043E\u0442\u0440\u0438\u0442 \u043D\u0430
-      \u043A\u0440\u0430\u0441\u043D\u043E-\u043E\u0440\u0430\u043D\u0436\u0435\u0432\u043E\u0435
-      \u043D\u0435\u0431\u043E \u0438 \u043D\u0430 \u043F\u0430\u0440 \u0438\u0441\u0445\u043E\u0434\u044F\u0449\u0438\u0439
-      \u0438\u0437 \u0437\u0435\u043C\u043B\u0438. \r\n\u041C\u044D\u043D \u0440\u0435\u0448\u0430\u0435\u0442
-      \u043F\u043E\u0442\u0440\u043E\u0433\u0430\u0442\u044C \u0440\u0443\u043A\u043E\u0439
-      \u0437\u0430\u0441\u043E\u0445\u0448\u0443\u044E \u0437\u0435\u043C\u043B\u044E
-      \u0438 \u0441\u0440\u0430\u0437\u0443 \u0436\u0435 \u043E\u0442\u0434\u0435\u0440\u0433\u0438\u0432\u0430\u0435\u0442
-      \u0435\u0451, \u0442\u0430\u043A \u043A\u0430\u043A \u043E\u043D\u0430 \u0431\u044B\u043B\u0430
-      \u0434\u043E \u0441\u0438\u0445 \u043F\u043E\u0440 \u0440\u0430\u0441\u043A\u0430\u043B\u0435\u043D\u043D\u043E\u0439
-      \u043E\u0442 \u043C\u0435\u0442\u0435\u043E\u0440\u0438\u0442\u0430."
+    dialogueText: He looks at the red-orange sky and at steam emanating from the
+      earth.  R  NMEN decides to touch the dried earth with his hand and immediately
+      pulls it off, since it was still hot from the meteorite.
     backgroundSpr: {fileID: 21300000, guid: 8b64929279f787445b368e59f80eda83, type: 3}
     startNode: 0
     endNode: 0
@@ -3059,12 +2946,8 @@ MonoBehaviour:
     characterSpr: {fileID: 0}
     characterName: ...
     endName: 
-    dialogueText: "\u0422\u0435\u043F\u0435\u0440\u044C \u043C\u043E\u0436\u043D\u043E
-      \u0432\u044B\u0431\u0438\u0440\u0430\u0442\u044C\u0441\u044F \u043D\u0430 \u0443\u043B\u0438\u0446\u0443
-      \u043F\u043E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u0432\u0441\u0435
-      \u0440\u0430\u0437\u0440\u0443\u0448\u0435\u043D\u0438\u044F, \u043A\u043E\u0442\u043E\u0440\u044B\u0435
-      \u043F\u0440\u043E\u0438\u0437\u043E\u0448\u043B\u0438 \u043F\u043E\u0441\u043B\u0435
-      \u0441\u0442\u043E\u043B\u043A\u043D\u043E\u0432\u0435\u043D\u0438\u044F \u043C\u0435\u0442\u0435\u043E\u0440\u0438\u0442\u0430."
+    dialogueText: Now you can get out into the street to see all the destruction
+      that occurred after the collision of the meteorite.
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -3083,8 +2966,7 @@ MonoBehaviour:
     characterSpr: {fileID: -815185786384529327, guid: 17a545f957da7f24a847d42d124ed7e1, type: 3}
     characterName: M-Unity
     endName: 
-    dialogueText: "\u041C\u043C\u043C\u043C\u043C, \u0447\u0442\u043E-\u0442\u043E
-      \u0434\u0430, \u0447\u0442\u043E-\u0442\u043E \u043D\u0435 \u0440\u0430\u0431\u043E\u0442\u0430\u0435\u0442"
+    dialogueText: Mmmmm, yeah, something does not work.
     backgroundSpr: {fileID: 21300000, guid: 375910f00bc5ed64b8b7415a00664f88, type: 3}
     startNode: 0
     endNode: 0
@@ -3101,9 +2983,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 8300000, guid: 2ac0d65fc06799edf825e2910a05f6b1, type: 3}
   - guid: 8c8e1715-0e2f-406d-9d67-22129b702595
     characterSpr: {fileID: 21300000, guid: 9bdc57ca733b64446b89d42e6c8afb99, type: 3}
-    characterName: "\u0411\u043E\u0440\u0438\u0441"
+    characterName: Boris
     endName: 
-    dialogueText: "\u042F \u0442\u0443\u0442..."
+    dialogueText: I'm here ...
     backgroundSpr: {fileID: 21300000, guid: 6cfa4aca9c56d547fbbbcf196581844d, type: 3}
     startNode: 0
     endNode: 0
@@ -3118,15 +3000,32 @@ MonoBehaviour:
       height: 305
     soundEffect: {fileID: 8300000, guid: 6a1462fa9912c2b98883a6a7c1906144, type: 3}
     backgroundMusic: {fileID: 0}
+  - guid: 283d1a1e-7918-4a5c-a383-e2ffdf4f1da5
+    characterSpr: {fileID: 21300000, guid: 5b1600e241318dc45b43c4aee63f2446, type: 3}
+    characterName: Boris
+    endName: 
+    dialogueText: Come on, Man!
+    backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 40463
+      y: 163
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: 6a1462fa9912c2b98883a6a7c1906144, type: 3}
+    backgroundMusic: {fileID: 0}
   - guid: 781dddec-7055-4b74-bfaf-6e6ee547efe3
     characterSpr: {fileID: 21300000, guid: 534b1445063a09942b9d4b2c25e81830, type: 3}
-    characterName: "\u041A\u043B\u0435\u043D\u0441\u0438"
+    characterName: Clancy
     endName: 
-    dialogueText: "\u042F \u0437\u043D\u0430\u044E \u0432\u044B \u043B\u044E\u0431\u0438\u0442\u0435
-      \u0438\u0433\u0440\u0430\u0442\u044C \u0432 \"\u041A\u043E\u0448\u0435\u0447\u043A\u0438
-      \u0441\u043E\u0431\u0430\u0447\u043A\u0438\", \u043D\u043E \u0434\u0430\u0432\u0430\u0439\u0442\u0435
-      \u0440\u0435\u0430\u043B\u044C\u043D\u043E \u043F\u043E\u0438\u0433\u0440\u0430\u0435\u043C.
-      \u042F \u043F\u0440\u0435\u0434\u043B\u0430\u0433\u0430\u044E \u0432 \u0421\u0432\u0438\u043D\u0442\u0443\u0441\u0430."
+    dialogueText: I know you like to play "Kitties and Dogs", but let's play for
+      real. I suggest Svintus.\u041A\u043E\u0448\u0435\u0447\u043A\u0438 \u0441\u043E\u0431\u0430\u0447\u043A\u0438\",
+      but let's really play. I offer in lead."
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -3143,9 +3042,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: c50865bf-f332-407c-a2c4-f7d45742a14e
     characterSpr: {fileID: 21300000, guid: 5b1600e241318dc45b43c4aee63f2446, type: 3}
-    characterName: "\u0411\u043E\u0440\u0438\u0441"
+    characterName: Boris
     endName: 
-    dialogueText: "\u042F \u0437\u0430 \u0423\u043D\u043E."
+    dialogueText: I'm for Uno
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -3162,9 +3061,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 5e488123-c702-46d9-88e2-fefb1d2d94df
     characterSpr: {fileID: 21300000, guid: 631c8e40946cbd34d8a6208bc7abad4b, type: 3}
-    characterName: "\u041B\u0438\u0440\u0435\u043D"
+    characterName: Liren
     endName: 
-    dialogueText: "\u0414\u043E\u043F\u0443\u0441\u0442\u0438\u043C \u041C\u043E\u043D\u043E\u043F\u043E\u043B\u0438\u044F."
+    dialogueText: Let's say Monopoly.
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -3181,9 +3080,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 7b78527b-97c7-413f-889c-961eda8661c9
     characterSpr: {fileID: 7741760457369533555, guid: 7f2fb37d8d0759b489b3909735c891e2, type: 3}
-    characterName: "\u041C\u044D\u043D"
+    characterName: Man
     endName: 
-    dialogueText: "\u041D\u0443... \u0414\u043E\u043F\u0443\u0441\u0442\u0438\u043C..."
+    dialogueText: Well ... let's say ...
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -3200,7 +3099,7 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 028201f7-bc34-42ea-9f5e-42b5c9351062
     characterSpr: {fileID: 0}
-    characterName: "\u0412\u0412\u0412\u0412\u0412"
+    characterName: BBBBB
     endName: 
     dialogueText: 
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
@@ -3208,9 +3107,9 @@ MonoBehaviour:
     endNode: 0
     choices: 3
     choiceOptions:
-    - "\u0423\u041D\u041E"
-    - "\u0421\u0412\u0418\u041D\u0422\u0423\u0421"
-    - "\u041C\u041E\u041D\u041E\u041F\u041E\u041B\u0418\u042F"
+    - Uno
+    - Svintus
+    - Monopoly
     nodePosition:
       serializedVersion: 2
       x: 41461
@@ -3221,10 +3120,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: d7d085bf-3d1d-43a3-b3ee-6a4c585a6cfc
     characterSpr: {fileID: 21300000, guid: 54ec1979a8b0f1d48b0aeda1c7aa96e7, type: 3}
-    characterName: "\u041B\u0438\u0440\u0435\u043D"
+    characterName: Liren
     endName: 
-    dialogueText: "\u041E\u043A\u0435\u0439, \u0434\u0430\u0432\u0430\u0439\u0442\u0435
-      \u0432 \u0423\u043D\u043E."
+    dialogueText: Okay, let's play Uno.
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -3241,10 +3139,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: a48910d6-7b4a-4a1d-ae40-997cba0ee93d
     characterSpr: {fileID: 21300000, guid: 534b1445063a09942b9d4b2c25e81830, type: 3}
-    characterName: "\u041A\u043B\u0435\u043D\u0441\u0438"
+    characterName: Clancy
     endName: 
-    dialogueText: "\u041F\u043E \u0448\u0435\u0441\u0442\u044C \u0432\u0435\u0434\u044C
-      \u0440\u0430\u0437\u0434\u0430\u044E\u0442? "
+    dialogueText: They do give out six, right?
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -3259,13 +3156,30 @@ MonoBehaviour:
       height: 305
     soundEffect: {fileID: 8300000, guid: 653fda38220365ec0a59df989e6aee9b, type: 3}
     backgroundMusic: {fileID: 0}
+  - guid: fab70337-ddb9-4fb1-8929-9524929d5cbc
+    characterSpr: {fileID: 21300000, guid: 5b1600e241318dc45b43c4aee63f2446, type: 3}
+    characterName: Boris
+    endName: 
+    dialogueText: Yeah
+    backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 43251
+      y: -142
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: 6a1462fa9912c2b98883a6a7c1906144, type: 3}
+    backgroundMusic: {fileID: 0}
   - guid: be7d88a1-cb12-4443-a525-a9eb9199c8f1
     characterSpr: {fileID: 0}
     characterName: ...
     endName: 
-    dialogueText: "\u0422\u0430\u043A \u043E\u043D\u0438 \u0438\u0433\u0440\u0430\u043B\u0438
-      \u043F\u0430\u0440\u0443 \u043F\u0430\u0440\u0442\u0438\u0439 \u043F\u043E\u043A\u0430
-      \u043D\u0435 \u0443\u0441\u043D\u0443\u043B\u0438."
+    dialogueText: So they played a couple of parties until they fell asleep.
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -3282,10 +3196,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 4d838e56-5ffa-4eea-b946-fdba58001453
     characterSpr: {fileID: 21300000, guid: 54ec1979a8b0f1d48b0aeda1c7aa96e7, type: 3}
-    characterName: "\u041B\u0438\u0440\u0435\u043D"
+    characterName: Liren
     endName: 
-    dialogueText: "\u041A\u043E\u043C\u0443-\u0442\u043E \u043E\u043F\u044F\u0442\u044C
-      \u043E\u0442\u043E\u0431\u044C\u044E\u0442 \u043B\u0430\u043F\u044B."
+    dialogueText: Someone's paws will be broken again.
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -3302,11 +3215,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 5edb246d-c416-4485-9564-f84222be78d5
     characterSpr: {fileID: 21300000, guid: 54ec1979a8b0f1d48b0aeda1c7aa96e7, type: 3}
-    characterName: "\u041B\u0438\u0440\u0435\u043D"
+    characterName: Liren
     endName: 
-    dialogueText: "\u0423\u0434\u0438\u0432\u0438\u0442\u0435\u043B\u044C\u043D\u043E,
-      \u0447\u0442\u043E \u0442\u044B \u0441\u043E\u0433\u043B\u0430\u0441\u0438\u043B\u0441\u044F
-      \u043D\u0430 \u044D\u0442\u043E."
+    dialogueText: It is surprising that you agreed to it.
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -3323,9 +3234,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 2aa82269-22fd-44e8-ab29-e4eb3e308e6d
     characterSpr: {fileID: 3593641134924692357, guid: 9edba7152c29f754da23ff26c45e9ecb, type: 3}
-    characterName: "\u041C\u044D\u043D"
+    characterName: Man
     endName: 
-    dialogueText: "\u042B\u0445\u044B\u0445\u044B\u0445 \u0414\u0430 \u044F."
+    dialogueText: Yyhyhyh yes I am.
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -3342,9 +3253,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: faf5a04c-f3db-4e62-a0d5-bb25892f40cc
     characterSpr: {fileID: 3593641134924692357, guid: 9edba7152c29f754da23ff26c45e9ecb, type: 3}
-    characterName: "\u041C\u044D\u043D"
+    characterName: Man
     endName: 
-    dialogueText: "\u0414\u0430 \u043B\u0430\u0434\u043D\u043E \u0442\u0435\u0431\u0435."
+    dialogueText: Oh, come on.
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -3361,9 +3272,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: f437d802-d7d6-43e2-a40c-77391a40052b
     characterSpr: {fileID: 21300000, guid: 534b1445063a09942b9d4b2c25e81830, type: 3}
-    characterName: "\u041A\u043B\u0435\u043D\u0441\u0438"
+    characterName: Clancy
     endName: 
-    dialogueText: "\u0422\u043E\u0433\u0434\u0430 \u044F \u0437\u0430 \u0448\u043B\u044F\u043F\u0443."
+    dialogueText: Then I'll play as a the hat.
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -3380,11 +3291,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 5dfebb40-e3c8-4b84-9485-0d3979d947ad
     characterSpr: {fileID: 21300000, guid: 5b1600e241318dc45b43c4aee63f2446, type: 3}
-    characterName: "\u0411\u043E\u0440\u0438\u0441"
+    characterName: Boris
     endName: 
-    dialogueText: "\u0410 \u043C\u043E\u0436\u0435\u0442 \u043A\u0442\u043E-\u0442\u043E,
-      \u0442\u043E\u0433\u0434\u0430 \u043E\u0431\u044A\u044F\u0441\u043D\u0438\u0442
-      \u043F\u0440\u0430\u0432\u0438\u043B\u0430?"
+    dialogueText: Maybe someone will explain the rules then?
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -3401,9 +3310,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: cf916e13-eb34-4f94-bc24-eb89b2293ec3
     characterSpr: {fileID: 21300000, guid: 5b1600e241318dc45b43c4aee63f2446, type: 3}
-    characterName: "\u0411\u043E\u0440\u0438\u0441"
+    characterName: Boris
     endName: 
-    dialogueText: "\u0427\u0443\u0440 \u044F \u0437\u0430 \u043C\u0430\u0448\u0438\u043D\u043A\u0443!"
+    dialogueText: I am for a machine!
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -3420,10 +3329,10 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 672f88b0-c5a7-45a0-bd40-a154c23a2f71
     characterSpr: {fileID: 21300000, guid: 534b1445063a09942b9d4b2c25e81830, type: 3}
-    characterName: "\u041A\u043B\u0435\u043D\u0441\u0438"
+    characterName: Clancy
     endName: 
-    dialogueText: "\u0410 \u0442\u044B \u0435\u0449\u0451 \u043D\u0435 \u0438\u0433\u0440\u0430\u043B?
-      \u041E\u043A\u0435\u0439, \u0449\u0430\u0441 \u0432\u0441\u0435 \u043E\u0431\u044A\u044F\u0441\u043D\u044E."
+    dialogueText: "Have you played yet? Okay, I\u2019ll explain everything right
+      now."
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -3440,11 +3349,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 7469ee89-ea2e-4692-b940-bd860ceb394a
     characterSpr: {fileID: 3593641134924692357, guid: 9edba7152c29f754da23ff26c45e9ecb, type: 3}
-    characterName: "\u041C\u044D\u043D"
+    characterName: Man
     endName: 
-    dialogueText: "\u041E\u0439, \u0434\u0430 \u043B\u0430\u0434\u043D\u043E, \u0442\u0435\u0431\u0435
-      \u043B\u0438\u0448\u044C \u043F\u043E\u043C\u0443\u0440\u0447\u0430\u0442\u044C
-      \u0432 \u043E\u0442\u0432\u0435\u0442."
+    dialogueText: Oh, come on, you just want to purr in response.
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -3461,9 +3368,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 4da51a8f-893b-4495-8218-cdd7f4e0b4b5
     characterSpr: {fileID: 21300000, guid: 80e26e7f25102b947966e4bc9b94fdd2, type: 3}
-    characterName: "\u041B\u0438\u0440\u0435\u043D"
+    characterName: Liren
     endName: 
-    dialogueText: "\u042D\u0439, \u0441\u043B\u044B\u0448\u044C!"
+    dialogueText: Hey!
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -3480,11 +3387,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: bc185f1a-df9d-46ee-af3c-1cbe44b119bd
     characterSpr: {fileID: -589471285161861467, guid: fe1fa6e2135f756479bb5af962651aa0, type: 3}
-    characterName: "\u041C\u044D\u043D"
+    characterName: Man
     endName: 
-    dialogueText: "\u041C\u043D\u0435 \u043D\u0435 \u043F\u043E \u0441\u0435\u0431\u0435
-      \u044D\u0442\u0430 \u0432\u0441\u044F \u043E\u0431\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430,
-      \u0438\u0437\u0432\u0438\u043D\u0438\u0442\u0435."
+    dialogueText: I feel uneasy about this whole situation, sorry.
     backgroundSpr: {fileID: 21300000, guid: 6cfa4aca9c56d547fbbbcf196581844d, type: 3}
     startNode: 0
     endNode: 0
@@ -3501,11 +3406,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 2c1e4d9f-f2b0-4a73-b7d8-b39b6ff843bd
     characterSpr: {fileID: -3932639698103319621, guid: 0551312c42d436b438832b7d2928ee51, type: 3}
-    characterName: "\u041C\u044D\u043D"
+    characterName: Man
     endName: 
-    dialogueText: "\u041C\u0438\u0440 \u0440\u0430\u0437\u0440\u0443\u0448\u0435\u043D.
-      \u041D\u0435\u0440\u0432\u044B \u0432\u043E\u043E\u0431\u0449\u0435 \u043B\u0435\u0442\u044F\u0442
-      \u043A\u043E \u0432\u0441\u0435\u043C \u0424\u043B\u0430\u0434\u0436\u0438\u043A\u0435\u044F\u043C."
+    dialogueText: The world is destroyed. And I'm already going insane!
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -3522,9 +3425,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: bc7f68b0-7ad5-44f1-b998-0bbd9f3b14f3
     characterSpr: {fileID: 21300000, guid: 9bdc57ca733b64446b89d42e6c8afb99, type: 3}
-    characterName: "\u0411\u043E\u0440\u0438\u0441"
+    characterName: Boris
     endName: 
-    dialogueText: "\u0410 \u0447\u0442\u043E \u0442\u0430\u043A, \u041C\u044D\u043D?"
+    dialogueText: What's wrong, Man?
     backgroundSpr: {fileID: 21300000, guid: 6cfa4aca9c56d547fbbbcf196581844d, type: 3}
     startNode: 0
     endNode: 0
@@ -3541,11 +3444,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 0e47e454-15a2-444b-912b-d7d9f943600d
     characterSpr: {fileID: 21300000, guid: 54ec1979a8b0f1d48b0aeda1c7aa96e7, type: 3}
-    characterName: "\u041B\u0438\u0440\u0435\u043D"
+    characterName: Liren
     endName: 
-    dialogueText: "\u0422\u043E\u0433\u0434\u0430 \u043C\u044B \u0432\u0442\u0440\u043E\u0451\u043C
-      \u0431\u0443\u0434\u0435\u043C \u0447\u0442\u043E-\u0442\u043E \u043E\u0431\u0441\u043B\u0435\u0434\u043E\u0432\u0430\u0442\u044C,
-      \u0430 \u0442\u044B \u0438\u0434\u0438."
+    dialogueText: Then the three of us will examine something, and you go.
     backgroundSpr: {fileID: 21300000, guid: 6cfa4aca9c56d547fbbbcf196581844d, type: 3}
     startNode: 0
     endNode: 0
@@ -3564,9 +3465,7 @@ MonoBehaviour:
     characterSpr: {fileID: 0}
     characterName: ...
     endName: 
-    dialogueText: "\u0422\u0430\u043A \u0442\u0440\u043E\u0435 \u043F\u043E\u0448\u043B\u0438
-      \u0440\u0430\u0441\u0441\u043C\u0430\u0442\u0440\u0438\u0432\u0430\u0442\u044C,
-      \u0430 \u041C\u044D\u043D \u0443\u0448\u0451\u043B \u0432 \u0431\u0443\u043D\u043A\u0435\u0440."
+    dialogueText: So the three went to consider, and Man went to the bunker.
     backgroundSpr: {fileID: 21300000, guid: 6cfa4aca9c56d547fbbbcf196581844d, type: 3}
     startNode: 0
     endNode: 0
@@ -3583,10 +3482,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 34049eda-c012-46a0-9919-4f8814bd57ab
     characterSpr: {fileID: 7741760457369533555, guid: 7f2fb37d8d0759b489b3909735c891e2, type: 3}
-    characterName: "\u041C\u044D\u043D"
+    characterName: Man
     endName: 
-    dialogueText: "\u0418 \u0447\u0442\u043E \u0434\u0435\u043B\u0430\u0442\u044C
-      \u0434\u0430\u043B\u044C\u0448\u0435?"
+    dialogueText: And what to do next?
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -3603,13 +3501,10 @@ MonoBehaviour:
     backgroundMusic: {fileID: 8300000, guid: 7c6ae89907f5f7880822708dc06738c5, type: 3}
   - guid: 3daf3dd6-6bfa-4995-8a82-f7eb38dcbc57
     characterSpr: {fileID: -3932639698103319621, guid: 0551312c42d436b438832b7d2928ee51, type: 3}
-    characterName: "\u041C\u044D\u043D"
+    characterName: Man
     endName: 
-    dialogueText: "\u0411\u043E\u0440\u0438\u0441 \u044F\u0432\u043D\u043E \u0443\u0436\u0435
-      \u0432\u0438\u0434\u0438\u0442, \u0447\u0442\u043E \u0441\u043E \u043C\u043D\u043E\u0439
-      \u0447\u0442\u043E-\u0442\u043E \u043D\u0435 \u0442\u0430\u043A. \u0425\u043E\u0442\u044C
-      \u043C\u044B \u0441\u043A\u043E\u0440\u0435\u0435 \u0432\u0441\u0435 \u044D\u0442\u043E
-      \u0447\u0443\u0432\u0441\u0442\u0432\u0443\u0435\u043C."
+    dialogueText: Boris clearly already sees that something is wrong with me. Although
+      we all probably feel it
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -3626,9 +3521,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 78b3541a-ff7c-4eac-8fa8-33362a1df728
     characterSpr: {fileID: 21300000, guid: 54ec1979a8b0f1d48b0aeda1c7aa96e7, type: 3}
-    characterName: "\u041B\u0438\u0440\u0435\u043D"
+    characterName: Liren
     endName: 
-    dialogueText: "\u0418\u043C\u0435\u043D\u043D\u043E \u0442\u0430\u043A."
+    dialogueText: That's right.
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -3645,12 +3540,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: ecba79b0-8220-4c18-ad04-711b6e883e57
     characterSpr: {fileID: 21300000, guid: 54ec1979a8b0f1d48b0aeda1c7aa96e7, type: 3}
-    characterName: "\u041B\u0438\u0440\u0435\u043D"
+    characterName: Liren
     endName: 
-    dialogueText: "\u042D\u0442\u0438 \u0434\u0432\u043E\u0435 \u0437\u0430\u0431\u0435\u0441\u043F\u043E\u043A\u043E\u0438\u043B\u0438\u0441\u044C
-      \u0437\u0430 \u0442\u0435\u0431\u044F \u0438 \u043E\u0442\u043F\u0440\u0430\u0432\u0438\u043B\u0438
-      \u043C\u0435\u043D\u044F \u0441\u043B\u0435\u0434\u043E\u043C \u0437\u0430
-      \u0442\u043E\u0431\u043E\u0439."
+    dialogueText: These two were worried about you and sent me after you.
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -3665,34 +3557,12 @@ MonoBehaviour:
       height: 305
     soundEffect: {fileID: 8300000, guid: 4e8905d39b49f0d16b924a5c812f13f9, type: 3}
     backgroundMusic: {fileID: 0}
-  - guid: 0f04def8-5b1a-4f98-8b48-ddc0ffd38bbf
-    characterSpr: {fileID: 7741760457369533555, guid: 7f2fb37d8d0759b489b3909735c891e2, type: 3}
-    characterName: "\u041C\u044D\u043D"
-    endName: 
-    dialogueText: "\u0415\u0441\u0442\u044C \u043C\u043E\u043C\u0435\u043D\u0442."
-    backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 60217
-      y: 163
-      width: 499
-      height: 305
-    soundEffect: {fileID: 8300000, guid: c5c434aa05cad5437aee62ce221e34de, type: 3}
-    backgroundMusic: {fileID: 0}
   - guid: fe2568a6-9894-495f-877f-0b436cf85782
     characterSpr: {fileID: 21300000, guid: 54ec1979a8b0f1d48b0aeda1c7aa96e7, type: 3}
-    characterName: "\u041B\u0438\u0440\u0435\u043D"
+    characterName: Liren
     endName: 
-    dialogueText: "\u0425\u043E\u0442\u044F \u0431\u044B \u043D\u0430\u0448\u0438
-      \u0441\u0442\u044B\u0447\u043A\u0438 \u0437\u0430\u0441\u0442\u0430\u0432\u043B\u044F\u044E\u0442
-      \u0437\u0430\u0431\u044B\u0442\u044C\u0441\u044F \u043D\u0430 \u043C\u0433\u043D\u043E\u0432\u0435\u043D\u0438\u0435
-      \u043E\u0431\u043E \u0432\u0441\u0435\u043C, \u0447\u0442\u043E \u0441\u043B\u0443\u0447\u0438\u043B\u043E\u0441\u044C
-      \u043D\u0435\u0434\u0430\u0432\u043D\u043E."
+    dialogueText: At least our skirmishes make us forget for a moment about everything
+      that happened recently.
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -3709,10 +3579,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 49604052-b899-41c0-b4dd-7f58d00ee24b
     characterSpr: {fileID: 21300000, guid: 54ec1979a8b0f1d48b0aeda1c7aa96e7, type: 3}
-    characterName: "\u041B\u0438\u0440\u0435\u043D"
+    characterName: Liren
     endName: 
-    dialogueText: "\u041A\u0430\u043A \u0442\u043E\u043B\u044C\u043A\u043E \u0442\u044B
-      \u0437\u0430\u0448\u0451\u043B."
+    dialogueText: As soon as you went.
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -3729,12 +3598,10 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: e60d9928-58f8-4200-9cd9-8f14c046848d
     characterSpr: {fileID: 3593641134924692357, guid: 9edba7152c29f754da23ff26c45e9ecb, type: 3}
-    characterName: "\u041C\u044D\u043D"
+    characterName: Man
     endName: 
-    dialogueText: "\u041D\u0438\u043A\u043E\u0433\u0434\u0430 \u043D\u0435 \u0434\u0443\u043C\u0430\u043B,
-      \u0447\u0442\u043E \u0442\u044B \u043C\u043E\u0436\u0435\u0448\u044C \u0432\u044B\u0434\u0430\u0442\u044C
-      \u0442\u0430\u043A\u043E\u0435 \u0441 \u0442\u0435\u043C, \u0447\u0442\u043E
-      \u044F \u0441\u043E\u0433\u043B\u0430\u0448\u0443\u0441\u044C. "
+    dialogueText: I never thought that you could give out this with the fact that
+      I agree.
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -3751,10 +3618,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: d3a39aa1-0917-4e7b-bc73-022658168ead
     characterSpr: {fileID: 21300000, guid: 54ec1979a8b0f1d48b0aeda1c7aa96e7, type: 3}
-    characterName: "\u041B\u0438\u0440\u0435\u043D"
+    characterName: Liren
     endName: 
-    dialogueText: "\u041F\u0440\u0438\u043C\u0443 \u044D\u0442\u043E, \u043A\u0430\u043A
-      \u0437\u0430 \u043A\u043E\u043C\u043F\u043B\u0438\u043C\u0435\u043D\u0442."
+    dialogueText: I will accept this, as for a compliment.
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -3771,10 +3637,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: edc8a750-eabb-4769-9cb0-3c2bf1391f6c
     characterSpr: {fileID: -589471285161861467, guid: fe1fa6e2135f756479bb5af962651aa0, type: 3}
-    characterName: "\u041C\u044D\u043D"
+    characterName: Man
     endName: 
-    dialogueText: "\u0418 \u0441\u043A\u043E\u043B\u044C\u043A\u043E \u0442\u044B
-      \u0442\u0443\u0442 \u043F\u043E\u0434\u0441\u043B\u0443\u0448\u0438\u0432\u0430\u0435\u0448\u044C?"
+    dialogueText: And how much are you eavesdropping here?
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -3791,10 +3656,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: a5778a2c-bdf9-487c-8504-8ad48319a277
     characterSpr: {fileID: 21300000, guid: 54ec1979a8b0f1d48b0aeda1c7aa96e7, type: 3}
-    characterName: "\u041B\u0438\u0440\u0435\u043D"
+    characterName: Liren
     endName: 
-    dialogueText: "\u0422\u044B \u0442\u0430\u043A \u0438 \u0433\u043E\u0432\u043E\u0440\u0438\u0448\u044C
-      \u0441\u0430\u043C \u0441\u043E\u0431\u043E\u0439 \u0438\u043D\u043E\u0433\u0434\u0430."
+    dialogueText: You talk to yourself sometimes
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -3811,11 +3675,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: adc94302-8dba-4967-9c52-e61eb44cfd99
     characterSpr: {fileID: 21300000, guid: 631c8e40946cbd34d8a6208bc7abad4b, type: 3}
-    characterName: "\u041B\u0438\u0440\u0435\u043D"
+    characterName: Liren
     endName: 
-    dialogueText: "\u042F \u0442\u043E\u0436\u0435 \u043D\u0435 \u0432\u043E\u0441\u0442\u043E\u0440\u0433\u0435
-      \u043E\u0442 \u0432\u0441\u0435\u0433\u043E \u044D\u0442\u043E\u0433\u043E,
-      \u043F\u0440\u0430\u0432\u0434\u0430."
+    dialogueText: I am also not delighted with all this, for real.
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -3833,8 +3695,7 @@ MonoBehaviour:
   - guid: 7f992ff2-37e2-499b-8aaf-c839b8a38a4c
     characterSpr: {fileID: 0}
     characterName: ...
-    endName: "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0435\u043D\u0438\u0435
-      \u0441\u043B\u0435\u0434\u0443\u0435\u0442..."
+    endName: To be continued...
     dialogueText: ...
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
@@ -3848,19 +3709,14 @@ MonoBehaviour:
       y: 163
       width: 499
       height: 305
-    soundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 2ac0d65fc06799edf825e2910a05f6b1, type: 3}
     backgroundMusic: {fileID: 0}
   - guid: 623dd581-a4b4-4588-bdc8-844e260b3521
     characterSpr: {fileID: 0}
     characterName: ...
     endName: 
-    dialogueText: "\u0422\u0430\u043A \u043E\u043D\u0438 \u0438\u0433\u0440\u0430\u043B\u0438,
-      \u043F\u043E\u043A\u0430 \u0411\u043E\u0440\u0438\u0441 \u043D\u0435 \u0441\u0434\u0435\u043B\u0430\u043B
-      \u0441\u0435\u0431\u0435 \u041C\u043E\u043D\u043E\u043F\u043E\u043B\u0438\u044E
-      \u0440\u043E\u0437\u043E\u0432\u044B\u0445 \u0437\u043E\u043D \u0438 \u043F\u043E\u0441\u0442\u0440\u043E\u0438\u043B
-      \u043E\u0442\u0435\u043B\u044C \u042D\u043B\u044C\u0434\u044C\u044F\u0431\u043B\u043E.
-      \u041F\u043E\u0441\u043B\u0435 \u043E\u043D\u0438 \u043F\u043E\u0448\u043B\u0438
-      \u0441\u043F\u0430\u0442\u044C."
+    dialogueText: So they played until Boris made a monopoly of pink zones and built
+      an Eldjababhe hotel. After they went to sleep.
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -3875,15 +3731,33 @@ MonoBehaviour:
       height: 305
     soundEffect: {fileID: 8300000, guid: 2ac0d65fc06799edf825e2910a05f6b1, type: 3}
     backgroundMusic: {fileID: 0}
+  - guid: ead76d41-a7c4-45e4-9727-417403c28849
+    characterSpr: {fileID: 0}
+    characterName: ...
+    endName: 
+    dialogueText: 'After the explanation of the rules, they played the lead until
+      they fell asleep. As someone could already guess, it was the Lyren who were
+      repulsed by paws: 3'
+    backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 44249
+      y: 468
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: 2ac0d65fc06799edf825e2910a05f6b1, type: 3}
+    backgroundMusic: {fileID: 0}
   - guid: 618a98c6-848c-4af8-b526-f9f7acde84ea
     characterSpr: {fileID: 0}
     characterName: ...
     endName: 
-    dialogueText: "\u041F\u043E\u0441\u043B\u0435 \u0441\u043D\u0430 \u0440\u0435\u0431\u044F\u0442\u0430
-      \u0440\u0435\u0448\u0438\u043B\u0438 \u043D\u0430\u043A\u043E\u043D\u0435\u0446
-      \u0432\u043C\u0435\u0441\u0442\u0435 \u043E\u0442\u043F\u0440\u0430\u0432\u0438\u0442\u044C\u0441\u044F
-      \u043D\u0430 \u0440\u0430\u0437\u0432\u0435\u0434\u043A\u0443 \u043D\u0430
-      \u043F\u043E\u0432\u0435\u0440\u0445\u043D\u043E\u0441\u0442\u044C."
+    dialogueText: After sleeping, the guys finally decided to conduct reconnaissance
+      on the surface together.
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -3900,11 +3774,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: bef6722b-0c69-405b-857f-eb176f0441e6
     characterSpr: {fileID: 21300000, guid: 9bdc57ca733b64446b89d42e6c8afb99, type: 3}
-    characterName: "\u0411\u043E\u0440\u0438\u0441"
+    characterName: Boris
     endName: 
-    dialogueText: "\u041C\u044D\u043D, \u0430 \u044D\u0442\u043E \u0445\u043E\u0440\u043E\u0448\u0430\u044F
-      \u0438\u0434\u0435\u044F \u0438\u0434\u0442\u0438 \u0431\u0435\u0437 \u043A\u043E\u0441\u0442\u044E\u043C\u043E\u0432
-      \u0442\u0443\u0434\u0430?"
+    dialogueText: Man, is this a good idea to go without costumes there?
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -3921,10 +3793,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 63435a35-d530-4b13-ba81-dcb1158f62f9
     characterSpr: {fileID: 7741760457369533555, guid: 7f2fb37d8d0759b489b3909735c891e2, type: 3}
-    characterName: "\u041C\u044D\u043D"
+    characterName: Man
     endName: 
-    dialogueText: "\u0414\u0443\u043C\u0430\u044E \u043D\u0438\u0447\u0435\u0433\u043E
-      \u043D\u0435 \u043F\u043E\u0442\u0435\u0440\u044F\u0435\u043C."
+    dialogueText: I think we will not lose anything.
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -3943,10 +3814,8 @@ MonoBehaviour:
     characterSpr: {fileID: 0}
     characterName: ...
     endName: 
-    dialogueText: "\u0423\u0436\u0435 \u0432\u044B\u0439\u0434\u044F \u0438\u0437
-      \u0431\u0443\u043D\u043A\u0435\u0440\u0430 \u0440\u0435\u0431\u044F\u0442\u0430
-      \u043E\u0441\u043E\u0437\u043D\u0430\u043B\u0438, \u0447\u0442\u043E \u0434\u044B\u0448\u0430\u0442\u044C
-      \u0441\u0432\u043E\u0431\u043E\u0434\u043D\u043E \u043C\u043E\u0436\u043D\u043E."
+    dialogueText: After leaving the bunker, the guys realized that it was possible
+      to breathe freely.
     backgroundSpr: {fileID: 21300000, guid: ae648da8fef3aa0439a04e175f4244d9, type: 3}
     startNode: 0
     endNode: 0
@@ -3965,10 +3834,8 @@ MonoBehaviour:
     characterSpr: {fileID: 0}
     characterName: ...
     endName: 
-    dialogueText: "\u0422\u0435\u043F\u0435\u0440\u044C \u0438\u043C \u043D\u0438\u0447\u0435\u0433\u043E
-      \u043D\u0435 \u043F\u0440\u0435\u043F\u044F\u0442\u0441\u0442\u0432\u0443\u0435\u0442
-      \u0443\u0437\u043D\u0430\u0442\u044C \u043E\u043A\u0440\u0443\u0436\u0435\u043D\u0438\u0435
-      \u0432\u043E\u043A\u0440\u0443\u0433 \u043D\u0438\u0445."
+    dialogueText: Now nothing prevents them from finding out the environment around
+      them.
     backgroundSpr: {fileID: 21300000, guid: ae648da8fef3aa0439a04e175f4244d9, type: 3}
     startNode: 0
     endNode: 0
@@ -3985,9 +3852,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: dd29a6d8-feeb-4cca-9c85-fce26fcfa7f0
     characterSpr: {fileID: 21300000, guid: 00e6e080803740b4aa99edad3e618172, type: 3}
-    characterName: "\u041B\u0438\u0440\u0435\u043D"
+    characterName: Liren
     endName: 
-    dialogueText: "\u0427\u0442\u043E \u0441 \u043D\u0435\u0431\u043E\u043C \u043F\u0440\u043E\u0438\u0437\u043E\u0448\u043B\u043E?"
+    dialogueText: What happened to the sky?
     backgroundSpr: {fileID: 21300000, guid: 6cfa4aca9c56d547fbbbcf196581844d, type: 3}
     startNode: 0
     endNode: 0
@@ -4006,10 +3873,7 @@ MonoBehaviour:
     characterSpr: {fileID: -7285764537399801777, guid: e65ea7ea7df4a4c49b4fb4cf5f4ceadc, type: 3}
     characterName: M-Unity
     endName: 
-    dialogueText: "\u0422\u0430\u043A \u0443 \u043D\u0438\u0445 \u0432\u0435\u0434\u044C
-      \u0438 \u0442\u0430\u043A \u043A\u043E\u0441\u0442\u044E\u043C\u044B \u043D\u0435
-      \u043F\u0440\u043E\u0440\u0438\u0441\u043E\u0432\u0430\u043D\u044B. \u0427\u0442\u043E
-      \u0438\u043C \u0442\u0435\u0440\u044F\u0442\u044C?"
+    dialogueText: But their costumes aren't drawn yet. What do they have to lose?
     backgroundSpr: {fileID: 21300000, guid: 26b3e6ed1952bc944926800e369e9694, type: 3}
     startNode: 0
     endNode: 0
@@ -4026,13 +3890,10 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: eb7cc5dc-4151-4688-b234-2a39c611ad2e
     characterSpr: {fileID: -4103263632174865716, guid: 31c99369c9d92414b8f3f7fa2dbc4ce7, type: 3}
-    characterName: "\u041D\u0430\u0439\u0442\u043C\u0435\u0440"
+    characterName: Nightmare
     endName: 
-    dialogueText: "\u041C\u044B \u0434\u0435\u043B\u0430\u0435\u043C \u044D\u0442\u0443
-      \u0438\u0433\u0440\u0443 \u0437\u0430 \u043A\u0440\u043E\u0448\u043A\u0443
-      \u043D\u0438\u0447\u0435\u0433\u043E \u0438 \u0431\u0430\u0442\u043E\u043D\u0447\u0438\u043A
-      [Pepper], \u043A\u043E\u0442\u043E\u0440\u044B\u0439 \u044F \u0438 \u043A\u0443\u043F\u0438\u043B\u0430.
-      \u0427\u0442\u043E \u0442\u044B \u0435\u0449\u0451 \u0445\u043E\u0442\u0435\u043B?"
+    dialogueText: We're doing this game for a little nothing and a [Pepper] bar,
+      which I bought. What else did you want?
     backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
     startNode: 0
     endNode: 0
@@ -4049,12 +3910,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 0ffb9899-18c4-4475-a3f9-fdee9ad5092c
     characterSpr: {fileID: 21300000, guid: 631c8e40946cbd34d8a6208bc7abad4b, type: 3}
-    characterName: "\u041B\u0438\u0440\u0435\u043D"
+    characterName: Liren
     endName: 
-    dialogueText: "\u0422\u044B \u0442\u0430\u043A \u044D\u0442\u043E \u0443\u0432\u0435\u0440\u0435\u043D\u043D\u043E
-      \u0437\u0430\u044F\u0432\u043B\u044F\u0435\u0448\u044C, \u0447\u0442\u043E
-      \u043F\u043E\u0447\u0435\u043C\u0443-\u0442\u043E \u043C\u0435\u043D\u044F
-      \u043F\u0443\u0433\u0430\u0435\u0442."
+    dialogueText: You state this so confidently that for some reason it scares me.
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -4071,10 +3929,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: ba8ababf-3668-4518-b2c5-368712950165
     characterSpr: {fileID: 21300000, guid: 74f5c7357235cf049b9f768fcc74c939, type: 3}
-    characterName: "\u041A\u043B\u0435\u043D\u0441\u0438"
+    characterName: Clancy
     endName: 
-    dialogueText: "\u0415\u0441\u0442\u044C \u043A\u0441\u0442\u0430\u0442\u0438
-      \u0442\u0430\u043A\u043E\u0435 \u0442\u0435\u043F\u0435\u0440\u044C, \u0434\u0430."
+    dialogueText: Me too actually
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -4091,10 +3948,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 8f2ebeeb-1f5b-40ba-ade4-724430548f29
     characterSpr: {fileID: 3593641134924692357, guid: 9edba7152c29f754da23ff26c45e9ecb, type: 3}
-    characterName: "\u041C\u044D\u043D"
+    characterName: Man
     endName: 
-    dialogueText: "\u0414\u0430 \u043B\u0430\u0434\u043D\u043E \u0432\u0430\u043C
-      \u0440\u0435\u0431\u044F\u0442 \u0432\u0441\u0451 \u0432 \u043F\u043E\u0440\u044F\u0434\u043A\u0435."
+    dialogueText: Come on guys, everything is fine.
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -4113,7 +3969,7 @@ MonoBehaviour:
     characterSpr: {fileID: -815185786384529327, guid: 17a545f957da7f24a847d42d124ed7e1, type: 3}
     characterName: M-Unity
     endName: 
-    dialogueText: "\u0410. \u041D\u0443. \u0414\u0430."
+    dialogueText: Oh. Well. Yeah.
     backgroundSpr: {fileID: 1389722742431728808, guid: 0f6ad6fbbf97a6a4a84a72e88bb6d132, type: 3}
     startNode: 0
     endNode: 0
@@ -4132,9 +3988,7 @@ MonoBehaviour:
     characterSpr: {fileID: 0}
     characterName: ...
     endName: 
-    dialogueText: "\u0422\u043E\u0447\u043D\u0435\u0435 \u0442\u043E, \u0447\u0442\u043E
-      \u043E\u0442 \u043A\u043E\u0433\u0434\u0430-\u0442\u043E \u0433\u043E\u0440\u043E\u0434\u0430,
-      \u043E\u0441\u0442\u0430\u043B\u043E\u0441\u044C."
+    dialogueText: More precisely, what remains of what was once a city.
     backgroundSpr: {fileID: 21300000, guid: 6cfa4aca9c56d547fbbbcf196581844d, type: 3}
     startNode: 0
     endNode: 0
@@ -4151,12 +4005,10 @@ MonoBehaviour:
     backgroundMusic: {fileID: 8300000, guid: 1b11dfb312c99b0e9a26a3b967f39c48, type: 3}
   - guid: bae04ccd-184b-42ee-a92c-d3dd6aa6de89
     characterSpr: {fileID: 21300000, guid: 534b1445063a09942b9d4b2c25e81830, type: 3}
-    characterName: "\u041A\u043B\u0435\u043D\u0441\u0438"
+    characterName: Clancy
     endName: 
-    dialogueText: "\u0418 \u0442\u0430\u043A, \u043C\u044B \u043F\u043E\u043D\u044F\u043B\u0438,
-      \u0447\u0442\u043E \u043C\u043E\u0436\u0435\u043C \u0434\u044B\u0448\u0430\u0442\u044C.
-      \u041C\u043E\u0436\u0435\u0442 \u0442\u043E\u0433\u0434\u0430 \u043F\u043E\u0439\u0434\u0435\u043C
-      \u043F\u043E\u0441\u043C\u043E\u0442\u0440\u0438\u043C \u0440\u0430\u0437\u0440\u0443\u0448\u0435\u043D\u0438\u044F?"
+    dialogueText: And so, we realized that we can breathe. Maybe then let's go see
+      the destruction?
     backgroundSpr: {fileID: 21300000, guid: 6cfa4aca9c56d547fbbbcf196581844d, type: 3}
     startNode: 0
     endNode: 0
@@ -4173,10 +4025,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 1f20e931-3ae6-4b50-b0e5-5bc1e161bd39
     characterSpr: {fileID: 21300000, guid: 74f5c7357235cf049b9f768fcc74c939, type: 3}
-    characterName: "\u041A\u043B\u0435\u043D\u0441\u0438"
+    characterName: Clancy
     endName: 
-    dialogueText: "\u0410\u0433\u0430, \u043E\u043D\u043E \u043A\u0430\u043A\u043E\u0435-\u0442\u043E
-      \u0441\u0442\u0440\u0430\u043D\u043D\u043E\u0435."
+    dialogueText: Yeah, it's some kind of strange.
     backgroundSpr: {fileID: 21300000, guid: 6cfa4aca9c56d547fbbbcf196581844d, type: 3}
     startNode: 0
     endNode: 0
@@ -4193,11 +4044,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 5a33296b-fd8f-415b-9a0f-ca443b11df10
     characterSpr: {fileID: 21300000, guid: 9bdc57ca733b64446b89d42e6c8afb99, type: 3}
-    characterName: "\u0411\u043E\u0440\u0438\u0441"
+    characterName: Boris
     endName: 
-    dialogueText: "\u041D\u0435\u0431\u043E \u043C\u043D\u0435 \u043D\u0430\u043F\u043E\u043C\u0438\u043D\u0430\u0435\u0442
-      \u0440\u0430\u0441\u043F\u043B\u0430\u0432\u043B\u0435\u043D\u043D\u044B\u0439
-      \u0441\u044B\u0440 \u0432 \u043F\u043B\u043E\u0445\u043E\u043C \u043A\u0430\u0447\u0435\u0441\u0442\u0432\u0435."
+    dialogueText: The sky reminds me of molten cheese in poor quality.
     backgroundSpr: {fileID: 21300000, guid: 6cfa4aca9c56d547fbbbcf196581844d, type: 3}
     startNode: 0
     endNode: 0
@@ -4214,10 +4063,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 4690f1a5-963f-4a45-9ce0-d3ed1688a162
     characterSpr: {fileID: -3932639698103319621, guid: 0551312c42d436b438832b7d2928ee51, type: 3}
-    characterName: "\u041C\u044D\u043D"
+    characterName: Man
     endName: 
-    dialogueText: "\u041D\u0435 \u043D\u0435\u0441\u0438 \u0435\u0440\u0443\u043D\u0434\u044B,
-      \u0411\u043E\u0440\u0438\u0441."
+    dialogueText: Do not carry nonsense, Boris.
     backgroundSpr: {fileID: 21300000, guid: 6cfa4aca9c56d547fbbbcf196581844d, type: 3}
     startNode: 0
     endNode: 0
@@ -4234,10 +4082,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 5fb0deb1-89e7-4aa6-9634-3576b6d568eb
     characterSpr: {fileID: 7741760457369533555, guid: 7f2fb37d8d0759b489b3909735c891e2, type: 3}
-    characterName: "\u041C\u044D\u043D"
+    characterName: Man
     endName: 
-    dialogueText: "\u042F \u043B\u0443\u0447\u0448\u0435 \u0432 \u0431\u0443\u043D\u043A\u0435\u0440
-      \u0437\u0430\u0439\u0434\u0443."
+    dialogueText: "I\u2019d better go to the bunker."
     backgroundSpr: {fileID: 21300000, guid: 6cfa4aca9c56d547fbbbcf196581844d, type: 3}
     startNode: 0
     endNode: 0
@@ -4252,14 +4099,32 @@ MonoBehaviour:
       height: 305
     soundEffect: {fileID: 8300000, guid: c5c434aa05cad5437aee62ce221e34de, type: 3}
     backgroundMusic: {fileID: 0}
+  - guid: f19ffd97-e3ab-483f-9e44-1b16cab3522b
+    characterSpr: {fileID: 21300000, guid: 54ec1979a8b0f1d48b0aeda1c7aa96e7, type: 3}
+    characterName: Liren
+    endName: 
+    dialogueText: Most likely it is still dangerous to do this, but you can examine
+      something nearby.
+    backgroundSpr: {fileID: 21300000, guid: 6cfa4aca9c56d547fbbbcf196581844d, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 53231
+      y: 163
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: 4e8905d39b49f0d16b924a5c812f13f9, type: 3}
+    backgroundMusic: {fileID: 0}
   - guid: 6173654d-8e6d-4282-ab23-9307a95b8a79
     characterSpr: {fileID: 21300000, guid: 5b1600e241318dc45b43c4aee63f2446, type: 3}
-    characterName: "\u0411\u043E\u0440\u0438\u0441"
+    characterName: Boris
     endName: 
-    dialogueText: "\u0427\u0442\u043E\u0436, \u043F\u043E\u0433\u043E\u0432\u043E\u0440\u0438\u043C
-      \u043F\u043E \u0434\u0443\u0448\u0430\u043C, \u0438\u043B\u0438 \u0447\u0442\u043E
-      \u043D\u0430\u043C \u0434\u0435\u043B\u0430\u0442\u044C \u0442\u0443\u0442,
-      \u043F\u043E\u043A\u0430 \u0441\u0438\u0434\u0438\u043C \u0438 \u0436\u0434\u0435\u043C?"
+    dialogueText: Well, let's talk heart to heart, or what should we do here while
+      we are sitting and waiting?
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -4276,12 +4141,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: cfd1835c-6cde-4b9f-a160-67c0e62ef387
     characterSpr: {fileID: 21300000, guid: 534b1445063a09942b9d4b2c25e81830, type: 3}
-    characterName: "\u041A\u043B\u0435\u043D\u0441\u0438"
+    characterName: Clancy
     endName: 
-    dialogueText: "\u0417\u0434\u0435\u0441\u044C \u0435\u0441\u0442\u044C \u041C\u043E\u043D\u043E\u043F\u043E\u043B\u0438\u044F,
-      \u0423\u043D\u043E, \u0421\u0432\u0438\u043D\u0442\u0443\u0441 \u0438 \u0438\u0433\u0440\u0430\u043B\u044C\u043D\u044B\u0435
-      \u043A\u0430\u0440\u0442\u044B. \u041A\u0442\u043E \u0432\u043E \u0447\u0442\u043E
-      \u0445\u043E\u0447\u0435\u0442?"
+    dialogueText: There's Monopoly, Uno, Svintus and playing cards. Who wants what?
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -4298,11 +4160,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 6e288a4b-802d-414b-8421-8b3678df03c3
     characterSpr: {fileID: 21300000, guid: 631c8e40946cbd34d8a6208bc7abad4b, type: 3}
-    characterName: "\u041B\u0438\u0440\u0435\u043D"
+    characterName: Liren
     endName: 
-    dialogueText: "\u0414\u043E \u0441\u0438\u0445 \u043F\u043E\u0440 \u0437\u0430\u0434\u0430\u044E\u0441\u044C
-      \u0432\u043E\u043F\u0440\u043E\u0441\u043E\u043C \u043E\u0442\u043A\u0443\u0434\u0430
-      \u0442\u0443\u0442 \u0432\u0441\u044F \u044D\u0442\u0430 \u0432\u0441\u044F\u0447\u0438\u043D\u0430."
+    dialogueText: I still wonder where all this stuff comes from.
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -4321,11 +4181,8 @@ MonoBehaviour:
     characterSpr: {fileID: 0}
     characterName: ...
     endName: 
-    dialogueText: "\u041B\u0438\u0440\u0435\u043D \u0438 \u041C\u044D\u043D, \u0443\u0432\u0438\u0434\u0435\u0432,
-      \u0447\u0442\u043E \u0432 \u0431\u0443\u043D\u043A\u0435\u0440 \u0437\u0430\u0448\u0435\u043B
-      \u041A\u043B\u0435\u043D\u0441\u0438 \u0441 \u0411\u043E\u0440\u0438\u0441\u043E\u043C,
-      \u0441\u0440\u0430\u0437\u0443 \u043F\u043E\u043D\u0435\u0441\u043B\u0438\u0441\u044C
-      \u043A \u043D\u0438\u043C."
+    dialogueText: Liren and Maine, seeing that Klency with Boris went into the bunker,
+      immediately rushed to them.
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -4342,10 +4199,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 8300000, guid: 7c6ae89907f5f7880822708dc06738c5, type: 3}
   - guid: 544a7984-7bc6-4e8b-955b-0449280d02a5
     characterSpr: {fileID: -589471285161861467, guid: fe1fa6e2135f756479bb5af962651aa0, type: 3}
-    characterName: "\u041C\u044D\u043D"
+    characterName: Man
     endName: 
-    dialogueText: "\u0411\u041E\u0420\u0418\u0421! \u0413\u0414\u0415 \u0422\u042B
-      \u0411\u042B\u041B!?"
+    dialogueText: Boris! Where have you been!?
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -4362,10 +4218,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: 7fd4f1af-75ad-4119-85f3-a452f5ee5373
     characterSpr: {fileID: 21300000, guid: 00e6e080803740b4aa99edad3e618172, type: 3}
-    characterName: "\u041B\u0438\u0440\u0435\u043D"
+    characterName: Liren
     endName: 
-    dialogueText: "\u041C\u044B \u0443\u0436\u0435 \u0442\u0443\u0442 \u0441 \u0443\u043C\u0430
-      \u0447\u0443\u0442\u044C \u043D\u0435 \u0441\u043E\u0448\u043B\u0438!"
+    dialogueText: We almost went crazy here!
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -4382,13 +4237,10 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
   - guid: ba2e5966-414b-4177-bc7d-3b7051a1ab19
     characterSpr: {fileID: 21300000, guid: 5b1600e241318dc45b43c4aee63f2446, type: 3}
-    characterName: "\u0411\u043E\u0440\u0438\u0441"
+    characterName: Boris
     endName: 
-    dialogueText: "\u0414\u0430\u0432\u0430\u0439\u0442\u0435 \u0432\u044B \u043D\u0435\u043C\u043D\u043E\u0433\u043E
-      \u043E\u0441\u0442\u044B\u043D\u0435\u0442\u0435. \u041F\u043E\u0442\u043E\u043C
-      \u044F \u0432\u0430\u043C \u0440\u0430\u0441\u0441\u043A\u0430\u0436\u0443,
-      \u0447\u0442\u043E \u0432\u0438\u0434\u0435\u043B. \u041C\u043D\u0435 \u043D\u0443\u0436\u043D\u043E
-      \u043E\u0442\u0434\u043E\u0445\u043D\u0443\u0442\u044C."
+    dialogueText: Let's cool down a bit. Then I'll tell you what I saw. I need to
+      rest.
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -4403,145 +4255,11 @@ MonoBehaviour:
       height: 305
     soundEffect: {fileID: 8300000, guid: 6a1462fa9912c2b98883a6a7c1906144, type: 3}
     backgroundMusic: {fileID: 0}
-  - guid: 1f785814-e6bf-420d-877a-a60f9ecdc0b2
-    characterSpr: {fileID: 0}
-    characterName: ...
-    endName: 
-    dialogueText: "\u0421\u043F\u0443\u0441\u0442\u044F \u0434\u043E\u043B\u0433\u043E\u0435
-      \u0432\u0440\u0435\u043C\u044F \u043E\u043D \u043D\u0435 \u0432\u043E\u0437\u0432\u0440\u0430\u0449\u0430\u0435\u0442\u0441\u044F,
-      \u0432\u044B \u043F\u043E\u043D\u0438\u043C\u0430\u0435\u0442\u0435, \u0447\u0442\u043E
-      \u043E\u043D \u043F\u043E\u0433\u0438\u0431."
-    backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 7041
-      y: -447
-      width: 499
-      height: 305
-    soundEffect: {fileID: 8300000, guid: 2ac0d65fc06799edf825e2910a05f6b1, type: 3}
-    backgroundMusic: {fileID: 0}
-  - guid: ead76d41-a7c4-45e4-9727-417403c28849
-    characterSpr: {fileID: 0}
-    characterName: ...
-    endName: 
-    dialogueText: "\u041F\u043E\u0441\u043B\u0435 \u043E\u0431\u044A\u044F\u0441\u043D\u0435\u043D\u0438\u044F
-      \u043F\u0440\u0430\u0432\u0438\u043B, \u043E\u043D\u0438 \u0438\u0433\u0440\u0430\u043B\u0438
-      \u0432 \u0421\u0432\u0438\u043D\u0442\u0443\u0441\u0430, \u043F\u043E\u043A\u0430
-      \u043D\u0435 \u0443\u0441\u043D\u0443\u043B\u0438. \u041A\u0430\u043A \u043A\u0442\u043E-\u0442\u043E
-      \u043C\u043E\u0433 \u0443\u0436\u0435 \u0434\u043E\u0433\u0430\u0434\u0430\u0442\u044C\u0441\u044F,
-      \u0438\u043C\u0435\u043D\u043D\u043E \u041B\u0438\u0440\u0435\u043D\u0443 \u043E\u0442\u0431\u0438\u043B\u0438
-      \u043B\u0430\u043F\u044B :3"
-    backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 44249
-      y: 468
-      width: 499
-      height: 305
-    soundEffect: {fileID: 8300000, guid: 2ac0d65fc06799edf825e2910a05f6b1, type: 3}
-    backgroundMusic: {fileID: 0}
-  - guid: fab70337-ddb9-4fb1-8929-9524929d5cbc
-    characterSpr: {fileID: 21300000, guid: 5b1600e241318dc45b43c4aee63f2446, type: 3}
-    characterName: "\u0411\u043E\u0440\u0438\u0441"
-    endName: 
-    dialogueText: "\u0410\u0433\u0430\u0441\u044C."
-    backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 43251
-      y: -142
-      width: 499
-      height: 305
-    soundEffect: {fileID: 8300000, guid: 6a1462fa9912c2b98883a6a7c1906144, type: 3}
-    backgroundMusic: {fileID: 0}
-  - guid: 283d1a1e-7918-4a5c-a383-e2ffdf4f1da5
-    characterSpr: {fileID: 21300000, guid: 5b1600e241318dc45b43c4aee63f2446, type: 3}
-    characterName: "\u0411\u043E\u0440\u0438\u0441"
-    endName: 
-    dialogueText: "\u0414\u0430\u0432\u0430\u0439, \u041C\u044D\u043D! \u0412\u044B\u0431\u0438\u0440\u0430\u0439!"
-    backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 40463
-      y: 163
-      width: 499
-      height: 305
-    soundEffect: {fileID: 8300000, guid: 6a1462fa9912c2b98883a6a7c1906144, type: 3}
-    backgroundMusic: {fileID: 0}
-  - guid: f19ffd97-e3ab-483f-9e44-1b16cab3522b
-    characterSpr: {fileID: 21300000, guid: 54ec1979a8b0f1d48b0aeda1c7aa96e7, type: 3}
-    characterName: "\u041B\u0438\u0440\u0435\u043D"
-    endName: 
-    dialogueText: "\u0421\u043A\u043E\u0440\u0435\u0435 \u0432\u0441\u0435\u0433\u043E
-      \u0435\u0449\u0451 \u043E\u043F\u0430\u0441\u043D\u043E \u044D\u0442\u043E
-      \u0434\u0435\u043B\u0430\u0442\u044C, \u043D\u043E \u043C\u043E\u0436\u043D\u043E
-      \u0447\u0442\u043E-\u0442\u043E \u043D\u0435\u043F\u043E\u0434\u0430\u043B\u0451\u043A\u0443
-      \u043E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C."
-    backgroundSpr: {fileID: 21300000, guid: 6cfa4aca9c56d547fbbbcf196581844d, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 53231
-      y: 163
-      width: 499
-      height: 305
-    soundEffect: {fileID: 8300000, guid: 4e8905d39b49f0d16b924a5c812f13f9, type: 3}
-    backgroundMusic: {fileID: 0}
-  - guid: 67cea927-c797-451e-afe8-7f145330292d
-    characterSpr: {fileID: 0}
-    characterName: ...
-    endName: 
-    dialogueText: "\u0412 \u0431\u0443\u043D\u043A\u0435\u0440\u0435 \u043D\u0430\u0432\u0438\u0441\u043B\u0430
-      \u0442\u0438\u0448\u0438\u043D\u0430, \u043A\u043E\u0442\u043E\u0440\u0430\u044F
-      \u0442\u0430\u043A \u0438 \u0434\u0435\u0439\u0441\u0442\u0432\u043E\u0432\u0430\u043B\u0430
-      \u043D\u0430 \u043D\u0430\u0448\u0438\u0445 \u0433\u0435\u0440\u043E\u0435\u0432,
-      \u0437\u0430\u0441\u0442\u0430\u0432\u043B\u044F\u044F \u0438\u0445 \u0441\u0445\u043E\u0434\u0438\u0442\u044C
-      \u0441 \u0443\u043C\u0430."
-    backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 19017
-      y: 163
-      width: 499
-      height: 305
-    soundEffect: {fileID: 8300000, guid: 2ac0d65fc06799edf825e2910a05f6b1, type: 3}
-    backgroundMusic: {fileID: 0}
-  - guid: 7bc45b07-23f7-4593-aec8-3f1b42e600dc
+  - guid: 456dd657-f0a6-461b-bfaf-1c5ecbd6ae39
     characterSpr: {fileID: 3593641134924692357, guid: 9edba7152c29f754da23ff26c45e9ecb, type: 3}
-    characterName: "\u041C\u044D\u043D"
+    characterName: Man
     endName: 
-    dialogueText: "\u0422\u0430\u043A, \u043D\u0430\u043C \u043D\u0443\u0436\u043D\u043E
-      \u0443\u0441\u043F\u043E\u043A\u043E\u0438\u0442\u044C\u0441\u044F \u0438 \u0435\u0449\u0451
-      \u043D\u0435\u043C\u043D\u043E\u0433\u043E \u043F\u043E\u0434\u043E\u0436\u0434\u0430\u0442\u044C."
+    dialogueText: Exactly.
     backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
     startNode: 0
     endNode: 0
@@ -4550,7 +4268,26 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 11033
+      x: 17021
+      y: 163
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: c5c434aa05cad5437aee62ce221e34de, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: 0f04def8-5b1a-4f98-8b48-ddc0ffd38bbf
+    characterSpr: {fileID: 7741760457369533555, guid: 7f2fb37d8d0759b489b3909735c891e2, type: 3}
+    characterName: Man
+    endName: 
+    dialogueText: Yeah, that's true.
+    backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 60217
       y: 163
       width: 499
       height: 305

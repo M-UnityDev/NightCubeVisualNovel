@@ -2503,7 +2503,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   story: {fileID: 0}
   storyRU: {fileID: 11400000, guid: cce44b4bc30a4b449b255ee6e09e754d, type: 2}
-  storyEN: {fileID: 11400000, guid: cce44b4bc30a4b449b255ee6e09e754d, type: 2}
+  storyEN: {fileID: 11400000, guid: 2925bfd351b51b3eaa4cccf52b6feb3c, type: 2}
   characterNameTxt: {fileID: 2028308117}
   dialogueTxt: {fileID: 1236659807}
   endingTxt: {fileID: 661800539}
@@ -3379,6 +3379,10 @@ PrefabInstance:
     - target: {fileID: 4717604589235672855, guid: 218bd270c9d918ea1bd295cde2e45c74, type: 3}
       propertyPath: m_Name
       value: Dark
+      objectReference: {fileID: 0}
+    - target: {fileID: 4717604589235672855, guid: 218bd270c9d918ea1bd295cde2e45c74, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
