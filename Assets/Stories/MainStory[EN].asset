@@ -214,275 +214,275 @@ MonoBehaviour:
   - guid: 7e21f344-fb6c-4ed8-8f80-5a1d69d68765
     targetGuid: 2de29dd1-bb1a-4fc2-99bd-67fd9b270d09
     portId: 66
-  - guid: 456dd657-f0a6-461b-bfaf-1c5ecbd6ae39
-    targetGuid: 4df4006b-ec02-44a7-9c4c-a4e3cf3e1adf
-    portId: 67
   - guid: 4df4006b-ec02-44a7-9c4c-a4e3cf3e1adf
     targetGuid: 47c69285-4e02-4d5c-960e-5abf48549440
-    portId: 68
+    portId: 67
   - guid: 811a0bc9-0642-4c4d-8f4e-59804a45868b
     targetGuid: 67cea927-c797-451e-afe8-7f145330292d
-    portId: 69
+    portId: 68
   - guid: 85fddcf2-f238-4155-953e-2b50dbd95770
     targetGuid: 09f1ea70-719c-473d-b35b-6855b2fdfe44
-    portId: 70
+    portId: 69
   - guid: c62093f6-81b7-4520-bece-478ad06de412
     targetGuid: d44c5fca-f200-4aba-bc78-2d7eb28d53ac
-    portId: 71
+    portId: 70
   - guid: 7271044c-be3c-4d09-820c-7444227c4eb9
     targetGuid: 1fb3695f-6bf2-49d4-9eb0-eb00f23eed5b
-    portId: 72
+    portId: 71
   - guid: 1fb3695f-6bf2-49d4-9eb0-eb00f23eed5b
     targetGuid: 59ea2994-ddb4-4726-8e92-b8b6159af1ce
-    portId: 73
+    portId: 72
   - guid: 59ea2994-ddb4-4726-8e92-b8b6159af1ce
     targetGuid: 8c8e1715-0e2f-406d-9d67-22129b702595
-    portId: 74
+    portId: 73
   - guid: c5617be7-eb67-4acb-bbc0-111f22a89851
     targetGuid: ebaae290-a79d-4d60-943a-efe22263bc7e
-    portId: 75
+    portId: 74
   - guid: ebaae290-a79d-4d60-943a-efe22263bc7e
     targetGuid: 94fa3d1d-6348-417f-9e29-11e87a51b1cb
-    portId: 76
+    portId: 75
   - guid: 94fa3d1d-6348-417f-9e29-11e87a51b1cb
     targetGuid: 6173654d-8e6d-4282-ab23-9307a95b8a79
-    portId: 77
+    portId: 76
   - guid: 484831c5-1027-4ec4-99a7-51b99b2627b0
     targetGuid: c62093f6-81b7-4520-bece-478ad06de412
-    portId: 78
+    portId: 77
   - guid: bed66511-dfbe-47f4-9c67-939674f2784e
     targetGuid: 6173654d-8e6d-4282-ab23-9307a95b8a79
-    portId: 79
+    portId: 78
   - guid: 94be1210-b4a1-46d4-a06d-62d9872cf1a1
     targetGuid: 7737bd72-63be-40fb-a866-d9887c2fa6f5
-    portId: 80
+    portId: 79
   - guid: a2e33b35-23ed-4984-a361-09cb57e4b3b4
     targetGuid: 946f2bcf-bfcc-423f-a9bb-10ac68a8b05c
-    portId: 81
+    portId: 80
   - guid: 29a88c7e-37f8-456c-a692-366bf29bb896
     targetGuid: fe4b8948-92cf-461f-9a00-4bb894e48924
-    portId: 82
+    portId: 81
   - guid: 04c659cf-1b2a-4262-b5bc-91e2189e60b3
     targetGuid: e6f58f4c-4925-45a1-a9d0-984b8408841c
-    portId: 83
+    portId: 82
   - guid: 8feb64b4-b735-4d29-93d6-d1a035836f34
     targetGuid: a7743ed1-ffe0-418a-9914-babad85e8d03
-    portId: 84
+    portId: 83
   - guid: be83c91a-ed41-4a45-b474-557ddf5aad02
     targetGuid: 8feb64b4-b735-4d29-93d6-d1a035836f34
-    portId: 85
+    portId: 84
   - guid: f3b86ca6-8216-4126-8974-f27d02f2d6a4
     targetGuid: 5d5d91d8-d6e9-415b-907f-21cd9a41cc50
-    portId: 86
+    portId: 85
   - guid: 5d5d91d8-d6e9-415b-907f-21cd9a41cc50
     targetGuid: be83c91a-ed41-4a45-b474-557ddf5aad02
-    portId: 87
+    portId: 86
   - guid: a7743ed1-ffe0-418a-9914-babad85e8d03
     targetGuid: 407fc26e-0791-4e15-a34a-c002e25fcd10
-    portId: 88
+    portId: 87
   - guid: 412c76c5-8f29-49b2-9a90-d92bc91ad8df
     targetGuid: 8e8c19e6-5f5a-49ea-a47c-1b7d693e8543
-    portId: 89
+    portId: 88
   - guid: e6f58f4c-4925-45a1-a9d0-984b8408841c
     targetGuid: 7271044c-be3c-4d09-820c-7444227c4eb9
-    portId: 90
+    portId: 89
   - guid: 2239909a-311c-4b31-a761-009d2412ee17
     targetGuid: 6173654d-8e6d-4282-ab23-9307a95b8a79
-    portId: 91
+    portId: 90
   - guid: 09f1ea70-719c-473d-b35b-6855b2fdfe44
     targetGuid: 484831c5-1027-4ec4-99a7-51b99b2627b0
-    portId: 92
+    portId: 91
   - guid: 8c8e1715-0e2f-406d-9d67-22129b702595
     targetGuid: c5617be7-eb67-4acb-bbc0-111f22a89851
-    portId: 93
+    portId: 92
   - guid: 283d1a1e-7918-4a5c-a383-e2ffdf4f1da5
     targetGuid: 7b78527b-97c7-413f-889c-961eda8661c9
-    portId: 94
-  - guid: 781dddec-7055-4b74-bfaf-6e6ee547efe3
-    targetGuid: c50865bf-f332-407c-a2c4-f7d45742a14e
-    portId: 95
+    portId: 93
   - guid: c50865bf-f332-407c-a2c4-f7d45742a14e
     targetGuid: 5e488123-c702-46d9-88e2-fefb1d2d94df
-    portId: 96
+    portId: 94
   - guid: 5e488123-c702-46d9-88e2-fefb1d2d94df
     targetGuid: 283d1a1e-7918-4a5c-a383-e2ffdf4f1da5
-    portId: 97
+    portId: 95
   - guid: 7b78527b-97c7-413f-889c-961eda8661c9
     targetGuid: 028201f7-bc34-42ea-9f5e-42b5c9351062
-    portId: 98
+    portId: 96
   - guid: 028201f7-bc34-42ea-9f5e-42b5c9351062
     targetGuid: d7d085bf-3d1d-43a3-b3ee-6a4c585a6cfc
-    portId: 99
+    portId: 97
   - guid: 028201f7-bc34-42ea-9f5e-42b5c9351062
     targetGuid: 4d838e56-5ffa-4eea-b946-fdba58001453
-    portId: 100
+    portId: 98
   - guid: 028201f7-bc34-42ea-9f5e-42b5c9351062
     targetGuid: 5edb246d-c416-4485-9564-f84222be78d5
-    portId: 101
+    portId: 99
   - guid: d7d085bf-3d1d-43a3-b3ee-6a4c585a6cfc
     targetGuid: a48910d6-7b4a-4a1d-ae40-997cba0ee93d
-    portId: 102
+    portId: 100
   - guid: a48910d6-7b4a-4a1d-ae40-997cba0ee93d
     targetGuid: fab70337-ddb9-4fb1-8929-9524929d5cbc
-    portId: 103
+    portId: 101
   - guid: fab70337-ddb9-4fb1-8929-9524929d5cbc
     targetGuid: be7d88a1-cb12-4443-a525-a9eb9199c8f1
-    portId: 104
+    portId: 102
   - guid: be7d88a1-cb12-4443-a525-a9eb9199c8f1
     targetGuid: 618a98c6-848c-4af8-b526-f9f7acde84ea
-    portId: 105
+    portId: 103
   - guid: 4d838e56-5ffa-4eea-b946-fdba58001453
     targetGuid: 2aa82269-22fd-44e8-ab29-e4eb3e308e6d
-    portId: 106
+    portId: 104
   - guid: 5edb246d-c416-4485-9564-f84222be78d5
     targetGuid: faf5a04c-f3db-4e62-a0d5-bb25892f40cc
-    portId: 107
+    portId: 105
   - guid: 2aa82269-22fd-44e8-ab29-e4eb3e308e6d
     targetGuid: 5dfebb40-e3c8-4b84-9485-0d3979d947ad
-    portId: 108
+    portId: 106
   - guid: faf5a04c-f3db-4e62-a0d5-bb25892f40cc
     targetGuid: cf916e13-eb34-4f94-bc24-eb89b2293ec3
-    portId: 109
+    portId: 107
   - guid: f437d802-d7d6-43e2-a40c-77391a40052b
-    targetGuid: ead76d41-a7c4-45e4-9727-417403c28849
-    portId: 110
+    targetGuid: 623dd581-a4b4-4588-bdc8-844e260b3521
+    portId: 108
   - guid: 5dfebb40-e3c8-4b84-9485-0d3979d947ad
     targetGuid: 672f88b0-c5a7-45a0-bd40-a154c23a2f71
-    portId: 111
+    portId: 109
   - guid: cf916e13-eb34-4f94-bc24-eb89b2293ec3
     targetGuid: f437d802-d7d6-43e2-a40c-77391a40052b
-    portId: 112
+    portId: 110
   - guid: 672f88b0-c5a7-45a0-bd40-a154c23a2f71
-    targetGuid: 623dd581-a4b4-4588-bdc8-844e260b3521
-    portId: 113
+    targetGuid: ead76d41-a7c4-45e4-9727-417403c28849
+    portId: 111
   - guid: 7469ee89-ea2e-4692-b940-bd860ceb394a
     targetGuid: 4da51a8f-893b-4495-8218-cdd7f4e0b4b5
-    portId: 114
+    portId: 112
   - guid: 4da51a8f-893b-4495-8218-cdd7f4e0b4b5
     targetGuid: 781dddec-7055-4b74-bfaf-6e6ee547efe3
-    portId: 115
+    portId: 113
   - guid: bc185f1a-df9d-46ee-af3c-1cbe44b119bd
     targetGuid: 0e47e454-15a2-444b-912b-d7d9f943600d
-    portId: 116
+    portId: 114
   - guid: 2c1e4d9f-f2b0-4a73-b7d8-b39b6ff843bd
     targetGuid: 3daf3dd6-6bfa-4995-8a82-f7eb38dcbc57
-    portId: 117
+    portId: 115
   - guid: bc7f68b0-7ad5-44f1-b998-0bbd9f3b14f3
     targetGuid: bc185f1a-df9d-46ee-af3c-1cbe44b119bd
-    portId: 118
+    portId: 116
   - guid: 0e47e454-15a2-444b-912b-d7d9f943600d
     targetGuid: c0ff55bd-fca3-44f0-96e6-af0c2427481f
-    portId: 119
+    portId: 117
   - guid: c0ff55bd-fca3-44f0-96e6-af0c2427481f
     targetGuid: 34049eda-c012-46a0-9919-4f8814bd57ab
-    portId: 120
+    portId: 118
   - guid: 34049eda-c012-46a0-9919-4f8814bd57ab
     targetGuid: 2c1e4d9f-f2b0-4a73-b7d8-b39b6ff843bd
-    portId: 121
+    portId: 119
   - guid: 78b3541a-ff7c-4eac-8fa8-33362a1df728
     targetGuid: edc8a750-eabb-4769-9cb0-3c2bf1391f6c
-    portId: 122
+    portId: 120
   - guid: ecba79b0-8220-4c18-ad04-711b6e883e57
     targetGuid: a5778a2c-bdf9-487c-8504-8ad48319a277
-    portId: 123
-  - guid: 0f04def8-5b1a-4f98-8b48-ddc0ffd38bbf
-    targetGuid: adc94302-8dba-4967-9c52-e61eb44cfd99
-    portId: 124
+    portId: 121
   - guid: fe2568a6-9894-495f-877f-0b436cf85782
     targetGuid: e60d9928-58f8-4200-9cd9-8f14c046848d
-    portId: 125
+    portId: 122
   - guid: 49604052-b899-41c0-b4dd-7f58d00ee24b
     targetGuid: ecba79b0-8220-4c18-ad04-711b6e883e57
-    portId: 126
+    portId: 123
   - guid: e60d9928-58f8-4200-9cd9-8f14c046848d
     targetGuid: d3a39aa1-0917-4e7b-bc73-022658168ead
-    portId: 127
+    portId: 124
   - guid: d3a39aa1-0917-4e7b-bc73-022658168ead
     targetGuid: 7f992ff2-37e2-499b-8aaf-c839b8a38a4c
-    portId: 128
+    portId: 125
   - guid: edc8a750-eabb-4769-9cb0-3c2bf1391f6c
     targetGuid: 49604052-b899-41c0-b4dd-7f58d00ee24b
-    portId: 129
+    portId: 126
   - guid: a5778a2c-bdf9-487c-8504-8ad48319a277
     targetGuid: 0f04def8-5b1a-4f98-8b48-ddc0ffd38bbf
-    portId: 130
+    portId: 127
   - guid: adc94302-8dba-4967-9c52-e61eb44cfd99
     targetGuid: fe2568a6-9894-495f-877f-0b436cf85782
-    portId: 131
-  - guid: 623dd581-a4b4-4588-bdc8-844e260b3521
-    targetGuid: 618a98c6-848c-4af8-b526-f9f7acde84ea
-    portId: 132
-  - guid: ead76d41-a7c4-45e4-9727-417403c28849
-    targetGuid: 618a98c6-848c-4af8-b526-f9f7acde84ea
-    portId: 133
+    portId: 128
   - guid: 618a98c6-848c-4af8-b526-f9f7acde84ea
     targetGuid: bef6722b-0c69-405b-857f-eb176f0441e6
-    portId: 134
+    portId: 129
   - guid: bef6722b-0c69-405b-857f-eb176f0441e6
     targetGuid: 63435a35-d530-4b13-ba81-dcb1158f62f9
-    portId: 135
+    portId: 130
   - guid: 5baf979f-94de-4e9d-9fd1-06af6199cbda
     targetGuid: 3dbac65e-2156-4a34-8dcf-f38778d89ca1
-    portId: 136
+    portId: 131
   - guid: 3dbac65e-2156-4a34-8dcf-f38778d89ca1
     targetGuid: 6b62de1e-5e1e-40bd-a368-81e03410a9f6
-    portId: 137
+    portId: 132
   - guid: dd29a6d8-feeb-4cca-9c85-fce26fcfa7f0
     targetGuid: 1f20e931-3ae6-4b50-b0e5-5bc1e161bd39
-    portId: 138
+    portId: 133
   - guid: 2c58ad96-3917-465a-8941-109662bd4fda
     targetGuid: eb7cc5dc-4151-4688-b234-2a39c611ad2e
-    portId: 139
+    portId: 134
   - guid: eb7cc5dc-4151-4688-b234-2a39c611ad2e
     targetGuid: bb04eb43-a6d3-462d-ac5a-56fd56ce33f6
-    portId: 140
+    portId: 135
   - guid: 0ffb9899-18c4-4475-a3f9-fdee9ad5092c
     targetGuid: ba8ababf-3668-4518-b2c5-368712950165
-    portId: 141
+    portId: 136
   - guid: ba8ababf-3668-4518-b2c5-368712950165
     targetGuid: 8f2ebeeb-1f5b-40ba-ade4-724430548f29
-    portId: 142
+    portId: 137
   - guid: 8f2ebeeb-1f5b-40ba-ade4-724430548f29
     targetGuid: 2c58ad96-3917-465a-8941-109662bd4fda
-    portId: 143
+    portId: 138
   - guid: bb04eb43-a6d3-462d-ac5a-56fd56ce33f6
     targetGuid: 5baf979f-94de-4e9d-9fd1-06af6199cbda
-    portId: 144
+    portId: 139
   - guid: 6b62de1e-5e1e-40bd-a368-81e03410a9f6
     targetGuid: dd29a6d8-feeb-4cca-9c85-fce26fcfa7f0
-    portId: 145
+    portId: 140
   - guid: bae04ccd-184b-42ee-a92c-d3dd6aa6de89
     targetGuid: f19ffd97-e3ab-483f-9e44-1b16cab3522b
-    portId: 146
+    portId: 141
   - guid: 1f20e931-3ae6-4b50-b0e5-5bc1e161bd39
     targetGuid: 5a33296b-fd8f-415b-9a0f-ca443b11df10
-    portId: 147
+    portId: 142
   - guid: 5a33296b-fd8f-415b-9a0f-ca443b11df10
     targetGuid: 4690f1a5-963f-4a45-9ce0-d3ed1688a162
-    portId: 148
+    portId: 143
   - guid: 4690f1a5-963f-4a45-9ce0-d3ed1688a162
     targetGuid: bae04ccd-184b-42ee-a92c-d3dd6aa6de89
-    portId: 149
+    portId: 144
   - guid: 5fb0deb1-89e7-4aa6-9634-3576b6d568eb
     targetGuid: bc7f68b0-7ad5-44f1-b998-0bbd9f3b14f3
-    portId: 150
+    portId: 145
   - guid: f19ffd97-e3ab-483f-9e44-1b16cab3522b
     targetGuid: 5fb0deb1-89e7-4aa6-9634-3576b6d568eb
-    portId: 151
+    portId: 146
   - guid: 6173654d-8e6d-4282-ab23-9307a95b8a79
     targetGuid: cfd1835c-6cde-4b9f-a160-67c0e62ef387
-    portId: 152
+    portId: 147
   - guid: cfd1835c-6cde-4b9f-a160-67c0e62ef387
     targetGuid: 6e288a4b-802d-414b-8421-8b3678df03c3
-    portId: 153
+    portId: 148
   - guid: 6e288a4b-802d-414b-8421-8b3678df03c3
     targetGuid: 7469ee89-ea2e-4692-b940-bd860ceb394a
-    portId: 154
+    portId: 149
   - guid: a518afab-532e-4052-b19b-01de4f831703
     targetGuid: 544a7984-7bc6-4e8b-955b-0449280d02a5
-    portId: 155
+    portId: 150
   - guid: 544a7984-7bc6-4e8b-955b-0449280d02a5
     targetGuid: 7fd4f1af-75ad-4119-85f3-a452f5ee5373
+    portId: 151
+  - guid: 456dd657-f0a6-461b-bfaf-1c5ecbd6ae39
+    targetGuid: 4df4006b-ec02-44a7-9c4c-a4e3cf3e1adf
+    portId: 152
+  - guid: 0f04def8-5b1a-4f98-8b48-ddc0ffd38bbf
+    targetGuid: adc94302-8dba-4967-9c52-e61eb44cfd99
+    portId: 153
+  - guid: 781dddec-7055-4b74-bfaf-6e6ee547efe3
+    targetGuid: c50865bf-f332-407c-a2c4-f7d45742a14e
+    portId: 154
+  - guid: 623dd581-a4b4-4588-bdc8-844e260b3521
+    targetGuid: 618a98c6-848c-4af8-b526-f9f7acde84ea
+    portId: 155
+  - guid: ead76d41-a7c4-45e4-9727-417403c28849
+    targetGuid: 618a98c6-848c-4af8-b526-f9f7acde84ea
     portId: 156
   nodes:
   - guid: f9486d59-1e14-48f4-83fa-6c62c731c378
@@ -2924,11 +2924,11 @@ MonoBehaviour:
     soundEffect: {fileID: 8300000, guid: 2ac0d65fc06799edf825e2910a05f6b1, type: 3}
     backgroundMusic: {fileID: 8300000, guid: 1b11dfb312c99b0e9a26a3b967f39c48, type: 3}
   - guid: e6f58f4c-4925-45a1-a9d0-984b8408841c
-    characterSpr: {fileID: 21300000, guid: 27170006529ad5f40a7ea14597164c02, type: 3}
+    characterSpr: {fileID: 21300000, guid: c975c82049eb6cc4d93c59d9040747b4, type: 3}
     characterName: hi it's me
     endName: HHELLPPMEEE
     dialogueText: 'P   e       p       p    e     e       r '
-    backgroundSpr: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+    backgroundSpr: {fileID: -4009923398344423932, guid: c5cb64bd90624ef4e9fd5899a93d4a5f, type: 3}
     startNode: 0
     endNode: 0
     choices: 1
@@ -3018,27 +3018,6 @@ MonoBehaviour:
       width: 499
       height: 305
     soundEffect: {fileID: 8300000, guid: 6a1462fa9912c2b98883a6a7c1906144, type: 3}
-    backgroundMusic: {fileID: 0}
-  - guid: 781dddec-7055-4b74-bfaf-6e6ee547efe3
-    characterSpr: {fileID: 21300000, guid: 534b1445063a09942b9d4b2c25e81830, type: 3}
-    characterName: Clancy
-    endName: 
-    dialogueText: I know you like to play "Kitties and Dogs", but let's play for
-      real. I suggest Svintus.\u041A\u043E\u0448\u0435\u0447\u043A\u0438 \u0441\u043E\u0431\u0430\u0447\u043A\u0438\",
-      but let's really play. I offer in lead."
-    backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 38966
-      y: 163
-      width: 499
-      height: 305
-    soundEffect: {fileID: 8300000, guid: 653fda38220365ec0a59df989e6aee9b, type: 3}
     backgroundMusic: {fileID: 0}
   - guid: c50865bf-f332-407c-a2c4-f7d45742a14e
     characterSpr: {fileID: 21300000, guid: 5b1600e241318dc45b43c4aee63f2446, type: 3}
@@ -3711,47 +3690,6 @@ MonoBehaviour:
       height: 305
     soundEffect: {fileID: 8300000, guid: 2ac0d65fc06799edf825e2910a05f6b1, type: 3}
     backgroundMusic: {fileID: 0}
-  - guid: 623dd581-a4b4-4588-bdc8-844e260b3521
-    characterSpr: {fileID: 0}
-    characterName: ...
-    endName: 
-    dialogueText: So they played until Boris made a monopoly of pink zones and built
-      an Eldjababhe hotel. After they went to sleep.
-    backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 44249
-      y: 163
-      width: 499
-      height: 305
-    soundEffect: {fileID: 8300000, guid: 2ac0d65fc06799edf825e2910a05f6b1, type: 3}
-    backgroundMusic: {fileID: 0}
-  - guid: ead76d41-a7c4-45e4-9727-417403c28849
-    characterSpr: {fileID: 0}
-    characterName: ...
-    endName: 
-    dialogueText: 'After the explanation of the rules, they played the lead until
-      they fell asleep. As someone could already guess, it was the Lyren who were
-      repulsed by paws: 3'
-    backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 44249
-      y: 468
-      width: 499
-      height: 305
-    soundEffect: {fileID: 8300000, guid: 2ac0d65fc06799edf825e2910a05f6b1, type: 3}
-    backgroundMusic: {fileID: 0}
   - guid: 618a98c6-848c-4af8-b526-f9f7acde84ea
     characterSpr: {fileID: 0}
     characterName: ...
@@ -4292,4 +4230,66 @@ MonoBehaviour:
       width: 499
       height: 305
     soundEffect: {fileID: 8300000, guid: c5c434aa05cad5437aee62ce221e34de, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: 781dddec-7055-4b74-bfaf-6e6ee547efe3
+    characterSpr: {fileID: 21300000, guid: 534b1445063a09942b9d4b2c25e81830, type: 3}
+    characterName: Clancy
+    endName: 
+    dialogueText: I know you like to play "Kitties and Dogs", but let's play for
+      real. I suggest Svintus.\u041A\u043E\u0448\u0435\u0447\u043A\u0438 \u0441\u043E\u0431\u0430\u0447\u043A\u0438\",
+      but let's really play. I offer in lead."
+    backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 38966
+      y: 163
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: 653fda38220365ec0a59df989e6aee9b, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: 623dd581-a4b4-4588-bdc8-844e260b3521
+    characterSpr: {fileID: 0}
+    characterName: ...
+    endName: 
+    dialogueText: So they played until Boris made a monopoly of pink zones and built
+      an Eldjababhe hotel. After they went to sleep.
+    backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 44249
+      y: 468
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: 2ac0d65fc06799edf825e2910a05f6b1, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: ead76d41-a7c4-45e4-9727-417403c28849
+    characterSpr: {fileID: 0}
+    characterName: ...
+    endName: 
+    dialogueText: 'After the explanation of the rules, they played the lead until
+      they fell asleep. As someone could already guess, it was the Lyren who were
+      repulsed by paws: 3'
+    backgroundSpr: {fileID: 21300000, guid: 3cb2e6c7c5341964188c091e25d1a06f, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 44249
+      y: 163
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: 2ac0d65fc06799edf825e2910a05f6b1, type: 3}
     backgroundMusic: {fileID: 0}

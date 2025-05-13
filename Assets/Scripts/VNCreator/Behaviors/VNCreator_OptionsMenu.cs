@@ -12,6 +12,7 @@ namespace VNCreator
         [SerializeField] private Toggle instantTextToggle;
         [SerializeField] private Toggle CRToggle;
 	    [SerializeField] private TMP_Dropdown languageDrop;
+        [SerializeField] private TMP_Dropdown resolutionDrop;
         [SerializeField] private Button backButton;
         [Header("Menu Objects")]
         [SerializeField] private GameObject optionsMenu;
@@ -21,6 +22,7 @@ namespace VNCreator
         [SerializeField] private VNCreator_MusicSource MusicSource;
         [SerializeField] private ScriptableRendererData Renderer;
         [SerializeField] private GlobalTextLocalizer GlobalTextLocalizer;
+        private Vector2Int CurrentResolution;
         private void Start()
         {
             GameOptions.InitilizeOptions();
@@ -53,6 +55,12 @@ namespace VNCreator
                 languageDrop.onValueChanged.AddListener(GameOptions.SetLanguage);
 		        languageDrop.onValueChanged.AddListener(UpdateLanguage);
             }
+            if (resolutionDrop != null)
+            {
+                resolutionDrop.value = GameOptions.chosenResolution;
+                resolutionDrop.onValueChanged.AddListener(GameOptions.SetResolution);
+                resolutionDrop.onValueChanged.AddListener(UpdateResolution);
+            }
             if (CRToggle != null)
             {
                 CRToggle.isOn = GameOptions.isCRT;
@@ -63,6 +71,32 @@ namespace VNCreator
 	        UpdateLanguage(0);
         }
 	    public void UpdateLanguage(int index) => GlobalTextLocalizer.UpdateLocale();
+        public void UpdateResolution(int index)
+        {
+            Application.targetFrameRate = 25;
+            switch (GameOptions.chosenResolution)
+            {
+                case 1:
+                    CurrentResolution.Set(640, 480);
+                    break;
+                case 2:
+                    CurrentResolution.Set(800, 600);
+                    break;
+                case 3:
+                    CurrentResolution.Set(960, 540);
+                    break;
+                case 4:
+                    CurrentResolution.Set(1024, 768);
+                    break;
+                case 5:
+                    CurrentResolution.Set(1280, 720);
+                    break;
+                case 6:
+                    CurrentResolution.Set(1920, 1080);
+                    break;
+            }
+            Screen.SetResolution(CurrentResolution.x, CurrentResolution.y, FullScreenMode.ExclusiveFullScreen, new RefreshRate() { numerator = 25, denominator = 1 });
+        }
         public void UpdateCRT(bool index)
         {
             PPCamera.SetActive(GameOptions.isCRT);

@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.Rendering.Universal;
 namespace VNCreator
 {
     public enum Language {EN,RU}
@@ -11,6 +10,7 @@ namespace VNCreator
         public static bool isInstantText = false;
         public static bool isCRT = false;
         public static Language chosenLanguage;
+        public static int chosenResolution;
         public static void InitilizeOptions()
         {
             if (PlayerPrefs.HasKey("MusicVolume"))
@@ -20,11 +20,13 @@ namespace VNCreator
             if (PlayerPrefs.HasKey("ReadSpeed"))
                 readSpeed = PlayerPrefs.GetFloat("ReadSpeed");
             if (PlayerPrefs.HasKey("InstantText"))
-                isInstantText = PlayerPrefs.GetInt("InstantText").Equals(1) ? true : false;
+                isInstantText = PlayerPrefs.GetInt("InstantText").Equals(1);
 	        if (PlayerPrefs.HasKey("Language"))
                 chosenLanguage = PlayerPrefs.GetInt("Language").Equals(1) ? Language.RU : Language.EN;
+            if (PlayerPrefs.HasKey("Resolution"))
+                chosenResolution = PlayerPrefs.GetInt("Resolution");
             if (PlayerPrefs.HasKey("CRT"))
-                isCRT = PlayerPrefs.GetInt("CRT").Equals(1) ? true : false;
+                isCRT = PlayerPrefs.GetInt("CRT").Equals(1);
         }
         public static void SetMusicVolume(float index)
         {
@@ -55,6 +57,11 @@ namespace VNCreator
         {
             chosenLanguage = index.Equals(1) ? Language.RU : Language.EN;
             PlayerPrefs.SetInt("Language", index);
+        }
+        public static void SetResolution(int index)
+        {
+            chosenResolution = index;
+            PlayerPrefs.SetInt("Resolution", index);
         }
     }
 }

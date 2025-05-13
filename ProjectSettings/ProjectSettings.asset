@@ -172,7 +172,7 @@ PlayerSettings:
   androidMinAspectRatio: 1
   applicationIdentifier:
     Android: com.NightCube.FurriesUnderground
-    Standalone: com.DefaultCompany.2D-URP
+    Standalone: com.NightCube.Furries-Underground
   buildNumber:
     Standalone: 0
     VisionOS: 0
@@ -714,7 +714,7 @@ PlayerSettings:
   platformArchitecture: {}
   scriptingBackend:
     Android: 1
-    Standalone: 1
+    Standalone: 0
   il2cppCompilerConfiguration: {}
   il2cppCodeGeneration: {}
   il2cppStacktraceInformation: {}
