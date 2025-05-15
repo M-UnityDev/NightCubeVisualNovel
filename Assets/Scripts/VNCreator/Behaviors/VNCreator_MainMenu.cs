@@ -57,12 +57,13 @@ namespace VNCreator
             mainMenu.SetActive(false);
         }
 
-        void Quit()
+        void Quit() => StartCoroutine(nameof(QuitAnimation));
+        private IEnumerator QuitAnimation()
         {
             dark.Dark();
-            Invoke(nameof(Application.Quit),1);
+            yield return new WaitForSeconds(1);
+            Application.Quit();
         }
-
         private IEnumerator LoadScene()
         {
             dark.Dark();
