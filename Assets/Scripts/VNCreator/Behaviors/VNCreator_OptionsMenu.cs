@@ -27,6 +27,7 @@ namespace VNCreator
         {
             GameOptions.InitilizeOptions();
             UpdateCRT(false);
+            UpdateResolution(GameOptions.chosenResolution);
             if(musicVolumeSlider != null)
             {
                 musicVolumeSlider.value = GameOptions.musicVolume;
